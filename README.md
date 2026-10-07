@@ -51,6 +51,12 @@ Ficheros clave:
 
 Las claves de API se leen de variables de entorno; no hay ninguna en el código.
 
+## Uso de inteligencia artificial
+
+El código de este repositorio (`codigo/` y `figuras/`) se desarrolló con la ayuda de un asistente de programación basado en IA generativa, **Claude Code** (Anthropic), bajo la especificación, revisión y verificación del autor. Ese asistente también generó, a partir de los datos, las tablas y figuras de la memoria.
+
+Los modelos de lenguaje que aparecen en los datos (el generador `gemini-3.6-flash` y el juez `claude-sonnet-5`) son el **objeto de estudio** del experimento, no herramientas de escritura.
+
 ## Figuras
 
 `figuras/figuras-cap4.py` y `figuras/figuras-cap5.py` regeneran las figuras de la memoria a partir de `datos/`. Esperan la estructura de rutas del repositorio original (`docs/tfm/results/...`); para usarlas aquí, ajusta las constantes de ruta del principio de cada script.
