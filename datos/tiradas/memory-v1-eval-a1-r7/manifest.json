@@ -1,0 +1,402 @@
+{
+  "spec": {
+    "runId": "memory-v1-eval-a1-r7",
+    "mode": "backtest",
+    "architecture": "A1",
+    "seed": 7,
+    "countries": [
+      "United States",
+      "China",
+      "India",
+      "Pakistan"
+    ],
+    "startYear": 2015,
+    "endYear": 2024
+  },
+  "createdAt": "2026-09-24T12:32:38.042Z",
+  "fingerprints": [
+    {
+      "generatorModel": "gemini-3.6-flash",
+      "repoCommit": "cb43239",
+      "promptHash": "8e8ad0095a63beee",
+      "referenceDataHash": "d734498e2a67e686",
+      "conditionHash": "4d4c54de75a27cfa",
+      "conditions": {
+        "study": "memory-v1",
+        "stage": "eval",
+        "architecture": "A1",
+        "countries": [
+          "United States",
+          "China",
+          "India",
+          "Pakistan"
+        ],
+        "years": [
+          2015,
+          2024
+        ],
+        "generatorModel": "gemini-3.6-flash",
+        "fallbackModels": [],
+        "providers": [
+          "gemini"
+        ],
+        "decoding": {
+          "temperature": 0.6,
+          "maxOutputTokens": 8192,
+          "responseMimeType": "application/json",
+          "thinkingConfig": "not set (provider default)",
+          "responseSchemaHash": "daaa83190fadc766"
+        },
+        "funFactor": 0.35,
+        "codeHash": "8e8ad0095a63beee",
+        "indicatorFiles": {
+          "United States": "946cc335ba7c2235",
+          "China": "7952de342872b8f1",
+          "India": "ac5a0f799d2d66ad",
+          "Pakistan": "4417c9279a34df53"
+        },
+        "indicatorCutoff": "observation year <= simYear - 1",
+        "latestObservationYears": {
+          "United States": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            },
+            "2020": {
+              "gdp-per-capita": 2019,
+              "unemployment": 2019,
+              "military-spending": 2019,
+              "democracy-index": 2019,
+              "energy-per-capita": 2019,
+              "fossil-share": 2019
+            },
+            "2021": {
+              "gdp-per-capita": 2020,
+              "unemployment": 2020,
+              "military-spending": 2020,
+              "democracy-index": 2020,
+              "energy-per-capita": 2020,
+              "fossil-share": 2020
+            },
+            "2022": {
+              "gdp-per-capita": 2021,
+              "unemployment": 2021,
+              "military-spending": 2021,
+              "democracy-index": 2021,
+              "energy-per-capita": 2021,
+              "fossil-share": 2021
+            },
+            "2023": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2022,
+              "military-spending": 2022,
+              "democracy-index": 2022,
+              "energy-per-capita": 2022,
+              "fossil-share": 2022
+            },
+            "2024": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2023,
+              "military-spending": 2023,
+              "democracy-index": 2023,
+              "energy-per-capita": 2023,
+              "fossil-share": 2023
+            }
+          },
+          "China": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            },
+            "2020": {
+              "gdp-per-capita": 2019,
+              "unemployment": 2019,
+              "military-spending": 2019,
+              "democracy-index": 2019,
+              "energy-per-capita": 2019,
+              "fossil-share": 2019
+            },
+            "2021": {
+              "gdp-per-capita": 2020,
+              "unemployment": 2020,
+              "military-spending": 2020,
+              "democracy-index": 2020,
+              "energy-per-capita": 2020,
+              "fossil-share": 2020
+            },
+            "2022": {
+              "gdp-per-capita": 2021,
+              "unemployment": 2021,
+              "military-spending": 2021,
+              "democracy-index": 2021,
+              "energy-per-capita": 2021,
+              "fossil-share": 2021
+            },
+            "2023": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2022,
+              "military-spending": 2022,
+              "democracy-index": 2022,
+              "energy-per-capita": 2022,
+              "fossil-share": 2022
+            },
+            "2024": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2023,
+              "military-spending": 2023,
+              "democracy-index": 2023,
+              "energy-per-capita": 2023,
+              "fossil-share": 2023
+            }
+          },
+          "India": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            },
+            "2020": {
+              "gdp-per-capita": 2019,
+              "unemployment": 2019,
+              "military-spending": 2019,
+              "democracy-index": 2019,
+              "energy-per-capita": 2019,
+              "fossil-share": 2019
+            },
+            "2021": {
+              "gdp-per-capita": 2020,
+              "unemployment": 2020,
+              "military-spending": 2020,
+              "democracy-index": 2020,
+              "energy-per-capita": 2020,
+              "fossil-share": 2020
+            },
+            "2022": {
+              "gdp-per-capita": 2021,
+              "unemployment": 2021,
+              "military-spending": 2021,
+              "democracy-index": 2021,
+              "energy-per-capita": 2021,
+              "fossil-share": 2021
+            },
+            "2023": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2022,
+              "military-spending": 2022,
+              "democracy-index": 2022,
+              "energy-per-capita": 2022,
+              "fossil-share": 2022
+            },
+            "2024": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2023,
+              "military-spending": 2023,
+              "democracy-index": 2023,
+              "energy-per-capita": 2023,
+              "fossil-share": 2023
+            }
+          },
+          "Pakistan": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            },
+            "2020": {
+              "gdp-per-capita": 2019,
+              "unemployment": 2019,
+              "military-spending": 2019,
+              "democracy-index": 2019,
+              "energy-per-capita": 2019,
+              "fossil-share": 2019
+            },
+            "2021": {
+              "gdp-per-capita": 2020,
+              "unemployment": 2020,
+              "military-spending": 2020,
+              "democracy-index": 2020,
+              "energy-per-capita": 2020,
+              "fossil-share": 2020
+            },
+            "2022": {
+              "gdp-per-capita": 2021,
+              "unemployment": 2021,
+              "military-spending": 2021,
+              "democracy-index": 2021,
+              "energy-per-capita": 2021,
+              "fossil-share": 2021
+            },
+            "2023": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2022,
+              "military-spending": 2022,
+              "democracy-index": 2022,
+              "energy-per-capita": 2022,
+              "fossil-share": 2022
+            },
+            "2024": {
+              "gdp-per-capita": 2022,
+              "unemployment": 2023,
+              "military-spending": 2023,
+              "democracy-index": 2023,
+              "energy-per-capita": 2023,
+              "fossil-share": 2023
+            }
+          }
+        },
+        "initialState": "empty simulated history (no production DB history)"
+      },
+      "uncommittedFiles": [],
+      "startedAt": "2026-09-24T12:32:38.041Z",
+      "notes": "replicate 7 is an execution label for an independent world run, not a seed: LLM sampling is not seedable and replicate numbers are not paired across conditions."
+    }
+  ],
+  "sessions": [
+    {
+      "startedAt": "2026-09-24T12:32:38.041Z",
+      "repoCommit": "cb43239"
+    }
+  ]
+}

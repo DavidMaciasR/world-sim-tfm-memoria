@@ -1,0 +1,175 @@
+{
+  "runAt": "2026-09-24T12:20:09.694Z",
+  "passed": 6,
+  "total": 6,
+  "results": [
+    {
+      "runId": "memory-v1-dev-a1g-r1",
+      "country": "Germany",
+      "year": 2019,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.30008775946275945
+        },
+        {
+          "replaced": 3,
+          "value": 0.48197878510378517
+        },
+        {
+          "replaced": 6,
+          "value": 0.6781593406593407
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0,
+        "duplicated": 0.2411575562700965
+      },
+      "passed": true
+    },
+    {
+      "runId": "memory-v1-dev-a1g-r1",
+      "country": "France",
+      "year": 2021,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.2383315826330532
+        },
+        {
+          "replaced": 3,
+          "value": 0.4475840336134454
+        },
+        {
+          "replaced": 6,
+          "value": 0.6336951447245566
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0,
+        "duplicated": 0.23428571428571432
+      },
+      "passed": true
+    },
+    {
+      "runId": "memory-v1-dev-a1g-r1",
+      "country": "Russia",
+      "year": 2023,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.10601206857011809
+        },
+        {
+          "replaced": 3,
+          "value": 0.32619718208920995
+        },
+        {
+          "replaced": 6,
+          "value": 0.557621330696021
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0,
+        "duplicated": 0.2528089887640449
+      },
+      "passed": true
+    },
+    {
+      "runId": "memory-v1-dev-a1-r1",
+      "country": "Germany",
+      "year": 2021,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.11291279669762642
+        },
+        {
+          "replaced": 3,
+          "value": 0.3288033195734434
+        },
+        {
+          "replaced": 6,
+          "value": 0.5553255073959408
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0.002732240437158473,
+        "duplicated": 0.2624671916010499
+      },
+      "passed": true
+    },
+    {
+      "runId": "memory-v1-dev-a1-r1",
+      "country": "France",
+      "year": 2023,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.1899992368742369
+        },
+        {
+          "replaced": 3,
+          "value": 0.39993513431013433
+        },
+        {
+          "replaced": 6,
+          "value": 0.6023160866910867
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0,
+        "duplicated": 0.2740112994350282
+      },
+      "passed": true
+    },
+    {
+      "runId": "memory-v1-dev-a1-r1",
+      "country": "Russia",
+      "year": 2019,
+      "similarity": [
+        {
+          "replaced": 0,
+          "value": 0.125755002293315
+        },
+        {
+          "replaced": 3,
+          "value": 0.3406672829950694
+        },
+        {
+          "replaced": 6,
+          "value": 0.561527849443871
+        },
+        {
+          "replaced": 12,
+          "value": 1
+        }
+      ],
+      "ngram4": {
+        "original": 0.00497512437810943,
+        "duplicated": 0.24747474747474751
+      },
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "runId": "memory-v1-eval-a1g-r8",
+  "createdAt": "2026-09-24T12:47:35.431Z",
+  "updatedAt": "2026-09-24T13:20:43.041Z",
+  "judgeConditionHash": "a19e19d0ea82bca2",
+  "judgeConditions": {
+    "judge": "temporal-coherence-v1",
+    "model": "claude-sonnet-5",
+    "maxTokens": 8000,
+    "thinking": {
+      "type": "disabled"
+    },
+    "sampling": "not sent: claude-sonnet-5 rejects temperature/top_p/top_k",
+    "maxRetries": 2,
+    "rubricHash": "dc8ca08c5d87f1c7",
+    "schemaHash": "6ee93e715e31d47d",
+    "formatterHash": "2ec71a6bd3629699"
+  },
+  "generation": {
+    "runManifestConditionHash": "3a9debeb125922fa",
+    "spec": {
+      "runId": "memory-v1-eval-a1g-r8",
+      "mode": "backtest",
+      "architecture": "A1G",
+      "seed": 8,
+      "countries": [
+        "United States",
+        "China",
+        "India",
+        "Pakistan"
+      ],
+      "startYear": 2015,
+      "endYear": 2024
+    }
+  },
+  "blindness": "evidence built from records.jsonl only; no runId, architecture, memory block, indicators or real chronology in the request"
+}

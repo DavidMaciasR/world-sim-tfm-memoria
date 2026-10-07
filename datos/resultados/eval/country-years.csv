@@ -1,0 +1,801 @@
+runId,condition,replicate,country,year,contradictions,score,headlineSimilarity,ngram4,recycledShare,genInputTokens,genOutputTokens,genThoughtsTokens,genEurCents,judgeInputTokens,judgeOutputTokens
+memory-v1-eval-a1g-r1,plana,1,United States,2015,,,,0,,1037,888,2007,2.001,,
+memory-v1-eval-a1g-r1,plana,1,China,2015,,,,0,,1054,1078,2120,2.1987,,
+memory-v1-eval-a1g-r1,plana,1,India,2015,,,,0,,1039,1341,1462,1.942,,
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2015,,,,0,,1027,1326,2259,2.4448,,
+memory-v1-eval-a1g-r1,plana,1,United States,2016,0,5,0.1943,0,0,1796,876,2008,2.0919,4477,121
+memory-v1-eval-a1g-r1,plana,1,China,2016,0,5,0.1745,0.003,0,2007,1222,2285,2.5209,4890,142
+memory-v1-eval-a1g-r1,plana,1,India,2016,0,5,0.1775,0,0,2085,1202,1834,2.2272,5062,136
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2016,0,5,0.1558,0,0,1933,861,2413,2.3611,4872,172
+memory-v1-eval-a1g-r1,plana,1,United States,2017,0,5,0.2028,0,0,1845,1370,2524,2.7496,5855,152
+memory-v1-eval-a1g-r1,plana,1,China,2017,1,4,0.1277,0,0,2124,1298,2011,2.4083,6300,385
+memory-v1-eval-a1g-r1,plana,1,India,2017,0,5,0.1719,0,0,2107,1401,3027,3.1279,6487,133
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2017,0,5,0.2273,0,0.0833,2019,887,1729,1.9478,6259,172
+memory-v1-eval-a1g-r1,plana,1,United States,2018,0,5,0.183,0,0,1974,858,3048,2.774,7183,167
+memory-v1-eval-a1g-r1,plana,1,China,2018,0,5,0.1258,0,0,2274,1378,2339,2.6908,7712,176
+memory-v1-eval-a1g-r1,plana,1,India,2018,2,3,0.1811,0,0,2273,1172,2225,2.4843,7734,435
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2018,0,5,0.1907,0,0,2091,1317,2166,2.5163,7590,170
+memory-v1-eval-a1g-r1,plana,1,United States,2019,0,5,0.1602,0,0,2049,1172,2213,2.4476,8395,179
+memory-v1-eval-a1g-r1,plana,1,China,2019,0,5,0.0891,0.0027,0,2327,1371,2113,2.5474,9110,191
+memory-v1-eval-a1g-r1,plana,1,India,2019,0,5,0.1535,0.0029,0,2275,1243,2366,2.6213,9022,161
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2019,1,4,0.169,0,0,2178,1311,1243,1.9283,9075,365
+memory-v1-eval-a1g-r1,plana,1,United States,2020,0,5,0.1471,0.0027,0,2057,1239,1677,2.1462,9711,160
+memory-v1-eval-a1g-r1,plana,1,China,2020,0,5,0.0888,0.0087,0,2395,1253,2848,2.9541,10452,178
+memory-v1-eval-a1g-r1,plana,1,India,2020,0,5,0.2038,0.0029,0,2375,872,2262,2.3278,10378,205
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2020,0,5,0.155,0,0,2284,862,1618,1.8942,10391,183
+memory-v1-eval-a1g-r1,plana,1,United States,2021,0,5,0.1171,0,0,2177,1222,1946,2.3242,10987,191
+memory-v1-eval-a1g-r1,plana,1,China,2021,0,5,0.1267,0,0,2454,1287,2259,2.6037,11857,169
+memory-v1-eval-a1g-r1,plana,1,India,2021,0,5,0.1617,0,0,2456,883,2483,2.4879,11726,149
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2021,0,4,0.1671,0,0,2301,1226,1837,2.2725,11720,241
+memory-v1-eval-a1g-r1,plana,1,United States,2022,0,5,0.1598,0,0,2209,1342,2800,2.9566,12304,176
+memory-v1-eval-a1g-r1,plana,1,China,2022,0,5,0.1354,0,0,2570,1416,2249,2.6955,13229,214
+memory-v1-eval-a1g-r1,plana,1,India,2022,0,5,0.1778,0,0,2537,896,2100,2.2597,13092,179
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2022,0,5,0.2407,0,0,2375,1287,1668,2.2124,13108,210
+memory-v1-eval-a1g-r1,plana,1,United States,2023,0,5,0.2456,0.0056,0,2303,1268,2421,2.6765,13588,185
+memory-v1-eval-a1g-r1,plana,1,China,2023,0,5,0.1433,0,0,2648,1276,2506,2.781,14583,161
+memory-v1-eval-a1g-r1,plana,1,India,2023,0,5,0.1394,0.0028,0,2599,1323,1789,2.3425,14432,167
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2023,0,5,0.216,0,0,2489,1268,1461,2.0813,14508,183
+memory-v1-eval-a1g-r1,plana,1,United States,2024,0,5,0.2692,0,0,2353,1262,1950,2.3753,14894,135
+memory-v1-eval-a1g-r1,plana,1,China,2024,0,5,0.1151,0,0,2695,1235,2338,2.6522,15913,184
+memory-v1-eval-a1g-r1,plana,1,India,2024,0,5,0.1453,0,0,2680,1294,2279,2.6503,15790,146
+memory-v1-eval-a1g-r1,plana,1,Pakistan,2024,0,5,0.272,0,0.0833,2549,1226,1932,2.3657,15865,170
+memory-v1-eval-a1-r1,estructurada,1,United States,2015,,,,0,,1157,1211,1693,2.0223,,
+memory-v1-eval-a1-r1,estructurada,1,China,2015,,,,0.0066,,1190,809,2037,1.9892,,
+memory-v1-eval-a1-r1,estructurada,1,India,2015,,,,0,,1163,1287,2302,2.4649,,
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2015,,,,0,,1148,737,1497,1.589,,
+memory-v1-eval-a1-r1,estructurada,1,United States,2016,0,5,0.1641,0,0,1355,1289,2071,2.342,4424,179
+memory-v1-eval-a1-r1,estructurada,1,China,2016,0,5,0.1437,0.003,0,1645,850,2827,2.5839,4902,150
+memory-v1-eval-a1-r1,estructurada,1,India,2016,1,3,0.1615,0.0029,0,1617,1322,2078,2.4016,4931,293
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2016,0,5,0.1888,0,0,1497,877,2476,2.3558,4680,153
+memory-v1-eval-a1-r1,estructurada,1,United States,2017,0,5,0.138,0,0,1426,1304,2631,2.722,5728,180
+memory-v1-eval-a1-r1,estructurada,1,China,2017,0,5,0.1079,0,0,1733,1248,2029,2.3372,6271,136
+memory-v1-eval-a1-r1,estructurada,1,India,2017,0,5,0.118,0.0185,0,1706,1243,1733,2.1396,6224,176
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2017,1,4,0.1341,0,0.0833,1560,1251,2612,2.6929,6076,392
+memory-v1-eval-a1-r1,estructurada,1,United States,2018,1,4,0.1391,0,0,1465,1205,2797,2.7703,6996,428
+memory-v1-eval-a1-r1,estructurada,1,China,2018,0,5,0.1337,0,0,1776,834,2430,2.3344,7516,116
+memory-v1-eval-a1-r1,estructurada,1,India,2018,0,5,0.125,0,0,1733,1295,1798,2.2185,7502,184
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2018,0,5,0.1239,0,0,1607,818,2268,2.1978,7267,161
+memory-v1-eval-a1-r1,estructurada,1,United States,2019,0,5,0.1601,0,0,1503,978,2896,2.6926,8400,170
+memory-v1-eval-a1-r1,estructurada,1,China,2019,0,5,0.1295,0.0027,0,1836,888,2414,2.3666,8853,191
+memory-v1-eval-a1-r1,estructurada,1,India,2019,0,5,0.1668,0,0,1787,1332,2433,2.6589,8809,205
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2019,0,5,0.1826,0,0,1659,1403,3043,3.0817,8744,161
+memory-v1-eval-a1-r1,estructurada,1,United States,2020,0,5,0.175,0,0,1531,876,2470,2.3557,9669,161
+memory-v1-eval-a1-r1,estructurada,1,China,2020,0,5,0.116,0,0,1856,1275,2632,2.7594,10247,151
+memory-v1-eval-a1-r1,estructurada,1,India,2020,0,5,0.1147,0,0,1828,1255,1927,2.2882,10200,151
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2020,0,5,0.1572,0,0,1672,1250,2198,2.4396,10096,131
+memory-v1-eval-a1-r1,estructurada,1,United States,2021,0,5,0.1954,0,0.0833,1549,1325,2325,2.5541,10991,148
+memory-v1-eval-a1-r1,estructurada,1,China,2021,0,5,0.1612,0,0,1882,1200,2292,2.4951,11467,161
+memory-v1-eval-a1-r1,estructurada,1,India,2021,1,3,0.2056,0,0,1851,959,1072,1.5488,11549,455
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2021,0,5,0.1829,0,0,1710,921,2024,2.1201,11473,157
+memory-v1-eval-a1-r1,estructurada,1,United States,2022,0,5,0.164,0,0,1569,883,2389,2.3128,12318,122
+memory-v1-eval-a1-r1,estructurada,1,China,2022,0,5,0.1244,0,0,1920,1357,2136,2.5007,12835,216
+memory-v1-eval-a1-r1,estructurada,1,India,2022,0,5,0.1856,0,0.0833,1864,1225,2123,2.3999,12903,186
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2022,0,5,0.1161,0,0,1754,1305,1066,1.7556,12894,169
+memory-v1-eval-a1-r1,estructurada,1,United States,2023,0,5,0.138,0,0,1595,1194,1926,2.2182,13501,124
+memory-v1-eval-a1-r1,estructurada,1,China,2023,0,5,0.148,0,0,1941,1344,2603,2.7962,14108,158
+memory-v1-eval-a1-r1,estructurada,1,India,2023,0,5,0.1774,0,0,1910,1246,2429,2.6168,14132,218
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2023,0,5,0.1311,0,0,1771,1242,2326,2.5298,14282,147
+memory-v1-eval-a1-r1,estructurada,1,United States,2024,0,5,0.2345,0.0032,0,1608,1206,2275,2.4527,14681,167
+memory-v1-eval-a1-r1,estructurada,1,China,2024,0,5,0.1837,0,0,1949,1347,2326,2.6205,15421,134
+memory-v1-eval-a1-r1,estructurada,1,India,2024,0,5,0.1629,0,0,1906,1268,2159,2.4563,15517,220
+memory-v1-eval-a1-r1,estructurada,1,Pakistan,2024,0,5,0.1993,0.0029,0,1779,1197,792,1.5124,15572,144
+memory-v1-eval-a1g-r2,plana,2,United States,2015,,,,0,,1037,856,2413,2.2423,,
+memory-v1-eval-a1g-r2,plana,2,China,2015,,,,0,,1054,1374,2189,2.4341,,
+memory-v1-eval-a1g-r2,plana,2,India,2015,,,,0,,1039,870,2057,2.0219,,
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2015,,,,0.0027,,1027,1376,2330,2.5229,,
+memory-v1-eval-a1g-r2,plana,2,United States,2016,0,5,0.152,0,0,1790,1360,2172,2.509,4538,184
+memory-v1-eval-a1g-r2,plana,2,China,2016,0,5,0.1399,0,0,2104,1242,2335,2.5786,5183,148
+memory-v1-eval-a1g-r2,plana,2,India,2016,0,5,0.1498,0,0,2075,834,2379,2.3401,5110,197
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2016,0,5,0.1687,0,0,1960,1243,1271,1.8744,4913,122
+memory-v1-eval-a1g-r2,plana,2,United States,2017,0,5,0.1619,0,0,1876,1252,1849,2.2421,5863,125
+memory-v1-eval-a1g-r2,plana,2,China,2017,0,5,0.1175,0,0,2162,1271,2258,2.5551,6564,146
+memory-v1-eval-a1g-r2,plana,2,India,2017,0,5,0.1276,0,0,2102,796,2170,2.1842,6334,168
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2017,0,5,0.1502,0,0,1997,1323,2363,2.6351,6350,168
+memory-v1-eval-a1g-r2,plana,2,United States,2018,0,5,0.1554,0,0,1962,1281,2462,2.6673,7194,197
+memory-v1-eval-a1g-r2,plana,2,China,2018,0,5,0.1516,0,0,2228,1242,2080,2.4301,7942,158
+memory-v1-eval-a1g-r2,plana,2,India,2018,0,5,0.1219,0,0,2183,1262,3327,3.2415,7713,166
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2018,0,5,0.1308,0,0,2130,1235,2320,2.5677,7682,138
+memory-v1-eval-a1g-r2,plana,2,United States,2019,0,5,0.1558,0,0,2016,1123,1846,2.1751,8377,178
+memory-v1-eval-a1g-r2,plana,2,China,2019,0,5,0.1472,0,0,2300,882,1328,1.7222,9261,110
+memory-v1-eval-a1g-r2,plana,2,India,2019,0,5,0.1439,0,0,2328,883,3015,2.8145,9020,199
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2019,0,5,0.1363,0.0085,0,2196,1366,1489,2.1248,9092,176
+memory-v1-eval-a1g-r2,plana,2,United States,2020,0,5,0.1544,0,0,2008,1182,2098,2.3746,9653,163
+memory-v1-eval-a1g-r2,plana,2,China,2020,0,5,0.1407,0,0,2362,1354,2318,2.6731,10602,187
+memory-v1-eval-a1g-r2,plana,2,India,2020,0,5,0.1109,0,0,2354,1262,1834,2.3006,10347,152
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2020,0,5,0.1501,0,0,2239,1301,2384,2.6657,10468,151
+memory-v1-eval-a1g-r2,plana,2,United States,2021,0,5,0.1214,0,0,2080,1194,2097,2.391,10939,201
+memory-v1-eval-a1g-r2,plana,2,China,2021,0,5,0.1481,0,0,2433,1360,1472,2.1405,11993,117
+memory-v1-eval-a1g-r2,plana,2,India,2021,0,5,0.1316,0,0,2427,1173,2838,2.9002,11582,163
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2021,0,5,0.1637,0,0,2327,1372,2181,2.5919,11834,160
+memory-v1-eval-a1g-r2,plana,2,United States,2022,0,5,0.1588,0,0,2197,1227,1920,2.3132,12219,212
+memory-v1-eval-a1g-r2,plana,2,China,2022,0,5,0.1813,0,0,2542,1242,2356,2.6486,13322,210
+memory-v1-eval-a1g-r2,plana,2,India,2022,0,5,0.196,0,0,2482,1215,1740,2.2262,12900,174
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2022,0,5,0.176,0,0.0833,2421,1255,2162,2.5163,13186,173
+memory-v1-eval-a1g-r2,plana,2,United States,2023,0,5,0.1887,0,0,2228,1236,2281,2.5559,13503,152
+memory-v1-eval-a1g-r2,plana,2,China,2023,0,5,0.132,0,0,2542,1244,2397,2.6764,14704,157
+memory-v1-eval-a1g-r2,plana,2,India,2023,0,5,0.1393,0.0027,0,2569,940,920,1.5311,14295,218
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2023,0,5,0.1876,0.0027,0,2473,1358,2024,2.5004,14648,174
+memory-v1-eval-a1g-r2,plana,2,United States,2024,0,5,0.2327,0,0,2304,1262,2312,2.6024,14812,160
+memory-v1-eval-a1g-r2,plana,2,China,2024,0,5,0.1007,0,0,2657,1248,1855,2.3442,16007,163
+memory-v1-eval-a1g-r2,plana,2,India,2024,1,4,0.1618,0,0,2688,1266,1729,2.2785,15682,363
+memory-v1-eval-a1g-r2,plana,2,Pakistan,2024,0,5,0.2277,0,0,2563,878,2248,2.3469,15996,207
+memory-v1-eval-a1-r2,estructurada,2,United States,2015,,,,0,,1157,1258,1675,2.041,,
+memory-v1-eval-a1-r2,estructurada,2,China,2015,,,,0,,1190,1243,2229,2.3929,,
+memory-v1-eval-a1-r2,estructurada,2,India,2015,,,,0.0054,,1163,849,2406,2.2495,,
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2015,,,,0,,1148,1329,2590,2.6758,,
+memory-v1-eval-a1-r2,estructurada,2,United States,2016,0,5,0.1606,0,0,1357,890,2271,2.2139,4509,132
+memory-v1-eval-a1-r2,estructurada,2,China,2016,0,5,0.1112,0,0,1661,871,2165,2.1725,5110,186
+memory-v1-eval-a1-r2,estructurada,2,India,2016,0,5,0.1705,0,0,1645,1328,2193,2.4833,5156,175
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2016,1,3,0.1463,0,0,1486,1266,2376,2.5408,4949,481
+memory-v1-eval-a1-r2,estructurada,2,United States,2017,0,5,0.1864,0,0,1419,1202,1761,2.0942,5707,161
+memory-v1-eval-a1-r2,estructurada,2,China,2017,0,5,0.1682,0,0,1737,923,2562,2.4719,6548,193
+memory-v1-eval-a1-r2,estructurada,2,India,2017,0,5,0.096,0,0,1714,1245,997,1.6672,6529,191
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2017,1,3,0.093,0,0,1555,1279,1977,2.3007,6402,281
+memory-v1-eval-a1-r2,estructurada,2,United States,2018,0,5,0.1909,0.0028,0,1468,1355,2971,2.9796,7091,210
+memory-v1-eval-a1-r2,estructurada,2,China,2018,0,5,0.1765,0,0,1777,1216,2061,2.3429,7763,176
+memory-v1-eval-a1-r2,estructurada,2,India,2018,1,4,0.1539,0,0,1752,1322,2102,2.4345,7812,347
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2018,0,5,0.1301,0,0,1617,1233,1905,2.2326,7697,162
+memory-v1-eval-a1-r2,estructurada,2,United States,2019,0,5,0.1985,0.0054,0.0833,1515,1342,1685,2.1479,8381,198
+memory-v1-eval-a1-r2,estructurada,2,China,2019,1,4,0.1367,0,0,1817,942,2867,2.6912,9177,447
+memory-v1-eval-a1-r2,estructurada,2,India,2019,0,5,0.1838,0,0,1796,940,2479,2.4369,9187,178
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2019,0,5,0.1289,0,0,1656,1294,1897,2.2718,9115,147
+memory-v1-eval-a1-r2,estructurada,2,United States,2020,0,5,0.1783,0,0,1532,1327,2137,2.4319,9735,218
+memory-v1-eval-a1-r2,estructurada,2,China,2020,1,4,0.0955,0,0,1846,1258,904,1.6326,10533,373
+memory-v1-eval-a1-r2,estructurada,2,India,2020,0,5,0.1432,0,0,1821,865,2372,2.3228,10446,189
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2020,0,5,0.1248,0,0,1671,1246,1377,1.9074,10448,190
+memory-v1-eval-a1-r2,estructurada,2,United States,2021,0,5,0.1185,0,0,1555,1299,2218,2.4691,11085,216
+memory-v1-eval-a1-r2,estructurada,2,China,2021,0,5,0.1328,0,0,1876,895,2532,2.4524,11898,162
+memory-v1-eval-a1-r2,estructurada,2,India,2021,0,5,0.1399,0.0026,0,1857,1250,1995,2.3326,11810,199
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2021,0,5,0.1588,0,0,1698,1277,1949,2.2998,11800,164
+memory-v1-eval-a1-r2,estructurada,2,United States,2022,0,5,0.0997,0,0,1576,1273,2436,2.5956,12474,178
+memory-v1-eval-a1-r2,estructurada,2,China,2022,0,5,0.1225,0,0,1915,1192,2037,2.3297,13112,199
+memory-v1-eval-a1-r2,estructurada,2,India,2022,0,5,0.1232,0,0,1878,881,2801,2.6172,13131,154
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2022,0,5,0.136,0,0,1742,1271,1850,2.2378,13243,226
+memory-v1-eval-a1-r2,estructurada,2,United States,2023,0,5,0.0979,0,0,1597,1314,1918,2.2907,13860,192
+memory-v1-eval-a1-r2,estructurada,2,China,2023,0,5,0.1268,0,0,1921,1226,1843,2.2273,14340,132
+memory-v1-eval-a1-r2,estructurada,2,India,2023,0,5,0.1561,0,0,1894,916,2071,2.1709,14452,189
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2023,0,5,0.1748,0,0,1747,1295,1813,2.23,14649,201
+memory-v1-eval-a1-r2,estructurada,2,United States,2024,0,5,0.1508,0,0,1609,1354,2545,2.7224,15225,185
+memory-v1-eval-a1-r2,estructurada,2,China,2024,0,5,0.0999,0.0027,0,1938,1234,1961,2.3108,15624,187
+memory-v1-eval-a1-r2,estructurada,2,India,2024,0,5,0.2259,0,0.0833,1898,943,1906,2.0824,15801,202
+memory-v1-eval-a1-r2,estructurada,2,Pakistan,2024,1,4,0.1804,0,0,1768,1287,2197,2.4753,16050,343
+memory-v1-eval-a1g-r3,plana,3,United States,2015,,,,0,,1037,1170,2139,2.2681,,
+memory-v1-eval-a1g-r3,plana,3,China,2015,,,,0,,1054,834,2372,2.2038,,
+memory-v1-eval-a1g-r3,plana,3,India,2015,,,,0,,1039,841,1310,1.5214,,
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2015,,,,0,,1027,1263,1995,2.2339,,
+memory-v1-eval-a1g-r3,plana,3,United States,2016,0,5,0.202,0,0,1736,1173,1891,2.2002,4255,208
+memory-v1-eval-a1g-r3,plana,3,China,2016,0,5,0.1706,0,0,2042,1240,2152,2.4513,4970,107
+memory-v1-eval-a1g-r3,plana,3,India,2016,0,5,0.1475,0,0,2045,1352,2486,2.7393,5059,154
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2016,0,5,0.1423,0,0,1868,1182,1968,2.2727,4671,160
+memory-v1-eval-a1g-r3,plana,3,United States,2017,0,5,0.267,0,0.0833,1810,869,2274,2.2607,5507,143
+memory-v1-eval-a1g-r3,plana,3,China,2017,0,5,0.1381,0,0,2167,1245,2541,2.7215,6278,166
+memory-v1-eval-a1g-r3,plana,3,India,2017,0,5,0.1413,0,0,2154,1416,1930,2.436,6509,200
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2017,0,5,0.1737,0,0,1959,1230,2054,2.3709,6009,187
+memory-v1-eval-a1g-r3,plana,3,United States,2018,0,5,0.1748,0,0,1922,1271,1803,2.2307,6808,176
+memory-v1-eval-a1g-r3,plana,3,China,2018,0,5,0.1503,0,0,2218,881,2358,2.3753,7546,166
+memory-v1-eval-a1g-r3,plana,3,India,2018,0,5,0.1877,0,0,2278,1287,2677,2.8506,7851,219
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2018,0,5,0.1728,0,0,2056,1184,2004,2.3215,7301,182
+memory-v1-eval-a1g-r3,plana,3,United States,2019,0,5,0.1822,0.0244,0,2015,1454,1957,2.46,8222,182
+memory-v1-eval-a1g-r3,plana,3,China,2019,0,5,0.1521,0,0,2320,1237,2627,2.7916,8863,126
+memory-v1-eval-a1g-r3,plana,3,India,2019,0,5,0.1499,0,0,2318,1268,2254,2.5707,9188,164
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2019,0,5,0.2553,0,0.0833,2120,1220,1822,2.2356,8625,144
+memory-v1-eval-a1g-r3,plana,3,United States,2020,0,5,0.2024,0,0,2167,1245,2219,2.5138,9546,151
+memory-v1-eval-a1g-r3,plana,3,China,2020,0,5,0.1501,0,0.0833,2364,876,2755,2.647,10222,143
+memory-v1-eval-a1g-r3,plana,3,India,2020,0,5,0.133,0,0,2388,1245,1797,2.2701,10504,198
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2020,0,5,0.1869,0,0.0833,2212,881,2273,2.3197,10004,172
+memory-v1-eval-a1g-r3,plana,3,United States,2021,0,5,0.1358,0,0,2142,850,2210,2.25,10879,129
+memory-v1-eval-a1g-r3,plana,3,China,2021,0,5,0.1308,0,0,2431,1289,3175,3.1929,11651,172
+memory-v1-eval-a1g-r3,plana,3,India,2021,0,5,0.1654,0,0,2445,1357,1893,2.4117,11844,216
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2021,0,5,0.1553,0,0,2289,1353,1456,2.1071,11467,182
+memory-v1-eval-a1g-r3,plana,3,United States,2022,0,5,0.1251,0,0,2216,1337,2770,2.9349,12243,200
+memory-v1-eval-a1g-r3,plana,3,China,2022,0,5,0.1166,0,0,2554,1213,2491,2.7185,13018,178
+memory-v1-eval-a1g-r3,plana,3,India,2022,0,5,0.1886,0,0.0833,2542,1248,2766,2.9169,13190,157
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2022,0,5,0.1888,0,0,2396,1238,1112,1.8248,12806,178
+memory-v1-eval-a1g-r3,plana,3,United States,2023,0,5,0.1601,0,0,2316,796,3412,3.0129,13511,134
+memory-v1-eval-a1g-r3,plana,3,China,2023,0,5,0.1232,0,0,2587,1250,1715,2.2461,14399,164
+memory-v1-eval-a1g-r3,plana,3,India,2023,0,5,0.1226,0,0,2632,1357,2156,2.6054,14488,155
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2023,0,5,0.1238,0,0,2395,1172,1809,2.2317,14033,204
+memory-v1-eval-a1g-r3,plana,3,United States,2024,0,5,0.1908,0,0,2368,1371,2363,2.7139,14858,195
+memory-v1-eval-a1g-r3,plana,3,China,2024,0,5,0.1542,0,0,2638,1226,1696,2.225,15707,195
+memory-v1-eval-a1g-r3,plana,3,India,2024,0,5,0.221,0,0,2669,1395,1982,2.5225,15895,146
+memory-v1-eval-a1g-r3,plana,3,Pakistan,2024,0,5,0.1971,0,0,2440,1274,2268,2.5994,15431,157
+memory-v1-eval-a1-r3,estructurada,3,United States,2015,,,,0,,1157,1198,2308,2.4106,,
+memory-v1-eval-a1-r3,estructurada,3,China,2015,,,,0,,1190,1322,2275,2.4736,,
+memory-v1-eval-a1-r3,estructurada,3,India,2015,,,,0,,1163,855,2258,2.1579,,
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2015,,,,0.0029,,1148,1238,2219,2.3779,,
+memory-v1-eval-a1-r3,estructurada,3,United States,2016,0,5,0.1889,0,0,1358,1290,1962,2.2727,4418,131
+memory-v1-eval-a1-r3,estructurada,3,China,2016,0,5,0.1862,0.0051,0,1672,1327,2431,2.6396,5215,175
+memory-v1-eval-a1-r3,estructurada,3,India,2016,1,3,0.1693,0.0027,0.0833,1643,1341,2440,2.6507,5026,414
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2016,0,5,0.1664,0,0,1498,1240,2201,2.4127,4928,127
+memory-v1-eval-a1-r3,estructurada,3,United States,2017,0,5,0.2084,0,0,1413,859,2149,2.1224,5709,169
+memory-v1-eval-a1-r3,estructurada,3,China,2017,0,5,0.1215,0,0,1711,1262,2505,2.6504,6545,179
+memory-v1-eval-a1-r3,estructurada,3,India,2017,0,5,0.1801,0,0,1687,871,2244,2.2268,6327,153
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2017,0,5,0.124,0,0,1545,1300,2349,2.5529,6199,139
+memory-v1-eval-a1-r3,estructurada,3,United States,2018,0,5,0.1281,0,0,1470,848,1404,1.6422,6999,193
+memory-v1-eval-a1-r3,estructurada,3,China,2018,0,5,0.1097,0,0,1769,897,3453,3.034,7926,172
+memory-v1-eval-a1-r3,estructurada,3,India,2018,1,4,0.1427,0,0,1748,1434,2601,2.8281,7780,366
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2018,0,5,0.1769,0,0,1609,1343,2123,2.4431,7568,171
+memory-v1-eval-a1-r3,estructurada,3,United States,2019,0,5,0.071,0,0,1515,1239,2018,2.2962,8238,192
+memory-v1-eval-a1-r3,estructurada,3,China,2019,0,5,0.1101,0,0,1843,1337,2617,2.7881,9333,202
+memory-v1-eval-a1-r3,estructurada,3,India,2019,0,5,0.1282,0.0058,0,1808,1199,1643,2.0663,9057,189
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2019,1,4,0.125,0,0,1679,1435,1341,2.0071,9046,378
+memory-v1-eval-a1-r3,estructurada,3,United States,2020,0,5,0.1026,0,0,1540,843,2229,2.1801,9463,191
+memory-v1-eval-a1-r3,estructurada,3,China,2020,0,5,0.1187,0,0,1841,869,1341,1.6629,10589,175
+memory-v1-eval-a1-r3,estructurada,3,India,2020,0,5,0.1817,0,0,1830,1271,769,1.5519,10412,136
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2020,0,5,0.1493,0,0,1680,1249,2172,2.4233,10411,141
+memory-v1-eval-a1-r3,estructurada,3,United States,2021,0,5,0.1527,0,0,1561,1299,2695,2.7775,10798,204
+memory-v1-eval-a1-r3,estructurada,3,China,2021,0,5,0.102,0,0,1882,1366,2267,2.5861,11940,209
+memory-v1-eval-a1-r3,estructurada,3,India,2021,0,5,0.1272,0,0,1867,1239,2422,2.6022,11662,169
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2021,0,5,0.1333,0,0,1709,1274,2356,2.5618,11755,202
+memory-v1-eval-a1-r3,estructurada,3,United States,2022,1,4,0.0941,0,0,1582,849,2461,2.339,12091,344
+memory-v1-eval-a1-r3,estructurada,3,China,2022,0,5,0.1974,0,0.0833,1914,1351,1665,2.1922,13250,135
+memory-v1-eval-a1-r3,estructurada,3,India,2022,0,5,0.1423,0.0049,0,1889,1285,2528,2.7031,13087,144
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2022,0,4,0.1273,0.0026,0,1733,1250,1850,2.2231,13127,226
+memory-v1-eval-a1-r3,estructurada,3,United States,2023,0,5,0.0966,0,0,1596,1200,2252,2.4324,13313,162
+memory-v1-eval-a1-r3,estructurada,3,China,2023,0,5,0.1304,0,0,1909,1260,2074,2.3967,14600,166
+memory-v1-eval-a1-r3,estructurada,3,India,2023,0,5,0.1309,0,0,1884,1281,2147,2.4541,14376,191
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2023,0,5,0.1478,0,0,1751,1231,2321,2.5169,14441,192
+memory-v1-eval-a1-r3,estructurada,3,United States,2024,0,5,0.1359,0,0,1614,1323,3025,3.0127,14649,160
+memory-v1-eval-a1-r3,estructurada,3,China,2024,0,5,0.1224,0,0,1939,1197,1797,2.1813,15829,215
+memory-v1-eval-a1-r3,estructurada,3,India,2024,0,5,0.1301,0,0,1923,1288,2186,2.4888,15637,217
+memory-v1-eval-a1-r3,estructurada,3,Pakistan,2024,0,5,0.1365,0,0,1782,1242,1758,2.1649,15767,176
+memory-v1-eval-a1g-r4,plana,4,United States,2015,,,,0,,1037,811,2013,1.9553,,
+memory-v1-eval-a1g-r4,plana,4,China,2015,,,,0,,1054,1191,2295,2.3844,,
+memory-v1-eval-a1g-r4,plana,4,India,2015,,,,0,,1039,1302,1455,1.9123,,
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2015,,,,0,,1027,1364,1895,2.2345,,
+memory-v1-eval-a1g-r4,plana,4,United States,2016,0,4,0.1533,0,0,1743,1165,2202,2.3966,4242,193
+memory-v1-eval-a1g-r4,plana,4,China,2016,0,5,0.2013,0,0,2046,880,2046,2.1512,4984,155
+memory-v1-eval-a1g-r4,plana,4,India,2016,0,5,0.1905,0,0,2053,1228,2277,2.5256,5037,156
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2016,0,5,0.1476,0,0,1943,1205,1367,1.9096,4843,146
+memory-v1-eval-a1g-r4,plana,4,United States,2017,0,5,0.1828,0,0,1819,1200,2241,2.4541,5494,153
+memory-v1-eval-a1g-r4,plana,4,China,2017,0,5,0.1051,0,0,2152,1216,2528,2.6925,6283,192
+memory-v1-eval-a1g-r4,plana,4,India,2017,1,4,0.1928,0.0029,0,2135,1316,2681,2.8535,6353,390
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2017,0,5,0.1718,0,0,1980,1394,1312,2.0008,6313,185
+memory-v1-eval-a1g-r4,plana,4,United States,2018,0,5,0.1428,0,0,1909,953,1905,2.0897,6803,201
+memory-v1-eval-a1g-r4,plana,4,China,2018,0,5,0.139,0,0,2239,941,3787,3.3384,7619,159
+memory-v1-eval-a1g-r4,plana,4,India,2018,0,5,0.2004,0,0,2206,1353,1944,2.4111,7681,166
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2018,0,5,0.1427,0,0,2120,1390,806,1.6899,7687,137
+memory-v1-eval-a1g-r4,plana,4,United States,2019,0,5,0.21,0.0025,0,2014,945,2272,2.3348,8127,177
+memory-v1-eval-a1g-r4,plana,4,China,2019,0,5,0.1295,0,0,2345,1312,2881,3.007,9039,222
+memory-v1-eval-a1g-r4,plana,4,India,2019,1,4,0.1793,0.0055,0,2321,894,2406,2.4279,9013,358
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2019,0,5,0.1301,0,0,2200,1345,1875,2.3607,9045,164
+memory-v1-eval-a1g-r4,plana,4,United States,2020,0,5,0.1234,0,0,2135,1382,2223,2.6006,9557,200
+memory-v1-eval-a1g-r4,plana,4,China,2020,0,5,0.1265,0,0,2435,1251,2163,2.5161,10318,156
+memory-v1-eval-a1g-r4,plana,4,India,2020,0,5,0.1798,0.0053,0,2397,1395,915,1.7992,10373,153
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2020,0,5,0.1605,0,0,2277,902,2610,2.559,10413,133
+memory-v1-eval-a1g-r4,plana,4,United States,2021,0,5,0.1239,0,0,2166,1236,2132,2.4518,10856,173
+memory-v1-eval-a1g-r4,plana,4,China,2021,0,5,0.1329,0,0,2441,909,3949,3.4483,11689,201
+memory-v1-eval-a1g-r4,plana,4,India,2021,0,5,0.1713,0,0,2475,1432,615,1.6396,11808,173
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2021,1,4,0.2032,0,0,2333,1295,1736,2.256,11798,424
+memory-v1-eval-a1g-r4,plana,4,United States,2022,0,5,0.1444,0,0,2236,1303,2616,2.8162,12182,221
+memory-v1-eval-a1g-r4,plana,4,China,2022,0,5,0.116,0,0,2526,1218,1208,1.8906,12926,135
+memory-v1-eval-a1g-r4,plana,4,India,2022,0,5,0.2013,0,0,2569,1283,1914,2.3935,13080,157
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2022,0,5,0.2058,0,0,2467,1270,1295,1.9727,13134,166
+memory-v1-eval-a1g-r4,plana,4,United States,2023,0,5,0.1627,0,0,2349,817,1692,1.9213,13445,171
+memory-v1-eval-a1g-r4,plana,4,China,2023,0,5,0.1312,0,0,2560,1233,2300,2.609,14260,168
+memory-v1-eval-a1g-r4,plana,4,India,2023,0,5,0.114,0,0,2607,859,2097,2.2429,14335,135
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2023,0,5,0.2402,0,0,2501,1350,2551,2.8388,14500,130
+memory-v1-eval-a1g-r4,plana,4,United States,2024,0,5,0.121,0,0,2352,865,2344,2.3732,14726,217
+memory-v1-eval-a1g-r4,plana,4,China,2024,0,5,0.1665,0,0,2669,1381,1244,2.0374,15681,147
+memory-v1-eval-a1g-r4,plana,4,India,2024,0,5,0.1352,0,0,2645,1261,2661,2.8709,15669,126
+memory-v1-eval-a1g-r4,plana,4,Pakistan,2024,1,4,0.15,0,0,2585,1305,2540,2.8135,15933,389
+memory-v1-eval-a1-r4,estructurada,4,United States,2015,,,,0,,1157,871,2065,2.043,,
+memory-v1-eval-a1-r4,estructurada,4,China,2015,,,,0,,1190,1220,2218,2.371,,
+memory-v1-eval-a1-r4,estructurada,4,India,2015,,,,0.0029,,1163,1162,2103,2.256,,
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2015,,,,0,,1148,1310,2435,2.5636,,
+memory-v1-eval-a1-r4,estructurada,4,United States,2016,0,5,0.1075,0,0,1364,1255,1734,2.1039,4543,152
+memory-v1-eval-a1-r4,estructurada,4,China,2016,0,5,0.1738,0,0,1659,1234,2721,2.765,5112,178
+memory-v1-eval-a1-r4,estructurada,4,India,2016,0,5,0.1323,0,0,1644,1258,2304,2.5096,5096,176
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2016,0,5,0.1415,0,0,1503,1291,1887,2.2437,4882,175
+memory-v1-eval-a1-r4,estructurada,4,United States,2017,0,5,0.1526,0,0,1417,915,2709,2.5203,5815,140
+memory-v1-eval-a1-r4,estructurada,4,China,2017,0,5,0.114,0,0,1725,1262,2824,2.858,6450,197
+memory-v1-eval-a1-r4,estructurada,4,India,2017,0,5,0.2075,0,0.0833,1690,1398,2077,2.4594,6445,179
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2017,0,5,0.1577,0,0,1561,1224,2024,2.2963,6208,210
+memory-v1-eval-a1-r4,estructurada,4,United States,2018,0,5,0.1866,0,0,1469,860,2377,2.2774,7153,176
+memory-v1-eval-a1-r4,estructurada,4,China,2018,0,5,0.1288,0,0,1801,1338,2099,2.4492,7721,159
+memory-v1-eval-a1-r4,estructurada,4,India,2018,0,4,0.1346,0,0,1767,1349,1764,2.2358,7894,190
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2018,0,5,0.1865,0.0087,0,1622,1347,1708,2.1797,7517,162
+memory-v1-eval-a1-r4,estructurada,4,United States,2019,0,5,0.1559,0.0054,0,1515,889,2612,2.4536,8508,160
+memory-v1-eval-a1-r4,estructurada,4,China,2019,0,5,0.1677,0,0,1842,1211,2319,2.5145,9015,168
+memory-v1-eval-a1-r4,estructurada,4,India,2019,0,5,0.1179,0.0026,0,1799,1238,791,1.5408,9252,203
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2019,0,5,0.1761,0,0,1670,1250,1921,2.2607,8855,162
+memory-v1-eval-a1-r4,estructurada,4,United States,2020,0,5,0.2137,0,0.0833,1522,1138,2219,2.3616,9597,193
+memory-v1-eval-a1-r4,estructurada,4,China,2020,0,5,0.1111,0,0,1846,872,2515,2.4227,10194,187
+memory-v1-eval-a1-r4,estructurada,4,India,2020,0,5,0.141,0,0,1804,1270,2496,2.6618,10648,191
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2020,0,5,0.2071,0,0.1667,1662,1280,2282,2.5119,10235,186
+memory-v1-eval-a1-r4,estructurada,4,United States,2021,0,5,0.1697,0,0,1554,1261,2088,2.3606,10861,173
+memory-v1-eval-a1-r4,estructurada,4,China,2021,0,5,0.0924,0,0,1854,1266,550,1.4105,11565,161
+memory-v1-eval-a1-r4,estructurada,4,India,2021,0,5,0.1533,0.0051,0,1826,1273,2379,2.5911,12028,149
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2021,1,4,0.1695,0,0.0833,1697,1229,2498,2.6228,11519,315
+memory-v1-eval-a1-r4,estructurada,4,United States,2022,0,5,0.1255,0,0,1575,1151,1538,1.9376,12013,184
+memory-v1-eval-a1-r4,estructurada,4,China,2022,0,5,0.1304,0,0,1904,1420,2817,2.9785,13001,162
+memory-v1-eval-a1-r4,estructurada,4,India,2022,0,5,0.1652,0.0027,0,1860,880,1817,1.9795,13341,170
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2022,0,5,0.1583,0,0,1724,1228,1418,1.9291,12846,171
+memory-v1-eval-a1-r4,estructurada,4,United States,2023,0,5,0.1527,0,0,1606,1366,2593,2.7607,13398,184
+memory-v1-eval-a1-r4,estructurada,4,China,2023,0,5,0.0914,0,0,1919,906,2500,2.4444,14350,181
+memory-v1-eval-a1-r4,estructurada,4,India,2023,0,5,0.135,0.003,0,1871,1192,2455,2.5937,14537,162
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2023,0,5,0.185,0.0032,0,1761,1329,2016,2.3847,14112,174
+memory-v1-eval-a1-r4,estructurada,4,United States,2024,0,5,0.1707,0,0,1628,1153,1847,2.145,14490,162
+memory-v1-eval-a1-r4,estructurada,4,China,2024,0,5,0.1398,0,0,1951,1340,2680,2.8446,15718,201
+memory-v1-eval-a1-r4,estructurada,4,India,2024,0,5,0.1407,0,0,1917,1347,1775,2.261,15831,177
+memory-v1-eval-a1-r4,estructurada,4,Pakistan,2024,0,5,0.1724,0,0,1789,1350,2017,2.4025,15457,169
+memory-v1-eval-a1g-r5,plana,5,United States,2015,,,,0,,1037,1351,1996,2.2926,,
+memory-v1-eval-a1g-r5,plana,5,China,2015,,,,0,,1054,1230,2274,2.396,,
+memory-v1-eval-a1g-r5,plana,5,India,2015,,,,0,,1039,1249,1774,2.0839,,
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2015,,,,0,,1027,901,2414,2.2707,,
+memory-v1-eval-a1g-r5,plana,5,United States,2016,0,5,0.2354,0,0.0833,1820,1287,2592,2.7367,4491,154
+memory-v1-eval-a1g-r5,plana,5,China,2016,0,5,0.095,0,0,2132,1296,1859,2.31,5310,125
+memory-v1-eval-a1g-r5,plana,5,India,2016,0,5,0.2033,0,0,2104,1357,1924,2.3877,5249,177
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2016,0,5,0.1695,0,0,1962,1326,2456,2.6925,4927,150
+memory-v1-eval-a1g-r5,plana,5,United States,2017,0,5,0.2135,0,0,1821,1292,2414,2.6253,5762,177
+memory-v1-eval-a1g-r5,plana,5,China,2017,0,5,0.129,0,0,2215,1410,661,1.6215,6715,227
+memory-v1-eval-a1g-r5,plana,5,India,2017,0,5,0.1333,0,0,2180,1397,1934,2.4297,6525,125
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2017,0,5,0.1337,0,0,1997,1216,2482,2.6428,6225,158
+memory-v1-eval-a1g-r5,plana,5,United States,2018,0,5,0.2031,0,0,1944,1285,2012,2.3773,7143,199
+memory-v1-eval-a1g-r5,plana,5,China,2018,0,5,0.1183,0,0,2301,947,2244,2.355,8136,134
+memory-v1-eval-a1g-r5,plana,5,India,2018,0,5,0.1521,0,0,2281,1293,1962,2.3937,7851,170
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2018,1,4,0.1484,0,0,2102,1321,2437,2.6951,7565,356
+memory-v1-eval-a1g-r5,plana,5,United States,2019,0,5,0.1769,0,0,2039,1237,2139,2.4406,8446,187
+memory-v1-eval-a1g-r5,plana,5,China,2019,0,5,0.0807,0,0,2388,1330,2051,2.4888,9510,135
+memory-v1-eval-a1g-r5,plana,5,India,2019,0,5,0.1894,0,0,2381,1326,1495,2.1267,9242,186
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2019,0,5,0.1538,0,0,2202,1365,2492,2.7718,8967,160
+memory-v1-eval-a1g-r5,plana,5,United States,2020,0,5,0.1706,0,0,2068,899,2604,2.5262,9783,213
+memory-v1-eval-a1g-r5,plana,5,China,2020,0,5,0.1134,0,0,2411,1226,2426,2.6666,10802,145
+memory-v1-eval-a1g-r5,plana,5,India,2020,0,5,0.125,0,0,2433,1194,2534,2.7184,10415,202
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2020,0,5,0.1737,0,0.0833,2274,1340,1910,2.3896,10310,179
+memory-v1-eval-a1g-r5,plana,5,United States,2021,0,5,0.1408,0,0,2171,1213,1970,2.3331,11165,174
+memory-v1-eval-a1g-r5,plana,5,China,2021,0,5,0.1503,0,0.0833,2455,1236,2129,2.4871,12128,156
+memory-v1-eval-a1g-r5,plana,5,India,2021,0,5,0.1547,0,0,2430,874,2259,2.3343,11768,113
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2021,0,5,0.1425,0,0,2337,1202,1363,1.9559,11535,175
+memory-v1-eval-a1g-r5,plana,5,United States,2022,0,5,0.1299,0,0,2236,1263,2973,3.0207,12514,186
+memory-v1-eval-a1g-r5,plana,5,China,2022,0,5,0.1192,0,0,2548,1272,2247,2.5984,13500,138
+memory-v1-eval-a1g-r5,plana,5,India,2022,0,5,0.1565,0,0,2525,1310,1715,2.2768,13138,157
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2022,0,5,0.1213,0,0,2368,1243,1797,2.2663,12804,173
+memory-v1-eval-a1g-r5,plana,5,United States,2023,0,5,0.1814,0,0,2325,1232,2069,2.4291,13875,160
+memory-v1-eval-a1g-r5,plana,5,China,2023,0,5,0.1638,0,0,2642,1252,848,1.6953,14865,162
+memory-v1-eval-a1g-r5,plana,5,India,2023,0,5,0.1763,0,0,2641,1234,2163,2.5318,14418,157
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2023,0,5,0.1621,0,0,2457,1351,1746,2.3145,14223,184
+memory-v1-eval-a1g-r5,plana,5,United States,2024,0,5,0.2303,0,0,2387,1276,1983,2.41,15211,125
+memory-v1-eval-a1g-r5,plana,5,China,2024,0,5,0.1077,0,0,2729,1283,2225,2.6147,16234,207
+memory-v1-eval-a1g-r5,plana,5,India,2024,0,5,0.1919,0,0,2653,1250,2227,2.5849,15735,150
+memory-v1-eval-a1g-r5,plana,5,Pakistan,2024,0,5,0.1702,0,0,2566,1348,1680,2.2841,15632,181
+memory-v1-eval-a1-r5,estructurada,5,United States,2015,,,,0.0029,,1157,1330,2296,2.488,,
+memory-v1-eval-a1-r5,estructurada,5,China,2015,,,,0,,1190,1272,2102,2.3297,,
+memory-v1-eval-a1-r5,estructurada,5,India,2015,,,,0,,1163,1242,1936,2.1998,,
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2015,,,,0,,1148,1298,1746,2.1115,,
+memory-v1-eval-a1-r5,estructurada,5,United States,2016,1,4,0.192,0,0.0833,1355,1296,2641,2.7142,4610,356
+memory-v1-eval-a1-r5,estructurada,5,China,2016,0,5,0.1594,0,0,1682,1235,2355,2.5325,5208,177
+memory-v1-eval-a1-r5,estructurada,5,India,2016,0,5,0.1552,0,0,1655,1255,2185,2.4323,5171,148
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2016,0,5,0.1528,0,0,1500,1261,2382,2.5432,5062,143
+memory-v1-eval-a1-r5,estructurada,5,United States,2017,0,5,0.1919,0,0,1435,1399,2580,2.7516,6038,165
+memory-v1-eval-a1-r5,estructurada,5,China,2017,1,4,0.139,0,0,1749,1340,2426,2.6547,6612,387
+memory-v1-eval-a1-r5,estructurada,5,India,2017,0,5,0.1805,0,0,1730,1317,2795,2.8754,6486,178
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2017,0,5,0.144,0,0,1573,1235,1568,2.0109,6411,155
+memory-v1-eval-a1-r5,estructurada,5,United States,2018,0,4,0.1918,0,0,1473,1444,3390,3.3079,7440,231
+memory-v1-eval-a1-r5,estructurada,5,China,2018,0,5,0.1345,0,0,1802,1318,1813,2.252,7964,190
+memory-v1-eval-a1-r5,estructurada,5,India,2018,1,4,0.1966,0,0,1767,1199,1595,2.0301,7566,376
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2018,0,5,0.1677,0.0054,0,1635,1318,2454,2.6439,7876,173
+memory-v1-eval-a1-r5,estructurada,5,United States,2019,0,5,0.1815,0.0027,0,1517,1272,2529,2.6473,8826,178
+memory-v1-eval-a1-r5,estructurada,5,China,2019,0,5,0.1304,0,0,1858,1361,3158,3.1544,9330,155
+memory-v1-eval-a1-r5,estructurada,5,India,2019,0,4,0.1864,0,0,1815,1227,2014,2.3246,8835,208
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2019,0,5,0.2028,0,0,1678,1312,2937,2.9571,9270,164
+memory-v1-eval-a1-r5,estructurada,5,United States,2020,0,5,0.118,0,0,1541,1206,2042,2.2937,10048,196
+memory-v1-eval-a1-r5,estructurada,5,China,2020,1,4,0.1808,0,0.0833,1862,1161,2546,2.6312,10504,402
+memory-v1-eval-a1-r5,estructurada,5,India,2020,0,5,0.1273,0.0058,0,1839,872,2496,2.4096,10096,176
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2020,0,5,0.1355,0,0,1678,1227,1550,2.0076,10547,181
+memory-v1-eval-a1-r5,estructurada,5,United States,2021,0,5,0.1513,0,0,1561,1275,2005,2.317,11197,132
+memory-v1-eval-a1-r5,estructurada,5,China,2021,0,5,0.1176,0,0,1879,1216,1671,2.1045,11814,113
+memory-v1-eval-a1-r5,estructurada,5,India,2021,0,5,0.1567,0,0,1851,953,2762,2.635,11417,151
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2021,0,5,0.1491,0,0,1709,1389,2692,2.8527,11903,207
+memory-v1-eval-a1-r5,estructurada,5,United States,2022,0,5,0.1552,0,0,1579,866,2094,2.1129,12491,214
+memory-v1-eval-a1-r5,estructurada,5,China,2022,0,5,0.1325,0,0,1880,870,2587,2.4723,13116,187
+memory-v1-eval-a1-r5,estructurada,5,India,2022,0,5,0.1556,0.005,0,1839,1404,2464,2.7321,12828,163
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2022,0,5,0.1014,0.0032,0,1733,1346,1758,2.2256,13257,165
+memory-v1-eval-a1-r5,estructurada,5,United States,2023,0,5,0.1425,0,0,1605,1270,1962,2.2917,13774,156
+memory-v1-eval-a1-r5,estructurada,5,China,2023,0,5,0.1925,0,0,1917,885,2274,2.2848,14460,207
+memory-v1-eval-a1-r5,estructurada,5,India,2023,0,5,0.1465,0,0,1876,1288,2487,2.6769,14078,164
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2023,0,5,0.1389,0,0,1773,1216,1884,2.2282,14577,139
+memory-v1-eval-a1-r5,estructurada,5,United States,2024,0,5,0.1441,0,0,1633,1218,2297,2.4778,15016,152
+memory-v1-eval-a1-r5,estructurada,5,China,2024,0,5,0.1569,0,0,1960,1319,1943,2.3568,15922,172
+memory-v1-eval-a1-r5,estructurada,5,India,2024,0,5,0.1499,0,0,1918,1300,2436,2.6571,15388,148
+memory-v1-eval-a1-r5,estructurada,5,Pakistan,2024,0,5,0.1868,0,0,1806,1284,1803,2.2241,15974,200
+memory-v1-eval-a1g-r6,plana,6,United States,2015,,,,0,,1037,886,2207,2.1288,,
+memory-v1-eval-a1g-r6,plana,6,China,2015,,,,0,,1054,1206,1592,1.9407,,
+memory-v1-eval-a1g-r6,plana,6,India,2015,,,,0,,1039,1259,2205,2.3683,,
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2015,,,,0.0029,,1027,1317,2319,2.4777,,
+memory-v1-eval-a1g-r6,plana,6,United States,2016,0,5,0.2468,0,0,1762,1298,2223,2.4983,4479,155
+memory-v1-eval-a1g-r6,plana,6,China,2016,0,5,0.1373,0,0,2071,926,2746,2.6356,5141,176
+memory-v1-eval-a1g-r6,plana,6,India,2016,0,5,0.1614,0,0,2088,837,2105,2.1669,5125,182
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2016,0,5,0.1407,0,0,1915,1264,2198,2.48,4850,129
+memory-v1-eval-a1g-r6,plana,6,United States,2017,0,5,0.3316,0,0.0833,1860,926,3087,2.8283,5858,148
+memory-v1-eval-a1g-r6,plana,6,China,2017,0,5,0.1177,0,0,2213,1225,1948,2.3321,6456,189
+memory-v1-eval-a1g-r6,plana,6,India,2017,0,5,0.1314,0,0,2118,1365,3057,3.1254,6587,183
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2017,0,5,0.1149,0,0,2036,889,2624,2.5285,6250,147
+memory-v1-eval-a1g-r6,plana,6,United States,2018,0,5,0.2387,0,0,1964,940,3485,3.1075,7264,218
+memory-v1-eval-a1g-r6,plana,6,China,2018,0,5,0.1292,0,0,2222,1236,2479,2.6828,7764,173
+memory-v1-eval-a1g-r6,plana,6,India,2018,0,5,0.1635,0,0,2255,1210,1820,2.2452,7910,178
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2018,1,4,0.1456,0,0,2082,1282,2566,2.7505,7661,390
+memory-v1-eval-a1g-r6,plana,6,United States,2019,0,5,0.2772,0,0,2040,1190,2501,2.6439,8487,180
+memory-v1-eval-a1g-r6,plana,6,China,2019,0,5,0.1175,0,0,2312,1293,1624,2.1797,9234,149
+memory-v1-eval-a1g-r6,plana,6,India,2019,0,5,0.1367,0,0,2306,912,3215,2.9594,9312,149
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2019,0,5,0.1731,0,0,2164,1294,1813,2.2832,9008,154
+memory-v1-eval-a1g-r6,plana,6,United States,2020,0,5,0.2321,0,0,2059,1227,1555,2.06,9805,198
+memory-v1-eval-a1g-r6,plana,6,China,2020,0,5,0.1005,0,0,2442,1290,1927,2.39,10571,170
+memory-v1-eval-a1g-r6,plana,6,India,2020,0,5,0.154,0,0,2392,1310,1792,2.3094,10627,185
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2020,0,5,0.2421,0,0.0833,2265,1407,1555,2.2027,10439,234
+memory-v1-eval-a1g-r6,plana,6,United States,2021,0,5,0.1749,0,0,2145,1224,1966,2.3343,11123,182
+memory-v1-eval-a1g-r6,plana,6,China,2021,0,5,0.1185,0,0,2495,1307,1043,1.8376,12017,174
+memory-v1-eval-a1g-r6,plana,6,India,2021,0,5,0.1686,0,0,2444,1306,1998,2.4464,12061,185
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2021,0,5,0.1869,0,0.0833,2321,1349,1872,2.377,11863,150
+memory-v1-eval-a1g-r6,plana,6,United States,2022,0,5,0.1818,0,0,2239,1246,2562,2.745,12446,218
+memory-v1-eval-a1g-r6,plana,6,China,2022,0,5,0.1206,0,0,2578,1259,1728,2.2592,13341,208
+memory-v1-eval-a1g-r6,plana,6,India,2022,0,5,0.2052,0,0.0833,2557,958,2505,2.5635,13412,168
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2022,0,5,0.1073,0,0,2448,1179,1574,2.0915,13086,152
+memory-v1-eval-a1g-r6,plana,6,United States,2023,0,5,0.1877,0,0,2309,826,2919,2.7134,13831,206
+memory-v1-eval-a1g-r6,plana,6,China,2023,0,5,0.1981,0,0,2592,1197,2187,2.517,14610,216
+memory-v1-eval-a1g-r6,plana,6,India,2023,0,5,0.1686,0,0,2640,852,1991,2.1743,14672,139
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2023,0,5,0.1211,0,0,2401,1227,2351,2.6175,14434,126
+memory-v1-eval-a1g-r6,plana,6,United States,2024,0,5,0.1879,0,0,2367,1305,1999,2.4364,15104,148
+memory-v1-eval-a1g-r6,plana,6,China,2024,0,5,0.1679,0,0,2655,1224,2132,2.5071,15940,157
+memory-v1-eval-a1g-r6,plana,6,India,2024,0,5,0.1837,0,0,2649,935,1824,2.1213,16056,162
+memory-v1-eval-a1g-r6,plana,6,Pakistan,2024,0,5,0.1591,0,0,2521,1300,2298,2.6459,15688,184
+memory-v1-eval-a1-r6,estructurada,6,United States,2015,,,,0,,1157,1306,2409,2.5454,,
+memory-v1-eval-a1-r6,estructurada,6,China,2015,,,,0,,1190,1342,1965,2.2865,,
+memory-v1-eval-a1-r6,estructurada,6,India,2015,,,,0,,1163,873,2379,2.2476,,
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2015,,,,0,,1148,928,2391,2.2888,,
+memory-v1-eval-a1-r6,estructurada,6,United States,2016,0,5,0.1787,0.0059,0,1358,1264,1761,2.1263,4359,190
+memory-v1-eval-a1-r6,estructurada,6,China,2016,0,5,0.1549,0,0,1660,894,2095,2.142,5094,167
+memory-v1-eval-a1-r6,estructurada,6,India,2016,0,5,0.1754,0.0105,0,1638,1285,2518,2.6642,5152,175
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2016,0,5,0.1237,0,0,1502,1205,2251,2.4229,4873,179
+memory-v1-eval-a1-r6,estructurada,6,United States,2017,1,4,0.1939,0,0,1415,1246,2325,2.4858,5693,319
+memory-v1-eval-a1-r6,estructurada,6,China,2017,0,5,0.1526,0,0,1730,1408,2409,2.6851,6525,137
+memory-v1-eval-a1-r6,estructurada,6,India,2017,0,5,0.1698,0,0,1697,1212,2223,2.4345,6390,131
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2017,0,5,0.1578,0,0,1561,1301,3149,3.0716,6310,178
+memory-v1-eval-a1-r6,estructurada,6,United States,2018,0,5,0.1068,0,0,1476,1272,2375,2.5427,6999,185
+memory-v1-eval-a1-r6,estructurada,6,China,2018,0,5,0.2234,0,0.0833,1767,1358,2116,2.4687,7878,153
+memory-v1-eval-a1-r6,estructurada,6,India,2018,0,5,0.1335,0,0,1763,1387,3038,3.0816,7753,212
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2018,1,4,0.1865,0,0,1612,1242,1657,2.0778,7616,344
+memory-v1-eval-a1-r6,estructurada,6,United States,2019,0,5,0.1248,0,0,1507,1210,2344,2.4867,8241,189
+memory-v1-eval-a1-r6,estructurada,6,China,2019,0,5,0.2113,0,0,1832,1219,2600,2.6996,9155,160
+memory-v1-eval-a1-r6,estructurada,6,India,2019,0,5,0.1642,0,0,1804,1290,2460,2.6515,9083,171
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2019,0,4,0.1995,0,0.0833,1681,898,2897,2.6646,9042,229
+memory-v1-eval-a1-r6,estructurada,6,United States,2020,0,5,0.1634,0,0,1529,1246,2414,2.5579,9585,177
+memory-v1-eval-a1-r6,estructurada,6,China,2020,0,5,0.1328,0,0,1834,1260,705,1.504,10449,167
+memory-v1-eval-a1-r6,estructurada,6,India,2020,0,5,0.1665,0,0,1817,1407,1841,2.3294,10463,132
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2020,0,5,0.1407,0,0,1684,1287,1957,2.3096,10418,153
+memory-v1-eval-a1-r6,estructurada,6,United States,2021,0,5,0.1417,0,0,1538,850,2530,2.3785,10885,209
+memory-v1-eval-a1-r6,estructurada,6,China,2021,0,5,0.165,0.0026,0,1849,944,2947,2.7482,11874,173
+memory-v1-eval-a1-r6,estructurada,6,India,2021,0,5,0.1795,0,0,1829,1398,3452,3.3642,11873,222
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2021,0,5,0.1323,0,0,1701,1460,825,1.6933,11892,172
+memory-v1-eval-a1-r6,estructurada,6,United States,2022,0,5,0.1217,0,0,1579,1268,2365,2.547,12264,215
+memory-v1-eval-a1-r6,estructurada,6,China,2022,0,5,0.1412,0,0,1909,1237,2360,2.5663,13255,186
+memory-v1-eval-a1-r6,estructurada,6,India,2022,0,5,0.2047,0,0.0833,1893,1243,1446,1.9786,13299,188
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2022,0,5,0.1142,0,0,1748,1378,2646,2.821,13317,181
+memory-v1-eval-a1-r6,estructurada,6,United States,2023,0,5,0.1766,0,0,1589,1336,2417,2.6257,13537,111
+memory-v1-eval-a1-r6,estructurada,6,China,2023,0,5,0.1224,0,0,1935,1302,1479,2.0434,14486,182
+memory-v1-eval-a1-r6,estructurada,6,India,2023,0,5,0.1864,0,0,1915,1366,2716,2.8799,14605,154
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2023,0,5,0.1584,0,0,1781,1229,1759,2.157,14679,164
+memory-v1-eval-a1-r6,estructurada,6,United States,2024,0,5,0.1332,0,0,1606,1191,2535,2.6104,14813,176
+memory-v1-eval-a1-r6,estructurada,6,China,2024,0,5,0.1302,0,0,1957,1208,2418,2.5912,15716,179
+memory-v1-eval-a1-r6,estructurada,6,India,2024,0,5,0.1679,0,0,1932,1256,1517,2.0378,15940,139
+memory-v1-eval-a1-r6,estructurada,6,Pakistan,2024,0,5,0.1296,0,0,1796,1273,3733,3.4606,16028,159
+memory-v1-eval-a1g-r7,plana,7,United States,2015,,,,0,,1037,865,2509,2.31,,
+memory-v1-eval-a1g-r7,plana,7,China,2015,,,,0,,1054,1398,1606,2.0735,,
+memory-v1-eval-a1g-r7,plana,7,India,2015,,,,0,,1039,1236,1647,1.9936,,
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2015,,,,0,,1027,830,1933,1.9146,,
+memory-v1-eval-a1g-r7,plana,7,United States,2016,0,5,0.1054,0.0028,0,1813,862,2833,2.6172,4494,147
+memory-v1-eval-a1g-r7,plana,7,China,2016,0,5,0.0996,0,0,2159,1294,2703,2.8566,5260,200
+memory-v1-eval-a1g-r7,plana,7,India,2016,1,4,0.1775,0,0,2083,1378,2488,2.7623,5124,359
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2016,0,5,0.1486,0,0,1907,1331,2481,2.7047,4858,142
+memory-v1-eval-a1g-r7,plana,7,United States,2017,1,4,0.1616,0,0,1872,1263,1833,2.2384,5801,329
+memory-v1-eval-a1g-r7,plana,7,China,2017,0,5,0.1091,0,0,2185,1338,3076,3.1289,6699,170
+memory-v1-eval-a1g-r7,plana,7,India,2017,0,5,0.1319,0,0,2225,1322,2013,2.4381,6492,139
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2017,0,5,0.1568,0,0,2018,1191,1032,1.6942,6093,120
+memory-v1-eval-a1g-r7,plana,7,United States,2018,0,5,0.145,0,0,1964,852,1741,1.9258,7172,199
+memory-v1-eval-a1g-r7,plana,7,China,2018,0,5,0.0937,0,0,2310,928,3303,3.027,8092,178
+memory-v1-eval-a1g-r7,plana,7,India,2018,0,5,0.1946,0,0,2299,868,1766,1.9955,7761,133
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2018,0,5,0.1759,0,0,2045,1298,2896,2.9689,7383,153
+memory-v1-eval-a1g-r7,plana,7,United States,2019,0,5,0.1671,0,0,2038,1273,1819,2.2572,8493,234
+memory-v1-eval-a1g-r7,plana,7,China,2019,0,5,0.1115,0,0,2361,1232,2221,2.5318,9436,148
+memory-v1-eval-a1g-r7,plana,7,India,2019,0,5,0.1468,0,0,2325,1258,1964,2.3781,9116,178
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2019,0,5,0.0906,0,0,2178,1362,2642,2.8635,8800,173
+memory-v1-eval-a1g-r7,plana,7,United States,2020,0,5,0.2517,0,0,2053,1319,2291,2.5933,9764,197
+memory-v1-eval-a1g-r7,plana,7,China,2020,0,5,0.0719,0,0,2395,1261,3049,3.0889,10817,223
+memory-v1-eval-a1g-r7,plana,7,India,2020,0,5,0.1263,0,0,2368,1228,2255,2.552,10408,186
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2020,0,5,0.1096,0,0,2262,1265,2103,2.4642,10171,145
+memory-v1-eval-a1g-r7,plana,7,United States,2021,0,5,0.0722,0,0,2146,713,2165,2.1331,10893,192
+memory-v1-eval-a1g-r7,plana,7,China,2021,0,5,0.1075,0.0056,0,2481,1218,2377,2.6388,12162,193
+memory-v1-eval-a1g-r7,plana,7,India,2021,0,5,0.1489,0,0,2439,885,2644,2.5908,11744,180
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2021,0,5,0.1758,0,0.0833,2332,1307,2080,2.4854,11603,173
+memory-v1-eval-a1g-r7,plana,7,United States,2022,0,5,0.1912,0,0,2127,1255,2286,2.5583,12158,140
+memory-v1-eval-a1g-r7,plana,7,China,2022,0,5,0.1269,0,0,2523,1190,2307,2.581,13417,179
+memory-v1-eval-a1g-r7,plana,7,India,2022,0,5,0.1859,0,0,2535,1312,2442,2.7483,13141,151
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2022,0,5,0.1151,0,0,2432,1211,1668,2.1707,12796,168
+memory-v1-eval-a1g-r7,plana,7,United States,2023,0,5,0.1589,0,0,2246,955,1805,2.0699,13503,220
+memory-v1-eval-a1g-r7,plana,7,China,2023,0,5,0.1429,0,0,2563,892,2784,2.7016,14789,198
+memory-v1-eval-a1g-r7,plana,7,India,2023,0,5,0.1586,0,0,2642,1204,2263,2.577,14477,148
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2023,1,4,0.1518,0,0,2403,845,1610,1.8935,14092,351
+memory-v1-eval-a1g-r7,plana,7,United States,2024,0,5,0.1328,0,0,2379,1300,2095,2.4967,14857,171
+memory-v1-eval-a1g-r7,plana,7,China,2024,0,5,0.1423,0,0,2707,1225,2365,2.6648,16099,166
+memory-v1-eval-a1g-r7,plana,7,India,2024,1,3,0.1872,0,0,2671,936,2359,2.4698,15941,384
+memory-v1-eval-a1g-r7,plana,7,Pakistan,2024,0,4,0.1519,0.0028,0,2496,889,2540,2.5337,15503,206
+memory-v1-eval-a1-r7,estructurada,7,United States,2015,,,,0,,1157,1248,2346,2.4674,,
+memory-v1-eval-a1-r7,estructurada,7,China,2015,,,,0,,1190,804,2132,2.0472,,
+memory-v1-eval-a1-r7,estructurada,7,India,2015,,,,0,,1163,1250,1088,1.658,,
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2015,,,,0,,1148,1230,2064,2.2727,,
+memory-v1-eval-a1-r7,estructurada,7,United States,2016,0,5,0.2018,0,0.0833,1349,1324,2144,2.4109,4506,216
+memory-v1-eval-a1-r7,estructurada,7,China,2016,0,5,0.2,0.0027,0.0833,1657,1328,2378,2.6041,5061,163
+memory-v1-eval-a1-r7,estructurada,7,India,2016,0,5,0.1554,0,0,1631,1360,2741,2.8555,5161,181
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2016,1,4,0.1069,0,0,1489,1250,2434,2.5683,4879,449
+memory-v1-eval-a1-r7,estructurada,7,United States,2017,1,4,0.1921,0,0.0833,1417,912,2420,2.3319,5878,359
+memory-v1-eval-a1-r7,estructurada,7,China,2017,0,5,0.1455,0,0,1722,1226,1736,2.1326,6364,159
+memory-v1-eval-a1-r7,estructurada,7,India,2017,0,5,0.1902,0,0,1690,1270,2349,2.5523,6509,113
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2017,0,5,0.1728,0,0,1558,1347,2013,2.3682,6270,173
+memory-v1-eval-a1-r7,estructurada,7,United States,2018,0,5,0.1088,0,0,1480,907,1986,2.0569,7189,145
+memory-v1-eval-a1-r7,estructurada,7,China,2018,0,4,0.1236,0,0,1800,915,2251,2.2743,7720,186
+memory-v1-eval-a1-r7,estructurada,7,India,2018,0,5,0.1361,0,0,1769,1402,1997,2.4206,7916,167
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2018,0,5,0.1847,0,0,1634,1214,2236,2.436,7533,158
+memory-v1-eval-a1-r7,estructurada,7,United States,2019,0,5,0.114,0,0,1526,1218,2598,2.6582,8454,176
+memory-v1-eval-a1-r7,estructurada,7,China,2019,0,5,0.0956,0,0,1851,1396,3019,3.0865,9239,175
+memory-v1-eval-a1-r7,estructurada,7,India,2019,0,5,0.0984,0,0,1810,1345,1901,2.3272,9346,115
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2019,0,5,0.2067,0.0053,0.0833,1671,1366,3269,3.2051,8933,194
+memory-v1-eval-a1-r7,estructurada,7,United States,2020,0,5,0.2157,0,0,1549,911,2040,2.1032,9785,176
+memory-v1-eval-a1-r7,estructurada,7,China,2020,0,5,0.1649,0,0,1859,1272,2158,2.4522,10486,201
+memory-v1-eval-a1-r7,estructurada,7,India,2020,0,5,0.1648,0.0026,0,1823,1284,1341,1.9283,10714,209
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2020,0,5,0.1594,0.003,0,1684,892,2602,2.4709,10272,182
+memory-v1-eval-a1-r7,estructurada,7,United States,2021,0,5,0.1949,0,0,1573,857,1905,1.9844,11048,167
+memory-v1-eval-a1-r7,estructurada,7,China,2021,0,5,0.157,0,0,1881,911,1827,2.0087,11836,181
+memory-v1-eval-a1-r7,estructurada,7,India,2021,0,5,0.1638,0,0,1856,1185,1661,2.0751,11948,181
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2021,0,5,0.2206,0,0.0833,1701,1381,2009,2.406,11728,148
+memory-v1-eval-a1-r7,estructurada,7,United States,2022,0,5,0.1127,0,0,1587,1276,1901,2.2539,12361,188
+memory-v1-eval-a1-r7,estructurada,7,China,2022,0,5,0.1697,0,0,1912,1162,2094,2.3468,13016,154
+memory-v1-eval-a1-r7,estructurada,7,India,2022,0,5,0.1732,0,0,1872,1419,2341,2.6667,13294,188
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2022,0,5,0.1767,0.0032,0,1718,1273,1580,2.0618,12902,218
+memory-v1-eval-a1-r7,estructurada,7,United States,2023,0,5,0.1936,0,0,1609,1367,2432,2.6579,13732,198
+memory-v1-eval-a1-r7,estructurada,7,China,2023,0,4,0.1636,0,0,1913,1350,2914,2.9971,14338,213
+memory-v1-eval-a1-r7,estructurada,7,India,2023,0,5,0.2215,0.0094,0,1875,1312,2496,2.698,14681,146
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2023,0,5,0.1268,0.0028,0,1749,1372,2207,2.5341,14306,170
+memory-v1-eval-a1-r7,estructurada,7,United States,2024,0,5,0.1494,0,0,1629,1404,2639,2.8179,15128,218
+memory-v1-eval-a1-r7,estructurada,7,China,2024,0,5,0.1875,0,0,1960,1271,2315,2.5658,15745,181
+memory-v1-eval-a1-r7,estructurada,7,India,2024,0,5,0.1953,0.0078,0.0833,1915,1246,1202,1.826,16034,177
+memory-v1-eval-a1-r7,estructurada,7,Pakistan,2024,0,5,0.2099,0,0,1794,1258,2479,2.6418,15695,199
+memory-v1-eval-a1g-r8,plana,8,United States,2015,,,,0,,1037,1208,2664,2.6312,,
+memory-v1-eval-a1g-r8,plana,8,China,2015,,,,0,,1054,781,2255,2.0942,,
+memory-v1-eval-a1g-r8,plana,8,India,2015,,,,0,,1039,1148,1741,1.9974,,
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2015,,,,0,,1027,1291,2315,2.4584,,
+memory-v1-eval-a1g-r8,plana,8,United States,2016,0,5,0.1412,0,0,1775,1277,2519,2.6774,4421,196
+memory-v1-eval-a1g-r8,plana,8,China,2016,0,5,0.1605,0,0,2056,1271,2003,2.377,5086,204
+memory-v1-eval-a1g-r8,plana,8,India,2016,0,5,0.1321,0,0,2075,1280,2176,2.4968,5149,170
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2016,0,5,0.1211,0,0,1882,1281,1523,2.0514,4683,167
+memory-v1-eval-a1g-r8,plana,8,United States,2017,0,5,0.1705,0,0,1900,1245,1965,2.3156,5758,114
+memory-v1-eval-a1g-r8,plana,8,China,2017,0,5,0.0915,0,0,2186,1231,2871,2.9278,6399,175
+memory-v1-eval-a1g-r8,plana,8,India,2017,0,4,0.1366,0,0,2198,1183,2179,2.452,6400,166
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2017,0,5,0.1764,0,0,1998,1249,2699,2.8042,6088,179
+memory-v1-eval-a1g-r8,plana,8,United States,2018,0,4,0.1461,0,0,1941,1385,2363,2.6678,7114,198
+memory-v1-eval-a1g-r8,plana,8,China,2018,0,5,0.1403,0.0209,0,2275,1308,2174,2.5394,7776,198
+memory-v1-eval-a1g-r8,plana,8,India,2018,0,5,0.1419,0,0,2210,1279,2219,2.5413,7790,187
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2018,0,5,0.0987,0,0,2118,1242,687,1.5174,7505,157
+memory-v1-eval-a1g-r8,plana,8,United States,2019,0,5,0.1812,0,0,2040,1235,2353,2.5774,8431,161
+memory-v1-eval-a1g-r8,plana,8,China,2019,0,5,0.1297,0,0,2388,1229,2407,2.6533,9074,188
+memory-v1-eval-a1g-r8,plana,8,India,2019,0,5,0.1608,0,0,2378,1240,2099,2.4604,9080,185
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2019,0,5,0.1565,0.0027,0,2200,1266,2201,2.52,8936,154
+memory-v1-eval-a1g-r8,plana,8,United States,2020,0,5,0.1143,0,0,2074,1173,2331,2.5276,9685,199
+memory-v1-eval-a1g-r8,plana,8,China,2020,0,5,0.1454,0,0.0833,2376,1294,2301,2.6253,10400,221
+memory-v1-eval-a1g-r8,plana,8,India,2020,0,5,0.1175,0,0,2376,1207,2176,2.4885,10390,165
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2020,0,5,0.201,0,0,2247,1345,1958,2.4203,10266,214
+memory-v1-eval-a1g-r8,plana,8,United States,2021,0,5,0.1155,0,0,2110,1323,2213,2.5529,10989,213
+memory-v1-eval-a1g-r8,plana,8,China,2021,0,5,0.1093,0,0,2485,1405,2762,3.0083,11825,141
+memory-v1-eval-a1g-r8,plana,8,India,2021,1,4,0.1264,0,0,2435,1273,2083,2.4787,11714,386
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2021,0,5,0.1324,0,0,2270,1371,2403,2.7271,11621,179
+memory-v1-eval-a1g-r8,plana,8,United States,2022,0,5,0.1308,0,0,2231,1252,1696,2.1893,12312,211
+memory-v1-eval-a1g-r8,plana,8,China,2022,0,5,0.1277,0,0,2584,1219,1763,2.2567,13156,210
+memory-v1-eval-a1g-r8,plana,8,India,2022,1,4,0.1336,0,0,2536,1273,1798,2.3079,13062,398
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2022,0,5,0.1671,0,0,2412,1385,2259,2.6615,13056,187
+memory-v1-eval-a1g-r8,plana,8,United States,2023,0,5,0.1302,0,0,2313,816,1958,2.0876,13562,129
+memory-v1-eval-a1g-r8,plana,8,China,2023,0,5,0.1337,0,0,2620,1246,1731,2.2581,14455,204
+memory-v1-eval-a1g-r8,plana,8,India,2023,0,5,0.1382,0,0,2635,1262,2223,2.5877,14424,155
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2023,0,5,0.1227,0,0,2499,1274,1271,1.9639,14424,147
+memory-v1-eval-a1g-r8,plana,8,United States,2024,0,5,0.2088,0,0,2338,1219,2332,2.592,14825,172
+memory-v1-eval-a1g-r8,plana,8,China,2024,1,4,0.1498,0,0,2669,863,2151,2.2883,15789,342
+memory-v1-eval-a1g-r8,plana,8,India,2024,0,5,0.1733,0,0,2696,1309,1508,2.1647,15799,154
+memory-v1-eval-a1g-r8,plana,8,Pakistan,2024,0,5,0.1477,0,0,2517,1205,2171,2.5022,15719,192
+memory-v1-eval-a1-r8,estructurada,8,United States,2015,,,,0,,1157,1230,2152,2.3306,,
+memory-v1-eval-a1-r8,estructurada,8,China,2015,,,,0,,1190,1171,2708,2.6555,,
+memory-v1-eval-a1-r8,estructurada,8,India,2015,,,,0,,1163,1207,1808,2.0947,,
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2015,,,,0.0036,,1148,806,1453,1.6051,,
+memory-v1-eval-a1-r8,estructurada,8,United States,2016,0,5,0.1984,0,0,1342,1197,2087,2.2913,4469,140
+memory-v1-eval-a1-r8,estructurada,8,China,2016,0,5,0.1427,0,0,1647,1218,2550,2.6428,4910,151
+memory-v1-eval-a1-r8,estructurada,8,India,2016,0,5,0.1545,0.0055,0,1615,912,1906,2.0259,5065,140
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2016,0,5,0.1841,0,0,1480,1245,1874,2.2027,4719,142
+memory-v1-eval-a1-r8,estructurada,8,United States,2017,0,5,0.1536,0,0,1412,1288,2279,2.4829,5755,190
+memory-v1-eval-a1-r8,estructurada,8,China,2017,0,5,0.132,0,0,1723,1269,2601,2.7184,6326,135
+memory-v1-eval-a1-r8,estructurada,8,India,2017,0,5,0.1367,0,0,1698,833,1948,2.0128,6295,201
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2017,0,5,0.1245,0.0026,0,1556,1392,2612,2.7833,6212,149
+memory-v1-eval-a1-r8,estructurada,8,United States,2018,0,5,0.1371,0,0,1463,1369,2665,2.7907,7113,215
+memory-v1-eval-a1-r8,estructurada,8,China,2018,0,4,0.1384,0,0,1757,898,2307,2.2939,7594,200
+memory-v1-eval-a1-r8,estructurada,8,India,2018,0,5,0.1611,0,0,1747,1436,1767,2.2913,7730,153
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2018,0,5,0.149,0.0026,0,1607,1277,1775,2.1758,7626,139
+memory-v1-eval-a1-r8,estructurada,8,United States,2019,0,5,0.1188,0,0,1513,1263,1753,2.1405,8419,164
+memory-v1-eval-a1-r8,estructurada,8,China,2019,0,5,0.1354,0.005,0,1841,863,2464,2.3834,8933,168
+memory-v1-eval-a1-r8,estructurada,8,India,2019,0,5,0.1392,0,0,1813,833,1968,2.0405,8961,172
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2019,1,4,0.19,0,0.0833,1677,1378,2656,2.8183,9064,340
+memory-v1-eval-a1-r8,estructurada,8,United States,2020,0,5,0.1122,0,0,1538,1227,2242,2.4359,9692,198
+memory-v1-eval-a1-r8,estructurada,8,China,2020,0,5,0.1109,0,0,1864,1264,2228,2.4928,10273,219
+memory-v1-eval-a1-r8,estructurada,8,India,2020,0,5,0.0784,0,0,1843,1195,1693,2.1005,10208,191
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2020,0,5,0.2069,0,0.0833,1678,1300,2330,2.5578,10418,204
+memory-v1-eval-a1-r8,estructurada,8,United States,2021,0,5,0.155,0,0,1562,1175,1420,1.8753,10892,145
+memory-v1-eval-a1-r8,estructurada,8,China,2021,0,5,0.1511,0,0,1871,1219,2365,2.553,11517,202
+memory-v1-eval-a1-r8,estructurada,8,India,2021,0,5,0.0996,0,0,1864,880,2258,2.2645,11541,134
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2021,0,5,0.1885,0.0027,0,1713,903,2070,2.1386,11820,182
+memory-v1-eval-a1-r8,estructurada,8,United States,2022,0,5,0.1184,0,0,1587,813,2757,2.5074,12041,210
+memory-v1-eval-a1-r8,estructurada,8,China,2022,0,5,0.135,0,0,1878,1208,1861,2.2218,12773,141
+memory-v1-eval-a1-r8,estructurada,8,India,2022,0,5,0.1256,0.0074,0,1866,953,3136,2.8781,12946,167
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2022,1,4,0.1658,0,0,1725,918,2802,2.6219,13167,366
+memory-v1-eval-a1-r8,estructurada,8,United States,2023,0,5,0.1319,0,0,1605,1142,1914,2.1782,13243,142
+memory-v1-eval-a1-r8,estructurada,8,China,2023,0,5,0.1162,0,0,1926,1150,2349,2.5053,13934,187
+memory-v1-eval-a1-r8,estructurada,8,India,2023,0,5,0.1445,0,0,1903,895,1835,2.0063,14236,165
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2023,0,5,0.1916,0,0,1768,1258,2403,2.5894,14493,127
+memory-v1-eval-a1-r8,estructurada,8,United States,2024,0,5,0.1347,0,0,1629,848,2279,2.2271,14607,181
+memory-v1-eval-a1-r8,estructurada,8,China,2024,0,5,0.2146,0,0.0833,1942,1231,1951,2.3029,15246,140
+memory-v1-eval-a1-r8,estructurada,8,India,2024,0,5,0.1202,0,0,1919,1361,2475,2.7218,15564,195
+memory-v1-eval-a1-r8,estructurada,8,Pakistan,2024,0,5,0.1966,0,0,1786,1220,2108,2.377,15798,153
+memory-v1-eval-a1g-r9,plana,9,United States,2015,,,,0,,1037,862,2140,2.0701,,
+memory-v1-eval-a1g-r9,plana,9,China,2015,,,,0,,1054,1289,2281,2.4386,,
+memory-v1-eval-a1g-r9,plana,9,India,2015,,,,0,,1039,1243,1851,2.1297,,
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2015,,,,0,,1027,878,2385,2.2371,,
+memory-v1-eval-a1g-r9,plana,9,United States,2016,0,5,0.1567,0,0,1774,1282,1993,2.3412,4354,193
+memory-v1-eval-a1g-r9,plana,9,China,2016,0,5,0.1178,0.0053,0,2152,866,1812,2.0049,5196,193
+memory-v1-eval-a1g-r9,plana,9,India,2016,0,5,0.2124,0,0,2089,1394,2480,2.7682,5128,135
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2016,0,5,0.1776,0,0,1946,1342,1968,2.386,4891,174
+memory-v1-eval-a1g-r9,plana,9,United States,2017,0,5,0.2414,0,0.0833,1816,1408,2709,2.8897,5649,183
+memory-v1-eval-a1g-r9,plana,9,China,2017,0,5,0.0939,0,0,2201,914,3815,3.3341,6579,199
+memory-v1-eval-a1g-r9,plana,9,India,2017,0,5,0.1158,0,0,2187,1269,2417,2.6596,6471,173
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2017,0,5,0.1717,0,0,2001,1240,1170,1.8126,6223,124
+memory-v1-eval-a1g-r9,plana,9,United States,2018,0,5,0.1763,0,0,1926,1266,2400,2.613,7005,178
+memory-v1-eval-a1g-r9,plana,9,China,2018,0,5,0.0901,0,0,2292,1284,2115,2.488,7961,167
+memory-v1-eval-a1g-r9,plana,9,India,2018,0,5,0.1357,0,0,2258,1246,2523,2.7223,7808,162
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2018,0,5,0.1648,0,0,2097,1376,1901,2.3842,7622,140
+memory-v1-eval-a1g-r9,plana,9,United States,2019,0,5,0.1384,0,0,2042,904,2281,2.3177,8264,185
+memory-v1-eval-a1g-r9,plana,9,China,2019,0,5,0.1187,0,0,2349,1263,2339,2.6263,9348,129
+memory-v1-eval-a1g-r9,plana,9,India,2019,0,5,0.1493,0,0,2324,1273,2320,2.6173,9094,154
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2019,0,5,0.1909,0,0,2174,1410,1874,2.3986,9078,127
+memory-v1-eval-a1g-r9,plana,9,United States,2020,0,5,0.1854,0,0,2085,1202,2237,2.4871,9561,178
+memory-v1-eval-a1g-r9,plana,9,China,2020,0,5,0.1369,0,0,2465,856,2157,2.2614,10649,206
+memory-v1-eval-a1g-r9,plana,9,India,2020,0,5,0.1432,0,0,2404,1346,3106,3.1817,10439,189
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2020,0,5,0.2787,0.0028,0.0833,2302,1261,2189,2.5222,10456,124
+memory-v1-eval-a1g-r9,plana,9,United States,2021,0,5,0.1035,0.0056,0,2158,889,2167,2.2495,10817,190
+memory-v1-eval-a1g-r9,plana,9,China,2021,0,5,0.1338,0,0,2466,1272,1880,2.3512,11993,176
+memory-v1-eval-a1g-r9,plana,9,India,2021,0,5,0.1495,0,0,2447,1280,1538,2.1333,11753,171
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2021,0,5,0.2929,0,0.1667,2312,1217,1753,2.2139,11771,167
+memory-v1-eval-a1g-r9,plana,9,United States,2022,0,5,0.1348,0,0,2227,1224,1726,2.19,12059,147
+memory-v1-eval-a1g-r9,plana,9,China,2022,0,5,0.1171,0,0,2540,1274,2192,2.5632,13311,153
+memory-v1-eval-a1g-r9,plana,9,India,2022,0,5,0.2087,0,0,2513,867,2360,2.4056,13042,170
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2022,1,3,0.1534,0,0,2379,842,2375,2.3819,13099,416
+memory-v1-eval-a1g-r9,plana,9,United States,2023,0,5,0.2022,0,0,2285,1198,2135,2.4446,13333,222
+memory-v1-eval-a1g-r9,plana,9,China,2023,0,5,0.171,0,0.0833,2629,1162,1560,2.0948,14521,226
+memory-v1-eval-a1g-r9,plana,9,India,2023,0,5,0.2028,0,0.0833,2573,1277,1766,2.2947,14397,136
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2023,0,5,0.2137,0,0,2444,1362,2485,2.7966,14517,146
+memory-v1-eval-a1g-r9,plana,9,United States,2024,0,5,0.1732,0,0,2354,1228,2112,2.458,14553,141
+memory-v1-eval-a1g-r9,plana,9,China,2024,0,5,0.1552,0,0,2639,1248,2196,2.5618,15838,190
+memory-v1-eval-a1g-r9,plana,9,India,2024,0,5,0.1782,0,0,2635,1323,2349,2.7084,15761,146
+memory-v1-eval-a1g-r9,plana,9,Pakistan,2024,0,5,0.2863,0,0.0833,2558,1249,1543,2.1308,15885,168
+memory-v1-eval-a1-r9,estructurada,9,United States,2015,,,,0,,1157,1199,1926,2.1649,,
+memory-v1-eval-a1-r9,estructurada,9,China,2015,,,,0,,1190,1300,1777,2.1382,,
+memory-v1-eval-a1-r9,estructurada,9,India,2015,,,,0,,1163,1358,1657,2.0947,,
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2015,,,,0,,1148,1301,2141,2.3682,,
+memory-v1-eval-a1-r9,estructurada,9,United States,2016,0,5,0.1461,0,0,1345,1259,2579,2.649,4477,170
+memory-v1-eval-a1-r9,estructurada,9,China,2016,0,5,0.139,0.0028,0,1641,1248,2166,2.4137,5075,208
+memory-v1-eval-a1-r9,estructurada,9,India,2016,0,5,0.156,0.003,0,1618,1206,2868,2.8365,5117,154
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2016,0,5,0.1325,0.0052,0,1475,1282,2701,2.7593,4904,143
+memory-v1-eval-a1-r9,estructurada,9,United States,2017,0,5,0.2111,0,0,1406,1258,2555,2.6408,5790,159
+memory-v1-eval-a1-r9,estructurada,9,China,2017,0,5,0.1226,0,0,1721,850,1940,2.0216,6342,186
+memory-v1-eval-a1-r9,estructurada,9,India,2017,0,4,0.1135,0,0,1694,892,2601,2.4715,6426,202
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2017,1,4,0.123,0,0,1547,913,2277,2.2571,6320,381
+memory-v1-eval-a1-r9,estructurada,9,United States,2018,0,5,0.1735,0,0,1463,1151,1785,2.0824,6981,158
+memory-v1-eval-a1-r9,estructurada,9,China,2018,1,4,0.1839,0,0,1777,1265,1634,2.0991,7700,370
+memory-v1-eval-a1-r9,estructurada,9,India,2018,0,5,0.1715,0,0,1762,1253,2465,2.6254,7724,200
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2018,0,5,0.1513,0,0.0833,1610,1272,1839,2.2143,7642,160
+memory-v1-eval-a1-r9,estructurada,9,United States,2019,0,5,0.1337,0,0,1497,1234,1771,2.1313,8288,134
+memory-v1-eval-a1-r9,estructurada,9,China,2019,0,5,0.1512,0,0,1837,1242,2269,2.5016,9010,182
+memory-v1-eval-a1-r9,estructurada,9,India,2019,0,5,0.1353,0,0,1802,1318,2418,2.6422,9113,120
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2019,0,5,0.2083,0,0.0833,1679,1347,2295,2.5657,9163,135
+memory-v1-eval-a1-r9,estructurada,9,United States,2020,0,5,0.1206,0,0,1536,836,2797,2.5414,9553,188
+memory-v1-eval-a1-r9,estructurada,9,China,2020,0,5,0.1126,0,0,1859,1205,2488,2.6218,10419,136
+memory-v1-eval-a1-r9,estructurada,9,India,2020,0,5,0.109,0.0052,0,1842,1263,2497,2.6628,10516,154
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2020,1,4,0.1449,0.0056,0,1702,1249,1700,2.1217,10505,260
+memory-v1-eval-a1-r9,estructurada,9,United States,2021,0,5,0.1618,0,0,1556,1285,2494,2.6382,10815,132
+memory-v1-eval-a1-r9,estructurada,9,China,2021,0,5,0.1914,0,0.0833,1869,1294,2062,2.4057,11714,222
+memory-v1-eval-a1-r9,estructurada,9,India,2021,0,5,0.1263,0,0,1850,972,2932,2.7567,11878,168
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2021,0,5,0.1298,0,0,1716,1258,1827,2.2112,11828,180
+memory-v1-eval-a1-r9,estructurada,9,United States,2022,0,5,0.1746,0,0,1577,870,2626,2.4584,12005,134
+memory-v1-eval-a1-r9,estructurada,9,China,2022,0,5,0.1095,0,0,1902,1235,1485,1.9998,13079,157
+memory-v1-eval-a1-r9,estructurada,9,India,2022,0,5,0.1133,0,0,1881,1279,706,1.523,13203,164
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2022,1,4,0.1798,0.0053,0.0833,1739,1295,1862,2.2606,13241,393
+memory-v1-eval-a1-r9,estructurada,9,United States,2023,0,5,0.1983,0,0.0833,1594,1246,1943,2.2625,13309,184
+memory-v1-eval-a1-r9,estructurada,9,China,2023,0,5,0.0776,0,0,1916,861,1850,1.9958,14350,206
+memory-v1-eval-a1-r9,estructurada,9,India,2023,0,5,0.1239,0,0,1906,1314,2304,2.5795,14594,121
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2023,0,5,0.1371,0,0,1759,1400,2279,2.5999,14713,145
+memory-v1-eval-a1-r9,estructurada,9,United States,2024,0,5,0.1675,0,0,1621,1210,1937,2.2389,14519,168
+memory-v1-eval-a1-r9,estructurada,9,China,2024,1,4,0.1484,0,0,1939,1285,2502,2.6927,15761,436
+memory-v1-eval-a1-r9,estructurada,9,India,2024,0,5,0.1431,0,0,1923,1229,2289,2.5172,15915,162
+memory-v1-eval-a1-r9,estructurada,9,Pakistan,2024,1,4,0.1902,0,0,1808,1287,2135,2.4404,15941,385
+memory-v1-eval-a1g-r10,plana,10,United States,2015,,,,0,,1037,813,1929,1.9024,,
+memory-v1-eval-a1g-r10,plana,10,China,2015,,,,0,,1054,1218,1833,2.1039,,
+memory-v1-eval-a1g-r10,plana,10,India,2015,,,,0,,1039,1177,1749,2.0213,,
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2015,,,,0,,1027,1159,1918,2.1171,,
+memory-v1-eval-a1g-r10,plana,10,United States,2016,0,5,0.1533,0,0,1743,911,2276,2.2805,4371,92
+memory-v1-eval-a1g-r10,plana,10,China,2016,0,5,0.1606,0.0029,0,2084,1218,2911,2.932,5107,162
+memory-v1-eval-a1g-r10,plana,10,India,2016,0,5,0.1664,0.0027,0,2037,1248,2277,2.5364,5057,163
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2016,0,5,0.188,0,0,1881,1306,1206,1.8629,4676,174
+memory-v1-eval-a1g-r10,plana,10,United States,2017,0,5,0.1702,0,0,1872,1142,2210,2.4035,5532,173
+memory-v1-eval-a1g-r10,plana,10,China,2017,0,5,0.1406,0,0,2158,856,2386,2.3695,6445,187
+memory-v1-eval-a1g-r10,plana,10,India,2017,0,5,0.1429,0,0,2170,1335,2206,2.5639,6369,189
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2017,0,5,0.1266,0,0,2007,1237,2064,2.388,6069,185
+memory-v1-eval-a1g-r10,plana,10,United States,2018,0,5,0.1616,0,0,1850,864,2084,2.1401,6791,167
+memory-v1-eval-a1g-r10,plana,10,China,2018,0,5,0.1544,0,0,2259,1319,2156,2.5328,7751,136
+memory-v1-eval-a1g-r10,plana,10,India,2018,1,4,0.1429,0,0,2231,1214,2404,2.6214,7659,443
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2018,0,5,0.2196,0,0,2101,1171,1531,2.0138,7359,170
+memory-v1-eval-a1g-r10,plana,10,United States,2019,0,5,0.2255,0,0.0833,1985,1274,2146,2.462,8065,177
+memory-v1-eval-a1g-r10,plana,10,China,2019,0,5,0.1141,0,0,2317,1261,2533,2.746,9078,157
+memory-v1-eval-a1g-r10,plana,10,India,2019,0,5,0.1634,0,0,2298,1402,1804,2.3643,9036,203
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2019,0,5,0.1889,0,0,2140,844,1952,2.0795,8698,113
+memory-v1-eval-a1g-r10,plana,10,United States,2020,0,5,0.2043,0,0,2077,1228,2620,2.7499,9409,170
+memory-v1-eval-a1g-r10,plana,10,China,2020,0,5,0.0949,0,0,2426,1354,1986,2.4673,10432,156
+memory-v1-eval-a1g-r10,plana,10,India,2020,0,5,0.1855,0.0066,0,2423,1184,694,1.5239,10242,182
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2020,0,5,0.191,0,0,2231,1194,2064,2.3892,9966,139
+memory-v1-eval-a1g-r10,plana,10,United States,2021,0,5,0.1575,0,0,2130,1214,2461,2.6451,10665,180
+memory-v1-eval-a1g-r10,plana,10,China,2021,0,5,0.1162,0,0,2503,1378,709,1.669,11795,177
+memory-v1-eval-a1g-r10,plana,10,India,2021,0,5,0.1759,0.0027,0,2392,1274,2015,2.43,11557,146
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2021,0,5,0.1754,0,0,2278,1263,1879,2.3205,11385,215
+memory-v1-eval-a1g-r10,plana,10,United States,2022,0,5,0.1153,0,0,2183,1266,2148,2.4836,12030,170
+memory-v1-eval-a1g-r10,plana,10,China,2022,0,5,0.1534,0,0,2569,790,2034,2.1529,13103,142
+memory-v1-eval-a1g-r10,plana,10,India,2022,0,5,0.1878,0,0,2546,1402,2438,2.8052,12965,155
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2022,0,5,0.1816,0,0.0833,2419,1248,2286,2.5915,12762,203
+memory-v1-eval-a1g-r10,plana,10,United States,2023,0,5,0.1253,0,0,2289,1209,2732,2.8372,13270,147
+memory-v1-eval-a1g-r10,plana,10,China,2023,0,5,0.1049,0,0,2569,1176,2560,2.7411,14300,210
+memory-v1-eval-a1g-r10,plana,10,India,2023,0,5,0.2195,0,0,2623,1290,2925,3.057,14272,208
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2023,0,5,0.1413,0,0,2458,1227,1313,1.9554,14068,192
+memory-v1-eval-a1g-r10,plana,10,United States,2024,0,5,0.2554,0,0,2344,1332,1768,2.3019,14517,170
+memory-v1-eval-a1g-r10,plana,10,China,2024,0,5,0.1625,0,0,2648,1314,2106,2.5475,15580,185
+memory-v1-eval-a1g-r10,plana,10,India,2024,0,5,0.2026,0,0,2659,814,1633,1.9213,15519,181
+memory-v1-eval-a1g-r10,plana,10,Pakistan,2024,0,5,0.1978,0.0027,0,2517,1392,2012,2.5203,15513,209
+memory-v1-eval-a1-r10,estructurada,10,United States,2015,,,,0,,1157,1217,1845,2.1242,,
+memory-v1-eval-a1-r10,estructurada,10,China,2015,,,,0,,1190,830,1786,1.8408,,
+memory-v1-eval-a1-r10,estructurada,10,India,2015,,,,0,,1163,1249,2046,2.2753,,
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2015,,,,0,,1148,1198,1875,2.1302,,
+memory-v1-eval-a1-r10,estructurada,10,United States,2016,1,4,0.2424,0,0.0833,1345,1237,1897,2.1949,4430,392
+memory-v1-eval-a1-r10,estructurada,10,China,2016,0,5,0.1255,0,0,1651,1262,2498,2.6382,5005,161
+memory-v1-eval-a1-r10,estructurada,10,India,2016,0,5,0.1715,0,0,1631,1277,706,1.4894,4986,210
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2016,1,4,0.1643,0,0,1479,1209,1735,2.0897,4707,357
+memory-v1-eval-a1-r10,estructurada,10,United States,2017,0,5,0.2027,0.0028,0,1426,1261,1714,2.1028,5787,160
+memory-v1-eval-a1-r10,estructurada,10,China,2017,0,5,0.0947,0.0049,0,1722,1309,2208,2.4906,6394,198
+memory-v1-eval-a1-r10,estructurada,10,India,2017,0,5,0.163,0,0,1706,1370,2529,2.7349,6321,105
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2017,1,4,0.1812,0.0119,0,1568,905,1962,2.0515,6180,359
+memory-v1-eval-a1-r10,estructurada,10,United States,2018,0,5,0.1328,0,0,1458,1252,1731,2.1121,7054,166
+memory-v1-eval-a1-r10,estructurada,10,China,2018,0,5,0.2118,0,0,1777,845,2391,2.3165,7659,137
+memory-v1-eval-a1-r10,estructurada,10,India,2018,0,5,0.1261,0,0,1745,1252,2052,2.3562,7609,169
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2018,0,5,0.17,0,0,1617,1215,2014,2.2913,7474,177
+memory-v1-eval-a1-r10,estructurada,10,United States,2019,0,5,0.1297,0,0,1499,1172,2225,2.3844,8331,148
+memory-v1-eval-a1-r10,estructurada,10,China,2019,0,5,0.1685,0,0.0833,1825,1369,2696,2.8574,9033,167
+memory-v1-eval-a1-r10,estructurada,10,India,2019,0,5,0.1752,0,0,1797,876,2548,2.4403,8929,125
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2019,1,4,0.2328,0,0,1647,861,2468,2.3597,8783,378
+memory-v1-eval-a1-r10,estructurada,10,United States,2020,0,5,0.099,0,0,1531,958,2761,2.5963,9771,191
+memory-v1-eval-a1-r10,estructurada,10,China,2020,1,4,0.1314,0,0,1830,1300,2482,2.6755,10379,339
+memory-v1-eval-a1-r10,estructurada,10,India,2020,0,5,0.1437,0,0,1816,1233,2307,2.5176,10265,190
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2020,0,5,0.149,0,0,1667,886,2605,2.4667,10114,139
+memory-v1-eval-a1-r10,estructurada,10,United States,2021,0,5,0.1443,0,0,1564,894,2590,2.4489,11076,206
+memory-v1-eval-a1-r10,estructurada,10,China,2021,0,5,0.0953,0,0,1872,887,2207,2.2371,11777,135
+memory-v1-eval-a1-r10,estructurada,10,India,2021,2,3,0.1313,0.0026,0,1867,1269,2578,2.7222,11677,416
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2021,1,4,0.266,0,0.1667,1704,881,2510,2.407,11457,330
+memory-v1-eval-a1-r10,estructurada,10,United States,2022,0,5,0.1338,0,0,1582,1298,1731,2.1578,12310,187
+memory-v1-eval-a1-r10,estructurada,10,China,2022,0,5,0.1126,0,0,1903,1248,2168,2.4488,13105,198
+memory-v1-eval-a1-r10,estructurada,10,India,2022,0,5,0.1071,0,0,1873,1236,2178,2.4436,12998,138
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2022,0,5,0.2347,0.0026,0,1731,1335,2463,2.673,12967,147
+memory-v1-eval-a1-r10,estructurada,10,United States,2023,0,5,0.1627,0,0,1598,1409,2175,2.5178,13635,143
+memory-v1-eval-a1-r10,estructurada,10,China,2023,0,5,0.1926,0,0,1921,906,2603,2.5111,14489,157
+memory-v1-eval-a1-r10,estructurada,10,India,2023,0,5,0.1239,0,0,1897,1259,2580,2.7209,14310,216
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2023,0,5,0.225,0,0,1757,915,2381,2.3526,14295,213
+memory-v1-eval-a1-r10,estructurada,10,United States,2024,0,5,0.2172,0,0,1632,892,2760,2.5661,14986,169
+memory-v1-eval-a1-r10,estructurada,10,China,2024,0,5,0.1393,0,0,1933,840,2482,2.392,15780,117
+memory-v1-eval-a1-r10,estructurada,10,India,2024,0,5,0.1635,0,0,1928,897,2312,2.3185,15720,135
+memory-v1-eval-a1-r10,estructurada,10,Pakistan,2024,0,5,0.2421,0,0,1789,1220,2489,2.6231,15655,172

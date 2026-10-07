@@ -1,0 +1,92 @@
+[
+  {
+    "id": "plana-DE-2018-lituania",
+    "runId": "memory-v1-dev-a1g-r1",
+    "country": "Germany",
+    "year": 2018,
+    "priorFact": "2017.move: stationing additional Bundeswehr mechanized units in Lithuania",
+    "consistent": {
+      "headline": "Bundeswehr units in Lithuania complete first year of rotation",
+      "body": "German mechanized units stationed in Lithuania last year hold readiness drills with NATO allies. Berlin keeps the deployment unchanged."
+    },
+    "contradiction": {
+      "headline": "Berlin says Germany has never stationed troops in Lithuania",
+      "body": "Government spokespeople state that no Bundeswehr units have ever been deployed to Lithuania. Berlin rules out any Baltic presence."
+    }
+  },
+  {
+    "id": "plana-FR-2020-grecia",
+    "runId": "memory-v1-dev-a1g-r1",
+    "country": "France",
+    "year": 2020,
+    "priorFact": "2019.move: France signs a bilateral defense pact with Greece",
+    "consistent": {
+      "headline": "France and Greece hold first review of their defense pact",
+      "body": "Officials meet in Athens to review the bilateral defense pact signed last year. Both sides confirm its commitments remain in force."
+    },
+    "contradiction": {
+      "headline": "Paris says France has never signed a defense pact with Greece",
+      "body": "The foreign ministry states that France has no defense agreement of any kind with Greece. Officials deny any commitment to Athens."
+    }
+  },
+  {
+    "id": "plana-RU-2020-inf",
+    "runId": "memory-v1-dev-a1g-r1",
+    "country": "Russia",
+    "year": 2020,
+    "priorFact": "2019.move: Russia suspends participation in the INF Treaty",
+    "consistent": {
+      "headline": "Moscow keeps INF Treaty suspension in place",
+      "body": "Russian officials confirm the suspension of the INF Treaty announced last year remains in effect. Missile deployments continue."
+    },
+    "contradiction": {
+      "headline": "Moscow says Russia remains a full party to the INF Treaty",
+      "body": "The foreign ministry states that Russia has never suspended its participation in the INF Treaty. Officials insist Moscow is fully bound."
+    }
+  },
+  {
+    "id": "estructurada-DE-2020-aquisgran",
+    "runId": "memory-v1-dev-a1-r1",
+    "country": "Germany",
+    "year": 2020,
+    "priorFact": "2019.move: Germany signs the Treaty of Aachen with France",
+    "consistent": {
+      "headline": "Germany and France hold first council under Treaty of Aachen",
+      "body": "The Franco-German security council created by last year's Treaty of Aachen meets in Berlin. Both governments reaffirm the treaty."
+    },
+    "contradiction": {
+      "headline": "Berlin says Germany has never signed a treaty with France at Aachen",
+      "body": "Government spokespeople state that no Treaty of Aachen was ever signed. Berlin denies any new Franco-German security council."
+    }
+  },
+  {
+    "id": "estructurada-FR-2019-eii",
+    "runId": "memory-v1-dev-a1-r1",
+    "country": "France",
+    "year": 2019,
+    "priorFact": "2018.move: France signs a defense protocol establishing the European Intervention Initiative",
+    "consistent": {
+      "headline": "European Intervention Initiative holds its first planning session",
+      "body": "Staff from the founding states meet in Paris a year after France signed the initiative's protocol. The framework remains active."
+    },
+    "contradiction": {
+      "headline": "Paris says France never joined the European Intervention Initiative",
+      "body": "Officials state that France has never signed any protocol creating a European Intervention Initiative. Paris denies taking part."
+    }
+  },
+  {
+    "id": "estructurada-RU-2020-china",
+    "runId": "memory-v1-dev-a1-r1",
+    "country": "Russia",
+    "year": 2020,
+    "priorFact": "2019.move: Moscow signs a joint air-defense coordination agreement with Beijing",
+    "consistent": {
+      "headline": "Russia and China activate air-defense coordination agreed last year",
+      "body": "Radar data sharing begins under the air-defense agreement signed with Beijing in 2019. Moscow calls the arrangement operational."
+    },
+    "contradiction": {
+      "headline": "Moscow says Russia has no air-defense agreement with China",
+      "body": "Officials state that Russia has never signed any air-defense coordination agreement with Beijing. Moscow denies any such arrangement."
+    }
+  }
+]

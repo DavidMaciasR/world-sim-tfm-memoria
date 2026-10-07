@@ -1,0 +1,36 @@
+{
+  "runId": "memory-v1-dev-a1-r1",
+  "createdAt": "2026-09-24T11:02:20.796Z",
+  "updatedAt": "2026-09-24T11:02:20.797Z",
+  "judgeConditionHash": "ca7009df629e305e",
+  "judgeConditions": {
+    "judge": "temporal-coherence-v1",
+    "model": "claude-sonnet-5",
+    "maxTokens": 8000,
+    "thinking": {
+      "type": "disabled"
+    },
+    "sampling": "not sent: claude-sonnet-5 rejects temperature/top_p/top_k",
+    "maxRetries": 2,
+    "rubricHash": "e859712061134d17",
+    "schemaHash": "6ee93e715e31d47d",
+    "formatterHash": "2bbe46571b5170b2"
+  },
+  "generation": {
+    "runManifestConditionHash": "c6e15d32b1429cc8",
+    "spec": {
+      "runId": "memory-v1-dev-a1-r1",
+      "mode": "backtest",
+      "architecture": "A1",
+      "seed": 1,
+      "countries": [
+        "Germany",
+        "France",
+        "Russia"
+      ],
+      "startYear": 2015,
+      "endYear": 2024
+    }
+  },
+  "blindness": "evidence built from records.jsonl only; no runId, architecture, memory block, indicators or real chronology in the request"
+}

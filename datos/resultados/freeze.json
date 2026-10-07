@@ -1,0 +1,33 @@
+{
+  "study": "memory-v1",
+  "frozenAt": "2026-09-24",
+  "approvedBy": "David (\"lanza la evaluacion\", 24 sep 2026)",
+  "commit": "1de6518",
+  "tag": "tfm-memory-freeze-20260924",
+  "cohort": { "countries": ["United States", "China", "India", "Pakistan"], "years": [2015, 2024], "worldsPerCondition": 10 },
+  "conditions": { "plana": "A1G", "estructurada": "A1" },
+  "runs": "memory-v1-eval-{a1g,a1}-r1..r10; impares plana→estructurada, pares al revés; 4 mundos en paralelo (docs/tfm/tools/lanzar-evaluacion.sh)",
+  "generator": {
+    "model": "gemini-3.6-flash",
+    "decoding": { "temperature": 0.6, "maxOutputTokens": 8192, "thinkingConfig": "provider default", "requestTimeoutMs": 120000, "mapFeatures": false },
+    "codeHash": "8e8ad0095a63beee",
+    "conditionHashes": { "memory-v1-eval-a1g-r1": "3a9debeb125922fa", "memory-v1-eval-a1-r1": "4d4c54de75a27cfa" },
+    "retries": "3 intentos, esperas 2/5/10 min, solo fallos transitorios"
+  },
+  "judge": { "model": "claude-sonnet-5", "config": "thinking disabled; temperatura no admitida", "conditionHash": "a19e19d0ea82bca2", "scope": "solo años anteriores" },
+  "metrics": {
+    "primary": "contradicciones con evidencia válida por país-año (y % de años con alguna)",
+    "repetition": "similitud media de titulares con el año anterior (Jaccard de tokens)",
+    "secondary": ["nota 1-5", "4-gramas del año", "titulares reciclados (umbral 0,6)"],
+    "cost": "EUR por país-año generado y juzgado, con generator-usage.jsonl y usage del juez"
+  },
+  "aggregation": "RUNBOOK §3.5: tabla de fallos primero; media por país y países con igual peso por mundo; se muestran los 10 valores por condición, su media y rango, y la diferencia estructurada − plana. Sin tests de significación ni puntuación combinada. Con este tamaño no se detectan diferencias de coherencia menores de ~0,055 contradicciones por país-año.",
+  "prices": { "gemini-3.6-flash": "1,5 / 7,5 USD por M", "claude-sonnet-5": "3 / 15 USD por M", "eurPerUsd": 0.86, "snapshot": "tabla de pricing.ts, jul 2026" },
+  "budget": { "ceilingEur": 200, "spentBeforeEvalEur": 5.6, "evalEstimateEur": 40, "guard": "progress.ts --guard 200" },
+  "pendingValidation": [
+    "6 pares de continuidad del juez (juez sobre textos sintéticos; se puede hacer después sin tocar la evaluación)",
+    "prueba de repetición con copias (sin coste)",
+    "revisión humana a ciegas: decisión pendiente de David",
+    "Si alguna validación obliga a cambiar el juez, se rejuzgan las salidas guardadas (RUNBOOK §4.3); la generación no se repite."
+  ]
+}

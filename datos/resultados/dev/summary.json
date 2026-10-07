@@ -1,0 +1,176 @@
+{
+  "stage": "dev",
+  "generatedAt": "2026-09-24T11:27:18.483Z",
+  "failures": [
+    {
+      "runId": "memory-v1-dev-a1g-r1",
+      "condition": "plana",
+      "replicate": 1,
+      "planned": 30,
+      "accepted": 30,
+      "attempts": 31,
+      "generationErrors": 1,
+      "judged": 27,
+      "judgeNA": 3,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-dev-a1-r1",
+      "condition": "estructurada",
+      "replicate": 1,
+      "planned": 30,
+      "accepted": 30,
+      "attempts": 30,
+      "generationErrors": 0,
+      "judged": 27,
+      "judgeNA": 3,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 3,
+      "complete": true
+    }
+  ],
+  "byCondition": {
+    "plana": {
+      "worlds": 1,
+      "completeWorlds": 1,
+      "contradictionsPerCountryYear": {
+        "values": [
+          0.1851851851851852
+        ],
+        "mean": 0.1851851851851852,
+        "min": 0.1851851851851852,
+        "max": 0.1851851851851852
+      },
+      "shareOfYearsWithContradiction": {
+        "values": [
+          0.1851851851851852
+        ],
+        "mean": 0.1851851851851852,
+        "min": 0.1851851851851852,
+        "max": 0.1851851851851852
+      },
+      "headlineSimilarity": {
+        "values": [
+          0.1920964170476841
+        ],
+        "mean": 0.1920964170476841,
+        "min": 0.1920964170476841,
+        "max": 0.1920964170476841
+      },
+      "score": {
+        "values": [
+          4.814814814814815
+        ],
+        "mean": 4.814814814814815,
+        "min": 4.814814814814815,
+        "max": 4.814814814814815
+      },
+      "ngram4": {
+        "values": [
+          0
+        ],
+        "mean": 0,
+        "min": 0,
+        "max": 0
+      },
+      "genEurCentsPerCountryYear": {
+        "values": [
+          2.2944456
+        ],
+        "mean": 2.2944456,
+        "min": 2.2944456,
+        "max": 2.2944456
+      }
+    },
+    "estructurada": {
+      "worlds": 1,
+      "completeWorlds": 1,
+      "contradictionsPerCountryYear": {
+        "values": [
+          0.1111111111111111
+        ],
+        "mean": 0.1111111111111111,
+        "min": 0.1111111111111111,
+        "max": 0.1111111111111111
+      },
+      "shareOfYearsWithContradiction": {
+        "values": [
+          0.1111111111111111
+        ],
+        "mean": 0.1111111111111111,
+        "min": 0.1111111111111111,
+        "max": 0.1111111111111111
+      },
+      "headlineSimilarity": {
+        "values": [
+          0.14746928793017258
+        ],
+        "mean": 0.14746928793017258,
+        "min": 0.14746928793017258,
+        "max": 0.14746928793017258
+      },
+      "score": {
+        "values": [
+          4.703703703703704
+        ],
+        "mean": 4.703703703703704,
+        "min": 4.703703703703704,
+        "max": 4.703703703703704
+      },
+      "ngram4": {
+        "values": [
+          0.000747451196921715
+        ],
+        "mean": 0.000747451196921715,
+        "min": 0.000747451196921715,
+        "max": 0.000747451196921715
+      },
+      "genEurCentsPerCountryYear": {
+        "values": [
+          2.2417878
+        ],
+        "mean": 2.2417878,
+        "min": 2.2417878,
+        "max": 2.2417878
+      }
+    }
+  },
+  "differenceStructuredMinusFlat": {
+    "contradictionsPerCountryYear": -0.0740740740740741,
+    "shareOfYearsWithContradiction": -0.0740740740740741,
+    "headlineSimilarity": -0.044627129117511516,
+    "score": -0.11111111111111072,
+    "genEurCentsPerCountryYear": -0.05265779999999998
+  },
+  "worlds": {
+    "plana": [
+      {
+        "runId": "memory-v1-dev-a1g-r1",
+        "replicate": 1,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1851851851851852,
+        "shareOfYearsWithContradiction": 0.1851851851851852,
+        "headlineSimilarity": 0.1920964170476841,
+        "score": 4.814814814814815,
+        "ngram4": 0,
+        "genEurCentsPerCountryYear": 2.2944456
+      }
+    ],
+    "estructurada": [
+      {
+        "runId": "memory-v1-dev-a1-r1",
+        "replicate": 1,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.14746928793017258,
+        "score": 4.703703703703704,
+        "ngram4": 0.000747451196921715,
+        "genEurCentsPerCountryYear": 2.2417878
+      }
+    ]
+  },
+  "judgeModel": "claude-sonnet-5"
+}

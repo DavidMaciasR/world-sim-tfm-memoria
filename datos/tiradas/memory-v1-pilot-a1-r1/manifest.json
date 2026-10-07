@@ -1,0 +1,152 @@
+{
+  "spec": {
+    "runId": "memory-v1-pilot-a1-r1",
+    "mode": "backtest",
+    "architecture": "A1",
+    "seed": 1,
+    "countries": [
+      "Germany",
+      "France"
+    ],
+    "startYear": 2015,
+    "endYear": 2019
+  },
+  "createdAt": "2026-09-23T16:14:55.374Z",
+  "fingerprints": [
+    {
+      "generatorModel": "gemini-3.6-flash",
+      "repoCommit": "5af16fe",
+      "promptHash": "2e88bfd5b636da13",
+      "referenceDataHash": "4fb011fa45604f73",
+      "conditionHash": "cac83befcfbffb76",
+      "conditions": {
+        "study": "memory-v1",
+        "stage": "pilot",
+        "architecture": "A1",
+        "countries": [
+          "Germany",
+          "France"
+        ],
+        "years": [
+          2015,
+          2019
+        ],
+        "generatorModel": "gemini-3.6-flash",
+        "fallbackModels": [],
+        "providers": [
+          "gemini"
+        ],
+        "decoding": {
+          "temperature": 0.6,
+          "maxOutputTokens": 8192,
+          "responseMimeType": "application/json",
+          "thinkingConfig": "not set (provider default)",
+          "responseSchemaHash": "2710e73eb6d46b5c"
+        },
+        "funFactor": 0.35,
+        "codeHash": "2e88bfd5b636da13",
+        "indicatorFiles": {
+          "Germany": "11c0720a827f8c64",
+          "France": "741da0d2e6f3a6be"
+        },
+        "indicatorCutoff": "observation year <= simYear - 1",
+        "latestObservationYears": {
+          "Germany": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            }
+          },
+          "France": {
+            "2015": {
+              "gdp-per-capita": 2014,
+              "unemployment": 2014,
+              "military-spending": 2014,
+              "democracy-index": 2014,
+              "energy-per-capita": 2014,
+              "fossil-share": 2014
+            },
+            "2016": {
+              "gdp-per-capita": 2015,
+              "unemployment": 2015,
+              "military-spending": 2015,
+              "democracy-index": 2015,
+              "energy-per-capita": 2015,
+              "fossil-share": 2015
+            },
+            "2017": {
+              "gdp-per-capita": 2016,
+              "unemployment": 2016,
+              "military-spending": 2016,
+              "democracy-index": 2016,
+              "energy-per-capita": 2016,
+              "fossil-share": 2016
+            },
+            "2018": {
+              "gdp-per-capita": 2017,
+              "unemployment": 2017,
+              "military-spending": 2017,
+              "democracy-index": 2017,
+              "energy-per-capita": 2017,
+              "fossil-share": 2017
+            },
+            "2019": {
+              "gdp-per-capita": 2018,
+              "unemployment": 2018,
+              "military-spending": 2018,
+              "democracy-index": 2018,
+              "energy-per-capita": 2018,
+              "fossil-share": 2018
+            }
+          }
+        },
+        "initialState": "empty simulated history (no production DB history)"
+      },
+      "uncommittedFiles": [],
+      "startedAt": "2026-09-23T16:14:55.372Z",
+      "notes": "replicate 1 is an execution label for an independent world run, not a seed: LLM sampling is not seedable and replicate numbers are not paired across conditions."
+    }
+  ],
+  "sessions": [
+    {
+      "startedAt": "2026-09-23T16:14:55.372Z",
+      "repoCommit": "5af16fe"
+    }
+  ]
+}

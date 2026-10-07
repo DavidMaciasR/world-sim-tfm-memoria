@@ -1,0 +1,734 @@
+{
+  "stage": "eval",
+  "generatedAt": "2026-09-24T13:20:50.917Z",
+  "failures": [
+    {
+      "runId": "memory-v1-eval-a1g-r1",
+      "condition": "plana",
+      "replicate": 1,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r1",
+      "condition": "estructurada",
+      "replicate": 1,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r2",
+      "condition": "plana",
+      "replicate": 2,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 1,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r2",
+      "condition": "estructurada",
+      "replicate": 2,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r3",
+      "condition": "plana",
+      "replicate": 3,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r3",
+      "condition": "estructurada",
+      "replicate": 3,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r4",
+      "condition": "plana",
+      "replicate": 4,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 1,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r4",
+      "condition": "estructurada",
+      "replicate": 4,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r5",
+      "condition": "plana",
+      "replicate": 5,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r5",
+      "condition": "estructurada",
+      "replicate": 5,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 2,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r6",
+      "condition": "plana",
+      "replicate": 6,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r6",
+      "condition": "estructurada",
+      "replicate": 6,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r7",
+      "condition": "plana",
+      "replicate": 7,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r7",
+      "condition": "estructurada",
+      "replicate": 7,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 2,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r8",
+      "condition": "plana",
+      "replicate": 8,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 2,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r8",
+      "condition": "estructurada",
+      "replicate": 8,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r9",
+      "condition": "plana",
+      "replicate": 9,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r9",
+      "condition": "estructurada",
+      "replicate": 9,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1g-r10",
+      "condition": "plana",
+      "replicate": 10,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-eval-a1-r10",
+      "condition": "estructurada",
+      "replicate": 10,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    }
+  ],
+  "byCondition": {
+    "plana": {
+      "worlds": 10,
+      "completeWorlds": 10,
+      "contradictionsPerCountryYear": {
+        "values": [
+          0.1111111111111111,
+          0.027777777777777776,
+          0,
+          0.1111111111111111,
+          0.027777777777777776,
+          0.027777777777777776,
+          0.1111111111111111,
+          0.08333333333333333,
+          0.027777777777777776,
+          0.027777777777777776
+        ],
+        "mean": 0.05555555555555556,
+        "min": 0,
+        "max": 0.1111111111111111
+      },
+      "shareOfYearsWithContradiction": {
+        "values": [
+          0.08333333333333333,
+          0.027777777777777776,
+          0,
+          0.1111111111111111,
+          0.027777777777777776,
+          0.027777777777777776,
+          0.1111111111111111,
+          0.08333333333333333,
+          0.027777777777777776,
+          0.027777777777777776
+        ],
+        "mean": 0.05277777777777778,
+        "min": 0,
+        "max": 0.1111111111111111
+      },
+      "headlineSimilarity": {
+        "values": [
+          0.169747203141811,
+          0.1531705096298642,
+          0.16608358065374537,
+          0.1591413300337879,
+          0.15602467348764004,
+          0.1702755627275106,
+          0.14236225419294352,
+          0.14195416801948452,
+          0.16866644599810235,
+          0.16575213906225258
+        ],
+        "mean": 0.1593177866947142,
+        "min": 0.14195416801948452,
+        "max": 0.1702755627275106
+      },
+      "score": {
+        "values": [
+          4.861111111111112,
+          4.972222222222222,
+          5,
+          4.861111111111112,
+          4.972222222222222,
+          4.972222222222222,
+          4.833333333333334,
+          4.861111111111112,
+          4.944444444444445,
+          4.972222222222222
+        ],
+        "mean": 4.925,
+        "min": 4.833333333333334,
+        "max": 5
+      },
+      "ngram4": {
+        "values": [
+          0.0007804133154336618,
+          0.000412111868070833,
+          0.0006097560975609762,
+          0.0004049865726981711,
+          0,
+          0.00007374631268436682,
+          0.0002799415943421257,
+          0.0005898732067715657,
+          0.00034555763726745465,
+          0.0004447917549624647
+        ],
+        "mean": 0.0003941178359791619,
+        "min": 0,
+        "max": 0.0007804133154336618
+      },
+      "genEurCentsPerCountryYear": {
+        "values": [
+          2.4272639999999996,
+          2.411516325,
+          2.4445048500000004,
+          2.3795082,
+          2.4144027,
+          2.442805275,
+          2.4672991499999997,
+          2.4362295,
+          2.4417442499999997,
+          2.36377665
+        ],
+        "mean": 2.4229050899999995,
+        "min": 2.36377665,
+        "max": 2.4672991499999997
+      }
+    },
+    "estructurada": {
+      "worlds": 10,
+      "completeWorlds": 10,
+      "contradictionsPerCountryYear": {
+        "values": [
+          0.1111111111111111,
+          0.16666666666666666,
+          0.1111111111111111,
+          0.027777777777777776,
+          0.1111111111111111,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.16666666666666666,
+          0.2222222222222222
+        ],
+        "mean": 0.10833333333333335,
+        "min": 0.027777777777777776,
+        "max": 0.2222222222222222
+      },
+      "shareOfYearsWithContradiction": {
+        "values": [
+          0.1111111111111111,
+          0.16666666666666666,
+          0.1111111111111111,
+          0.027777777777777776,
+          0.1111111111111111,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.05555555555555555,
+          0.16666666666666666,
+          0.19444444444444442
+        ],
+        "mean": 0.10555555555555556,
+        "min": 0.027777777777777776,
+        "max": 0.19444444444444442
+      },
+      "headlineSimilarity": {
+        "values": [
+          0.15526915591280704,
+          0.14493516784619082,
+          0.13877198796923815,
+          0.15182372796160637,
+          0.15681408962880974,
+          0.15736668341238128,
+          0.1653779289754952,
+          0.14703496994276796,
+          0.14756242710964074,
+          0.16407681391798393
+        ],
+        "mean": 0.15290329526769214,
+        "min": 0.13877198796923815,
+        "max": 0.1653779289754952
+      },
+      "score": {
+        "values": [
+          4.833333333333334,
+          4.777777777777779,
+          4.833333333333334,
+          4.944444444444445,
+          4.833333333333333,
+          4.916666666666667,
+          4.888888888888889,
+          4.916666666666667,
+          4.805555555555555,
+          4.777777777777779
+        ],
+        "mean": 4.852777777777779,
+        "min": 4.777777777777779,
+        "max": 4.944444444444445
+      },
+      "ngram4": {
+        "values": [
+          0.0009936119085849544,
+          0.00047293432621423883,
+          0.0005995242572150533,
+          0.0008392266155546029,
+          0.0006254196070687501,
+          0.000474062381072346,
+          0.0009198322549493459,
+          0.0007332305272140128,
+          0.0006778521476256487,
+          0.000618885778261799
+        ],
+        "mean": 0.0006954579803760753,
+        "min": 0.00047293432621423883,
+        "max": 0.0009936119085849544
+      },
+      "genEurCentsPerCountryYear": {
+        "values": [
+          2.367353175,
+          2.32449615,
+          2.38760295,
+          2.3626382250000004,
+          2.4738201,
+          2.481950325,
+          2.405756475,
+          2.3583973500000006,
+          2.3801370750000004,
+          2.3769249749999997
+        ],
+        "mean": 2.39190768,
+        "min": 2.32449615,
+        "max": 2.481950325
+      }
+    }
+  },
+  "differenceStructuredMinusFlat": {
+    "contradictionsPerCountryYear": 0.05277777777777779,
+    "shareOfYearsWithContradiction": 0.05277777777777778,
+    "headlineSimilarity": -0.006414491427022051,
+    "score": -0.07222222222222108,
+    "genEurCentsPerCountryYear": -0.030997409999999448
+  },
+  "worlds": {
+    "plana": [
+      {
+        "runId": "memory-v1-eval-a1g-r1",
+        "replicate": 1,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.169747203141811,
+        "score": 4.861111111111112,
+        "ngram4": 0.0007804133154336618,
+        "genEurCentsPerCountryYear": 2.4272639999999996
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r2",
+        "replicate": 2,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.1531705096298642,
+        "score": 4.972222222222222,
+        "ngram4": 0.000412111868070833,
+        "genEurCentsPerCountryYear": 2.411516325
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r3",
+        "replicate": 3,
+        "complete": true,
+        "contradictionsPerCountryYear": 0,
+        "shareOfYearsWithContradiction": 0,
+        "headlineSimilarity": 0.16608358065374537,
+        "score": 5,
+        "ngram4": 0.0006097560975609762,
+        "genEurCentsPerCountryYear": 2.4445048500000004
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r4",
+        "replicate": 4,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.1591413300337879,
+        "score": 4.861111111111112,
+        "ngram4": 0.0004049865726981711,
+        "genEurCentsPerCountryYear": 2.3795082
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r5",
+        "replicate": 5,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.15602467348764004,
+        "score": 4.972222222222222,
+        "ngram4": 0,
+        "genEurCentsPerCountryYear": 2.4144027
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r6",
+        "replicate": 6,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.1702755627275106,
+        "score": 4.972222222222222,
+        "ngram4": 0.00007374631268436682,
+        "genEurCentsPerCountryYear": 2.442805275
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r7",
+        "replicate": 7,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.14236225419294352,
+        "score": 4.833333333333334,
+        "ngram4": 0.0002799415943421257,
+        "genEurCentsPerCountryYear": 2.4672991499999997
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r8",
+        "replicate": 8,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.14195416801948452,
+        "score": 4.861111111111112,
+        "ngram4": 0.0005898732067715657,
+        "genEurCentsPerCountryYear": 2.4362295
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r9",
+        "replicate": 9,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.16866644599810235,
+        "score": 4.944444444444445,
+        "ngram4": 0.00034555763726745465,
+        "genEurCentsPerCountryYear": 2.4417442499999997
+      },
+      {
+        "runId": "memory-v1-eval-a1g-r10",
+        "replicate": 10,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.16575213906225258,
+        "score": 4.972222222222222,
+        "ngram4": 0.0004447917549624647,
+        "genEurCentsPerCountryYear": 2.36377665
+      }
+    ],
+    "estructurada": [
+      {
+        "runId": "memory-v1-eval-a1-r1",
+        "replicate": 1,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.15526915591280704,
+        "score": 4.833333333333334,
+        "ngram4": 0.0009936119085849544,
+        "genEurCentsPerCountryYear": 2.367353175
+      },
+      {
+        "runId": "memory-v1-eval-a1-r2",
+        "replicate": 2,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.16666666666666666,
+        "shareOfYearsWithContradiction": 0.16666666666666666,
+        "headlineSimilarity": 0.14493516784619082,
+        "score": 4.777777777777779,
+        "ngram4": 0.00047293432621423883,
+        "genEurCentsPerCountryYear": 2.32449615
+      },
+      {
+        "runId": "memory-v1-eval-a1-r3",
+        "replicate": 3,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.13877198796923815,
+        "score": 4.833333333333334,
+        "ngram4": 0.0005995242572150533,
+        "genEurCentsPerCountryYear": 2.38760295
+      },
+      {
+        "runId": "memory-v1-eval-a1-r4",
+        "replicate": 4,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.027777777777777776,
+        "shareOfYearsWithContradiction": 0.027777777777777776,
+        "headlineSimilarity": 0.15182372796160637,
+        "score": 4.944444444444445,
+        "ngram4": 0.0008392266155546029,
+        "genEurCentsPerCountryYear": 2.3626382250000004
+      },
+      {
+        "runId": "memory-v1-eval-a1-r5",
+        "replicate": 5,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.15681408962880974,
+        "score": 4.833333333333333,
+        "ngram4": 0.0006254196070687501,
+        "genEurCentsPerCountryYear": 2.4738201
+      },
+      {
+        "runId": "memory-v1-eval-a1-r6",
+        "replicate": 6,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.05555555555555555,
+        "shareOfYearsWithContradiction": 0.05555555555555555,
+        "headlineSimilarity": 0.15736668341238128,
+        "score": 4.916666666666667,
+        "ngram4": 0.000474062381072346,
+        "genEurCentsPerCountryYear": 2.481950325
+      },
+      {
+        "runId": "memory-v1-eval-a1-r7",
+        "replicate": 7,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.05555555555555555,
+        "shareOfYearsWithContradiction": 0.05555555555555555,
+        "headlineSimilarity": 0.1653779289754952,
+        "score": 4.888888888888889,
+        "ngram4": 0.0009198322549493459,
+        "genEurCentsPerCountryYear": 2.405756475
+      },
+      {
+        "runId": "memory-v1-eval-a1-r8",
+        "replicate": 8,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.05555555555555555,
+        "shareOfYearsWithContradiction": 0.05555555555555555,
+        "headlineSimilarity": 0.14703496994276796,
+        "score": 4.916666666666667,
+        "ngram4": 0.0007332305272140128,
+        "genEurCentsPerCountryYear": 2.3583973500000006
+      },
+      {
+        "runId": "memory-v1-eval-a1-r9",
+        "replicate": 9,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.16666666666666666,
+        "shareOfYearsWithContradiction": 0.16666666666666666,
+        "headlineSimilarity": 0.14756242710964074,
+        "score": 4.805555555555555,
+        "ngram4": 0.0006778521476256487,
+        "genEurCentsPerCountryYear": 2.3801370750000004
+      },
+      {
+        "runId": "memory-v1-eval-a1-r10",
+        "replicate": 10,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.2222222222222222,
+        "shareOfYearsWithContradiction": 0.19444444444444442,
+        "headlineSimilarity": 0.16407681391798393,
+        "score": 4.777777777777779,
+        "ngram4": 0.000618885778261799,
+        "genEurCentsPerCountryYear": 2.3769249749999997
+      }
+    ]
+  },
+  "judgeModel": "claude-sonnet-5"
+}

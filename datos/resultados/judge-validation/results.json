@@ -1,0 +1,326 @@
+{
+  "summary": {
+    "passed": 6,
+    "total": 6,
+    "gate": "superado",
+    "threshold": 5,
+    "runAt": "2026-09-24T12:19:46.151Z"
+  },
+  "results": [
+    {
+      "id": "plana-DE-2018-lituania",
+      "runId": "memory-v1-dev-a1g-r1",
+      "key": "Germany:2018",
+      "priorFact": "2017.move: stationing additional Bundeswehr mechanized units in Lithuania",
+      "injectedField": "2018.news.m06",
+      "consistent": {
+        "score": 5,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [],
+        "rationale": "The 2018 entries build coherently on established 2015-2017 trajectories: continued Franco-German defense cooperation (now Future Combat Air System, consistent with prior tank/armored programs), continued Baltic/Lithuania deployment (explicitly noted as unchanged), cyber defense expansion, and energy diversification efforts. No completed past fact is contradicted; new initiatives are framed as extensions or new phases rather than reversals.",
+        "usage": {
+          "inputTokens": 7019,
+          "outputTokens": 174,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 2,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2017.news.m05",
+            "prior_quote": "Germany expands Bundeswehr presence in Lithuania with mechanized battalion — Additional armored divisions arrive in Rukla under NATO command.",
+            "current_field": "2018.news.m06",
+            "current_quote": "Berlin says Germany has never stationed troops in Lithuania — Government spokespeople state that no Bundeswehr units have ever been deployed to Lithuania.",
+            "conflict": "The current year denies any troop deployment to Lithuania, contradicting the previously established Bundeswehr presence there."
+          },
+          {
+            "prior_field": "2017.move",
+            "prior_quote": "Germany commits 2.5 billion euros to a joint Franco-German armored combat program while stationing additional Bundeswehr mechanized units in Lithuania under NATO Enhanced Forward P",
+            "current_field": "2018.news.m06",
+            "current_quote": "Berlin rules out any Baltic presence.",
+            "conflict": "This directly contradicts the prior year's explicit move stationing mechanized units in Lithuania."
+          }
+        ],
+        "problems": [],
+        "rationale": "The 2018.news.m06 item flatly denies Germany ever stationed troops in Lithuania, directly contradicting multiple established prior-year facts of Bundeswehr deployment to Lithuania and Rukla under NATO Enhanced Forward Presence.",
+        "usage": {
+          "inputTokens": 7018,
+          "outputTokens": 466,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    },
+    {
+      "id": "plana-FR-2020-grecia",
+      "runId": "memory-v1-dev-a1g-r1",
+      "key": "France:2020",
+      "priorFact": "2019.move: France signs a bilateral defense pact with Greece",
+      "injectedField": "2020.news.m06",
+      "consistent": {
+        "score": 5,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [],
+        "rationale": "The 2020 entries consistently extend established threads: continued Mediterranean deployments against Turkish activity, the Greece defense pact reviewed as 'signed last year,' Sahel operations (Barkhane/Takuba), FCAS progress, nuclear deterrence testing, and Indo-Pacific patrols all align with prior years' trajectory. No completed action or outcome is contradicted; all changes (e.g., Takuba expansion) read as natural continuations rather than reversals.",
+        "usage": {
+          "inputTokens": 9866,
+          "outputTokens": 189,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 2,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2019.news.m07",
+            "prior_quote": "France ratifies strategic defense agreement with Greece in Med",
+            "current_field": "2020.news.m06",
+            "current_quote": "Paris says France has never signed a defense pact with Greece",
+            "conflict": "2019 record establishes a signed defense pact with Greece, while 2020 denies any such pact was ever signed."
+          },
+          {
+            "prior_field": "2019.move",
+            "prior_quote": "France signs a bilateral defense pact with Greece and deploys a naval carrier group to the Eastern Mediterranean",
+            "current_field": "2020.news.m06",
+            "current_quote": "The foreign ministry states that France has no defense agreement of any kind with Greece",
+            "conflict": "The prior move explicitly describes signing a bilateral defense pact with Greece, contradicted by the 2020 claim that no such agreement exists."
+          }
+        ],
+        "problems": [],
+        "rationale": "The 2019 record explicitly establishes France ratifying a strategic defense agreement with Greece ('France ratifies strategic defense agreement with Greece in Med'), corroborated by the 2019 move and decision fields citing a bilateral pact with Greece. The 2020 news item flatly denies any such agreement ever existed, which is a direct contradiction rather than a policy change (it claims the past event never happened, not that it ended).",
+        "usage": {
+          "inputTokens": 9868,
+          "outputTokens": 462,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    },
+    {
+      "id": "plana-RU-2020-inf",
+      "runId": "memory-v1-dev-a1g-r1",
+      "key": "Russia:2020",
+      "priorFact": "2019.move: Russia suspends participation in the INF Treaty",
+      "injectedField": "2020.news.m06",
+      "consistent": {
+        "score": 5,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [],
+        "rationale": "The 2020 fields extend prior established trajectories (INF suspension, Belarus military integration, hypersonic weapons, Arctic/Nord Stream/TurkStream energy projects, Sino-Russian coordination) without contradicting any completed action, outcome, or reported event from 2015-2019. The INF suspension is explicitly reaffirmed as continuing, and other developments like Tsirkon deployment, Kavkaz 2020 exercises, and new S-400/nuclear deals are plausible continuations rather than reversals of past facts.",
+        "usage": {
+          "inputTokens": 9566,
+          "outputTokens": 210,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 2,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2019.news.m01",
+            "prior_quote": "Russia formally suspends compliance with INF nuclear missile treaty — Moscow declared its obligations halted following Washington's withdrawal announcement.",
+            "current_field": "2020.news.m06",
+            "current_quote": "Moscow says Russia remains a full party to the INF Treaty — The foreign ministry states that Russia has never suspended its participation in the INF Treaty.",
+            "conflict": "2020 news denies that Russia ever suspended the INF Treaty, contradicting the 2019 record of formal suspension."
+          },
+          {
+            "prior_field": "2019.move",
+            "prior_quote": "Russia suspends participation in the INF Treaty and deploys nuclear-capable Iskander-M missile brigades to Kaliningrad and Belarus to counter European NATO missile defense integrat",
+            "current_field": "2020.news.m06",
+            "current_quote": "Officials insist Moscow is fully bound.",
+            "conflict": "The 2019 move explicitly states Russia suspended the INF Treaty, but 2020 news claims Russia remains fully bound, an unacknowledged reversal of established fact."
+          }
+        ],
+        "problems": [],
+        "rationale": "The 2019 record clearly establishes that Russia formally suspended INF Treaty compliance ([2019.move], [2019.decision], [2019.news.m01]), but 2020.news.m06 asserts Russia never suspended participation and remains fully bound, directly contradicting the established prior fact without acknowledging a reversal or policy change.",
+        "usage": {
+          "inputTokens": 9574,
+          "outputTokens": 516,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    },
+    {
+      "id": "estructurada-DE-2020-aquisgran",
+      "runId": "memory-v1-dev-a1-r1",
+      "key": "Germany:2020",
+      "priorFact": "2019.move: Germany signs the Treaty of Aachen with France",
+      "injectedField": "2020.news.m06",
+      "consistent": {
+        "score": 5,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [],
+        "rationale": "The 2020 entries build coherently on established history: continuation of Nord Stream 2 tensions with US sanctions (paused, not reversed), the Treaty of Aachen council meeting as a natural follow-on, FCAS continuing development, and new but consistent developments like pandemic response and EU Council presidency. No completed past fact is contradicted; new procurement (Eurofighters) and hydrogen subsidies are additive, not conflicting with prior moves.",
+        "usage": {
+          "inputTokens": 9940,
+          "outputTokens": 179,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 2,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2019.move",
+            "prior_quote": "Germany signs the Treaty of Aachen with France, establishing a Franco-German Defense and Security Council",
+            "current_field": "2020.news.m06",
+            "current_quote": "Government spokespeople state that no Treaty of Aachen was ever signed.",
+            "conflict": "2020 news denies the treaty's existence despite it being explicitly signed and referenced repeatedly in 2019 and 2018 history."
+          },
+          {
+            "prior_field": "2019.news.m01",
+            "prior_quote": "The bilateral pact commits both nations to joint defense integration and common policy positions. It creates a unified Defense Council.",
+            "current_field": "2020.news.m06",
+            "current_quote": "Berlin denies any new Franco-German security council.",
+            "conflict": "2020 denies the existence of the Franco-German Defense Council that was established and reported as fact in 2019."
+          }
+        ],
+        "problems": [],
+        "rationale": "The 2020 news item m06 explicitly denies the Treaty of Aachen was ever signed, directly contradicting the established 2019 move and news showing Germany and France signing the Treaty of Aachen. This is a clear, major contradiction to a previously reported completed action, not acknowledged as a retraction or correction.",
+        "usage": {
+          "inputTokens": 9941,
+          "outputTokens": 421,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    },
+    {
+      "id": "estructurada-FR-2019-eii",
+      "runId": "memory-v1-dev-a1-r1",
+      "key": "France:2019",
+      "priorFact": "2018.move: France signs a defense protocol establishing the European Intervention Initiative",
+      "injectedField": "2019.news.m06",
+      "consistent": {
+        "score": 5,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [],
+        "rationale": "The 2019 fields consistently build on established prior history: EI2 expands from nine to ten signatories (a plausible incremental growth, not contradicted since 2018 only said nine signed), FCAS development continues as previously initiated, Barkhane operations in Mali/Chad persist, and Mediterranean/Indo-Pacific naval activities continue trends from 2016-2018. No completed action or established fact from prior years is reversed or denied without acknowledgment.",
+        "usage": {
+          "inputTokens": 8537,
+          "outputTokens": 181,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 1,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2018.outcome",
+            "prior_quote": "Nine European nations sign the EI2 agreement, creating a coalition of the willing for rapid crisis management independent of NATO or US command structures.",
+            "current_field": "2019.news.m06",
+            "current_quote": "Officials state that France has never signed any protocol creating a European Intervention Initiative.",
+            "conflict": "2018 history establishes France as a founding signatory of EI2, while 2019 news claims France never joined or signed such an initiative."
+          },
+          {
+            "prior_field": "2019.move",
+            "prior_quote": "France operationalizes the European Intervention Initiative with ten signatory nations",
+            "current_field": "2019.news.m06",
+            "current_quote": "Paris denies taking part.",
+            "conflict": "The same year's move confirms France is operationalizing EI2 as a participant, directly conflicting with the news item denying French participation."
+          }
+        ],
+        "problems": [
+          "evidence[1]: prior field \"2019.move\" is from the current year"
+        ],
+        "rationale": "The current year's move, decision, outcome, and news.m01/m02 all affirm France operationalizing EI2 and FCAS, consistent with 2017-2018 history, but news.m06 directly asserts France 'never joined' or 'never signed any protocol' for EI2, flatly contradicting the well-established 2018 outcome that France led nine (now ten) nations in signing the EI2 agreement.",
+        "usage": {
+          "inputTokens": 8539,
+          "outputTokens": 444,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    },
+    {
+      "id": "estructurada-RU-2020-china",
+      "runId": "memory-v1-dev-a1-r1",
+      "key": "Russia:2020",
+      "priorFact": "2019.move: Moscow signs a joint air-defense coordination agreement with Beijing",
+      "injectedField": "2020.news.m06",
+      "consistent": {
+        "score": 4,
+        "validContradictions": 0,
+        "citesInjected": false,
+        "evidence": [],
+        "problems": [
+          "score 4 without evidence"
+        ],
+        "rationale": "The 2020 items largely extend established trajectories (Nord Stream 2 progress, S-400 deployments, China air-defense cooperation activation, Belarus integration) without contradicting prior facts. A minor continuity wrinkle is that 2020.news.m12 depicts a fresh defense procurement deal with North Korea, distinct from but not contradicting the 2015 strategic partnership; this is a plausible continuation rather than a contradiction. No completed prior fact is reversed or denied.",
+        "usage": {
+          "inputTokens": 9910,
+          "outputTokens": 191,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "contradiction": {
+        "score": 2,
+        "validContradictions": 1,
+        "citesInjected": true,
+        "evidence": [
+          {
+            "prior_field": "2019.move",
+            "prior_quote": "Moscow signs a joint air-defense coordination agreement with Beijing and deploys Tu-95MS strategic bombers for combined Pacific patrols alongside Chinese H-6K aircraft.",
+            "current_field": "2020.news.m06",
+            "current_quote": "Officials state that Russia has never signed any air-defense coordination agreement with Beijing.",
+            "conflict": "The 2019 record establishes that Russia signed an air-defense agreement with China, but 2020 news denies any such agreement was ever signed."
+          }
+        ],
+        "problems": [],
+        "rationale": "The 2020 news explicitly denies any air-defense agreement with China ever existing, directly contradicting the 2019 move and outcome fields which established that Russia signed a joint air-defense coordination agreement with Beijing.",
+        "usage": {
+          "inputTokens": 9908,
+          "outputTokens": 289,
+          "cacheCreationInputTokens": 0,
+          "cacheReadInputTokens": 0
+        },
+        "returnedModel": "claude-sonnet-5"
+      },
+      "passed": true
+    }
+  ]
+}
