@@ -1,0 +1,376 @@
+{
+  "stage": "followup",
+  "generatedAt": "2026-10-08T14:30:09.395Z",
+  "failures": [
+    {
+      "runId": "memory-v1-followup-a1n-r1",
+      "condition": "estructurada+noticias",
+      "replicate": 1,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r2",
+      "condition": "estructurada+noticias",
+      "replicate": 2,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r3",
+      "condition": "estructurada+noticias",
+      "replicate": 3,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r4",
+      "condition": "estructurada+noticias",
+      "replicate": 4,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r5",
+      "condition": "estructurada+noticias",
+      "replicate": 5,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 0,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r6",
+      "condition": "estructurada+noticias",
+      "replicate": 6,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 4,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r7",
+      "condition": "estructurada+noticias",
+      "replicate": 7,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 3,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r8",
+      "condition": "estructurada+noticias",
+      "replicate": 8,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 0,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r9",
+      "condition": "estructurada+noticias",
+      "replicate": 9,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 2,
+      "judgmentsWithInvalidEvidence": 1,
+      "complete": true
+    },
+    {
+      "runId": "memory-v1-followup-a1n-r10",
+      "condition": "estructurada+noticias",
+      "replicate": 10,
+      "planned": 40,
+      "accepted": 40,
+      "attempts": 40,
+      "generationErrors": 0,
+      "judged": 36,
+      "judgeNA": 4,
+      "judgeErrors": 2,
+      "judgmentsWithInvalidEvidence": 2,
+      "complete": true
+    }
+  ],
+  "byCondition": {
+    "estructurada+noticias": {
+      "worlds": 10,
+      "completeWorlds": 10,
+      "contradictionsPerCountryYear": {
+        "values": [
+          0.1111111111111111,
+          0.08333333333333333,
+          0.1111111111111111,
+          0,
+          0.08333333333333333,
+          0,
+          0.05555555555555555,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "mean": 0.06944444444444445,
+        "min": 0,
+        "max": 0.1111111111111111
+      },
+      "shareOfYearsWithContradiction": {
+        "values": [
+          0.1111111111111111,
+          0.05555555555555555,
+          0.1111111111111111,
+          0,
+          0.08333333333333333,
+          0,
+          0.05555555555555555,
+          0.08333333333333333,
+          0.08333333333333333,
+          0.08333333333333333
+        ],
+        "mean": 0.06666666666666667,
+        "min": 0,
+        "max": 0.1111111111111111
+      },
+      "headlineSimilarity": {
+        "values": [
+          0.16020265156805188,
+          0.14794946222178185,
+          0.14925157090700392,
+          0.15315423250771398,
+          0.1508731733192625,
+          0.15555061543569887,
+          0.16571156723536754,
+          0.1514352561711308,
+          0.1784112607593645,
+          0.16017973805695254
+        ],
+        "mean": 0.15727195281823284,
+        "min": 0.14794946222178185,
+        "max": 0.1784112607593645
+      },
+      "score": {
+        "values": [
+          4.861111111111111,
+          4.888888888888889,
+          4.861111111111112,
+          4.972222222222222,
+          4.916666666666667,
+          4.861111111111112,
+          4.861111111111112,
+          4.888888888888889,
+          4.888888888888889,
+          4.861111111111112
+        ],
+        "mean": 4.886111111111111,
+        "min": 4.861111111111111,
+        "max": 4.972222222222222
+      },
+      "ngram4": {
+        "values": [
+          0.0003064875302130843,
+          0,
+          0.0005717372690837829,
+          0.0013751433488826432,
+          0.0007417178648234963,
+          0.0005013996248135144,
+          0.000506416666927964,
+          0.0005729640168972456,
+          0.00019104875104953846,
+          0.000333572635135132
+        ],
+        "mean": 0.0005100487707826401,
+        "min": 0,
+        "max": 0.0013751433488826432
+      },
+      "genEurCentsPerCountryYear": {
+        "values": [
+          2.3912407499999997,
+          2.260302525,
+          2.43944805,
+          2.505112275,
+          2.40079965,
+          2.5097433749999998,
+          2.4756389999999997,
+          2.3892089999999997,
+          2.45411535,
+          2.53156695
+        ],
+        "mean": 2.4357176925,
+        "min": 2.260302525,
+        "max": 2.53156695
+      }
+    }
+  },
+  "differenceStructuredMinusFlat": {
+    "contradictionsPerCountryYear": null,
+    "shareOfYearsWithContradiction": null,
+    "headlineSimilarity": null,
+    "score": null,
+    "genEurCentsPerCountryYear": null
+  },
+  "worlds": {
+    "estructurada+noticias": [
+      {
+        "runId": "memory-v1-followup-a1n-r1",
+        "replicate": 1,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.16020265156805188,
+        "score": 4.861111111111111,
+        "ngram4": 0.0003064875302130843,
+        "genEurCentsPerCountryYear": 2.3912407499999997
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r2",
+        "replicate": 2,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.05555555555555555,
+        "headlineSimilarity": 0.14794946222178185,
+        "score": 4.888888888888889,
+        "ngram4": 0,
+        "genEurCentsPerCountryYear": 2.260302525
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r3",
+        "replicate": 3,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.1111111111111111,
+        "shareOfYearsWithContradiction": 0.1111111111111111,
+        "headlineSimilarity": 0.14925157090700392,
+        "score": 4.861111111111112,
+        "ngram4": 0.0005717372690837829,
+        "genEurCentsPerCountryYear": 2.43944805
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r4",
+        "replicate": 4,
+        "complete": true,
+        "contradictionsPerCountryYear": 0,
+        "shareOfYearsWithContradiction": 0,
+        "headlineSimilarity": 0.15315423250771398,
+        "score": 4.972222222222222,
+        "ngram4": 0.0013751433488826432,
+        "genEurCentsPerCountryYear": 2.505112275
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r5",
+        "replicate": 5,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.1508731733192625,
+        "score": 4.916666666666667,
+        "ngram4": 0.0007417178648234963,
+        "genEurCentsPerCountryYear": 2.40079965
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r6",
+        "replicate": 6,
+        "complete": true,
+        "contradictionsPerCountryYear": 0,
+        "shareOfYearsWithContradiction": 0,
+        "headlineSimilarity": 0.15555061543569887,
+        "score": 4.861111111111112,
+        "ngram4": 0.0005013996248135144,
+        "genEurCentsPerCountryYear": 2.5097433749999998
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r7",
+        "replicate": 7,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.05555555555555555,
+        "shareOfYearsWithContradiction": 0.05555555555555555,
+        "headlineSimilarity": 0.16571156723536754,
+        "score": 4.861111111111112,
+        "ngram4": 0.000506416666927964,
+        "genEurCentsPerCountryYear": 2.4756389999999997
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r8",
+        "replicate": 8,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.1514352561711308,
+        "score": 4.888888888888889,
+        "ngram4": 0.0005729640168972456,
+        "genEurCentsPerCountryYear": 2.3892089999999997
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r9",
+        "replicate": 9,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.1784112607593645,
+        "score": 4.888888888888889,
+        "ngram4": 0.00019104875104953846,
+        "genEurCentsPerCountryYear": 2.45411535
+      },
+      {
+        "runId": "memory-v1-followup-a1n-r10",
+        "replicate": 10,
+        "complete": true,
+        "contradictionsPerCountryYear": 0.08333333333333333,
+        "shareOfYearsWithContradiction": 0.08333333333333333,
+        "headlineSimilarity": 0.16017973805695254,
+        "score": 4.861111111111112,
+        "ngram4": 0.000333572635135132,
+        "genEurCentsPerCountryYear": 2.53156695
+      }
+    ]
+  },
+  "judgeModel": "claude-sonnet-5"
+}

@@ -1,0 +1,28 @@
+{
+  "study": "memory-v1",
+  "stage": "followup",
+  "registeredAt": "2026-10-08",
+  "approvedBy": "David (\"vamos a correrlo\", 8 oct 2026)",
+  "status": "Posterior a la congelación del 24 sep: experimento de seguimiento, no parte del diseño original. Se registra antes de generar ningún dato.",
+  "motivation": "Una revisión externa señaló que A1 (estructurada) difiere de A1G (plana) en varias cosas a la vez: recorta movimientos, repite el perfil y no ve las noticias del año anterior. 32 de las 39 contradicciones de A1 chocan con noticias que no ve. Este seguimiento devuelve solo ese canal.",
+  "condition": {
+    "id": "A1N",
+    "label": "estructurada+noticias",
+    "definition": "A1 sin ningún cambio, más el bloque SIMULATED NEWS HISTORY de A1G (las noticias simuladas del año anterior, mismas y en el mismo sitio del prompt). Comprobado en architectures.test.ts."
+  },
+  "runs": "memory-v1-followup-a1n-r1..r10; solo A1N. Plana y estructurada son las tiradas de eval (24 sep), sin repetir.",
+  "cohort": { "countries": ["United States", "China", "India", "Pakistan"], "years": [2015, 2024], "worlds": 10 },
+  "unchanged": "Generador (gemini-3.6-flash, misma decodificación), juez (claude-sonnet-5, misma rúbrica y control de citas), medidas y agregación de freeze.json.",
+  "hypothesis": "Si las contradicciones de la estructurada vienen sobre todo de no ver las noticias del año anterior, A1N tendrá menos contradicciones por país-año que A1 (0,108) y quedará cerca de A1G (0,056).",
+  "readingRule": [
+    "Se reportan los 10 valores por mundo de A1N, su media y rango, junto a los de A1G y A1 de eval, como en freeze.json.",
+    "Diferencias A1N − A1 y A1N − A1G, con intervalo de confianza al 95 % por mundos (Welch), declarado como análisis posterior a la congelación.",
+    "Lectura: si A1N − A1 es negativo y su intervalo excluye el cero, las noticias explican parte de la diferencia; si el intervalo incluye el cero, no concluyente. No se afirma equivalencia con A1G a partir de una diferencia pequeña.",
+    "La parte de las contradicciones de A1N que chocan con noticias se codifica igual que en eval."
+  ],
+  "caveats": [
+    "Sin mundos de control de A1: si el proveedor cambió gemini-3.6-flash desde el 24 sep, la comparación con eval mezcla dos momentos. Se declara como limitación.",
+    "Con 10 mundos, diferencias menores de ~0,055 contradicciones por país-año no se distinguen de la variación entre mundos."
+  ],
+  "budget": { "expectedEur": 22, "limitEur": 50, "studySpentBeforeEur": 45.57, "guard": "progress.ts --guard 95 (gasto total del estudio; para al pasar de 45,57 + ~50 €)" }
+}

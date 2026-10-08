@@ -22,6 +22,7 @@ import { FUN_FACTOR, IndicatorSource, experimentAgent, generatorUsageSink } from
 import {
   conditionOrder,
   FREEZE_MANIFEST,
+  FOLLOWUP_PREREG,
   generationsPerWorld,
   MEMORY_STAGES,
   MEMORY_STUDY,
@@ -57,6 +58,8 @@ const GENERATION_CODE = [
   "src/tfm/experiment/architectures/shared.ts",
   "src/tfm/experiment/architectures/a1g-grounding-only.ts",
   "src/tfm/experiment/architectures/a1-grounded.ts",
+  "src/tfm/experiment/architectures/a1n-structured-news.ts",
+  "src/tfm/experiment/architectures/index.ts",
 ];
 
 function arg(flag: string): string | undefined {
@@ -253,7 +256,7 @@ async function main(): Promise<void> {
 
   if (study !== MEMORY_STUDY) {
     console.error(
-      `Uso: run-experiment.ts --study ${MEMORY_STUDY} --stage pilot|dev|eval --arch A1G|A1 --replicate N [--dry-run|--yes]\n` +
+      `Uso: run-experiment.ts --study ${MEMORY_STUDY} --stage pilot|dev|eval|followup --arch A1G|A1|A1N --replicate N [--dry-run|--yes]\n` +
         "  --dry-run  muestra spec, huella, prompts y coste estimado; no llama a nadie ni escribe nada\n" +
         "  --yes      confirma el gasto de API\n" +
         `  --extra-attempts N  autoriza N intentos más allá de ${MAX_ATTEMPTS} (quedan registrados)`
@@ -279,10 +282,12 @@ async function main(): Promise<void> {
     console.log("Sin commitear:", fingerprint.uncommittedFiles!.join(", "));
   }
   console.log(`Tamaño:        ${spec.countries.length} países × ${spec.endYear - spec.startYear + 1} años = ${generationsPerWorld(stage)} generaciones`);
-  console.log(
-    `Orden:         replicado ${replicate} corre ${conditionOrder(replicate).join(" y luego ")}; ` +
-      `${MEMORY_STAGES[stage].replicates} mundo(s) por condición en ${stage}`
-  );
+  if (stage !== "followup") {
+    console.log(
+      `Orden:         replicado ${replicate} corre ${conditionOrder(replicate).join(" y luego ")}; ` +
+        `${MEMORY_STAGES[stage].replicates} mundo(s) por condición en ${stage}`
+    );
+  }
 
   const missing = spec.countries.filter((c) => !indicators.indicatorsFor(c));
   const lore = spec.countries.filter((c) => getLoreInjectionsForCountry(c).length > 0);
@@ -295,6 +300,10 @@ async function main(): Promise<void> {
   console.log(`Tirada previa: ${existing ? `${existing} registros aceptados en ${path.relative(REPO_ROOT, runDir)} (se reanudaría)` : "no existe"}`);
 
   const frozen = fs.existsSync(FREEZE_MANIFEST);
+  const preregistered = fs.existsSync(FOLLOWUP_PREREG);
+  if (stage === "followup") {
+    console.log(`Prerregistro:  followup exige ${path.relative(REPO_ROOT, FOLLOWUP_PREREG)} — ${preregistered ? "presente" : "NO existe"}`);
+  }
   if (stage === "eval") {
     console.log(`Congelación:   eval exige ${path.relative(REPO_ROOT, FREEZE_MANIFEST)} — ${frozen ? "presente" : "NO existe"}`);
   }
@@ -309,6 +318,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
   if (stage === "eval" && !frozen) throw new Error("Evaluación sin freeze.json: congela el diseño antes");
+  if (stage === "followup" && !preregistered) throw new Error("Seguimiento sin followup-prereg.json: prerregístralo antes");
   if (missing.length > 0) throw new Error(`Sin indicadores para ${missing.join(", ")}`);
   if (lore.length > 0) throw new Error(`La BD local tiene lore para ${lore.join(", ")}: entraría en el prompt`);
   if (!process.env.GEMINI_API_KEY) throw new Error("GEMINI_API_KEY missing — abortando antes de gastar");

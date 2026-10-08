@@ -1,0 +1,401 @@
+runId,condition,replicate,country,year,contradictions,score,headlineSimilarity,ngram4,recycledShare,genInputTokens,genOutputTokens,genThoughtsTokens,genEurCents,judgeInputTokens,judgeOutputTokens
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2015,,,,0,,1157,1315,2195,2.4132,,
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2015,,,,0,,1190,1246,2672,2.6806,,
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2015,,,,0,,1163,1216,2367,2.4611,,
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2015,,,,0,,1148,1329,2317,2.4998,,
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2016,0,5,0.1767,0,0,1892,812,2217,2.1978,4448,141
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2016,0,5,0.1623,0.003,0,2209,852,2315,2.3277,5062,145
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2016,1,4,0.1918,0,0,2205,1258,2271,2.5607,5131,413
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2016,0,5,0.1252,0.0061,0,2036,1234,1774,2.2028,4836,186
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2017,0,5,0.1848,0,0,1922,1308,2126,2.4629,5821,182
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2017,0,5,0.1116,0,0,2276,1252,2790,2.9007,6446,167
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2017,0,5,0.1189,0,0,2274,1296,2499,2.7411,6477,218
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2017,1,4,0.1109,0,0,2116,1248,1902,2.3047,6191,346
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2018,0,5,0.2032,0,0.0833,2050,1240,1470,2.0124,7126,138
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2018,0,5,0.1463,0,0,2378,883,2329,2.3785,7746,152
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2018,1,4,0.204,0,0.0833,2336,1308,1464,2.0893,7843,319
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2018,0,5,0.1324,0,0,2202,1161,1531,2.0204,7412,173
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2019,0,5,0.2292,0,0.0833,2032,1340,1638,2.1829,8501,166
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2019,0,5,0.1106,0,0,2391,1204,850,1.6333,9081,190
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2019,1,4,0.1495,0,0,2395,902,2492,2.4981,9194,348
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2019,0,5,0.1926,0,0,2167,1315,2058,2.4551,8867,172
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2020,0,5,0.2123,0.0032,0,2090,1162,2306,2.5065,9804,185
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2020,0,5,0.1018,0,0,2410,1380,2046,2.5207,10506,184
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2020,0,5,0.1227,0,0,2401,1244,2395,2.6569,10498,179
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2020,0,5,0.1071,0,0,2300,1289,1182,1.8905,10339,252
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2021,0,5,0.2048,0,0.0833,2075,1248,2065,2.4046,11184,174
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2021,0,5,0.1246,0,0,2469,1229,1859,2.3103,11843,117
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2021,0,4,0.1156,0,0,2414,1377,2550,2.8443,11819,232
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2021,0,5,0.1371,0,0,2311,1432,745,1.7023,11845,148
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2022,0,5,0.1886,0,0,2133,1158,1760,2.1573,12475,164
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2022,0,5,0.1606,0,0,2501,1291,2560,2.8065,13139,181
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2022,0,5,0.1455,0,0,2448,1239,1961,2.3798,13107,168
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2022,0,5,0.1598,0,0,2376,1232,2132,2.4763,13143,202
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2023,0,5,0.1809,0,0,2123,1226,2050,2.3869,13715,194
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2023,0,5,0.1183,0,0,2442,1288,1979,2.4222,14591,177
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2023,0,5,0.2305,0,0,2434,894,2694,2.6282,14467,171
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2023,0,5,0.1792,0,0,2301,1361,1943,2.4279,14472,223
+memory-v1-followup-a1n-r1,estructurada+noticias,1,United States,2024,0,5,0.1834,0,0,2164,1334,2172,2.5405,15034,186
+memory-v1-followup-a1n-r1,estructurada+noticias,1,China,2024,0,5,0.1572,0,0,2541,1410,2973,3.1548,16044,162
+memory-v1-followup-a1n-r1,estructurada+noticias,1,India,2024,0,5,0.1552,0,0,2476,926,1967,2.1854,15854,125
+memory-v1-followup-a1n-r1,estructurada+noticias,1,Pakistan,2024,0,5,0.2322,0,0.1667,2387,834,2138,2.2249,15777,139
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2015,,,,0,,1157,1186,1920,2.1526,,
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2015,,,,0,,1190,1304,1899,2.2194,,
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2015,,,,0,,1163,1364,2393,2.5733,,
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2015,,,,0,,1148,875,2108,2.0721,,
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2016,0,5,0.1553,0,0,1869,1317,2006,2.3844,4359,126
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2016,0,5,0.1155,0,0,2179,1320,1693,2.2245,5053,171
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2016,0,5,0.1649,0,0,2201,918,1784,2.0267,5241,149
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2016,0,5,0.161,0,0,2040,1336,1254,1.9337,4899,195
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2017,0,5,0.1712,0,0,1950,1195,2079,2.3633,5635,174
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2017,2,2,0.123,0,0,2247,1211,2086,2.4164,6299,523
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2017,0,5,0.1493,0,0,2289,1309,2836,2.9688,6602,179
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2017,0,5,0.125,0,0,2101,1222,862,1.6152,6209,218
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2018,0,5,0.1735,0,0,2005,1240,1868,2.2633,6917,166
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2018,0,5,0.1072,0,0,2312,1341,2618,2.8518,7701,170
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2018,0,5,0.1472,0,0,2340,922,2879,2.7535,7949,188
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2018,0,5,0.1132,0,0,2152,867,1596,1.8662,7553,184
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2019,0,5,0.1884,0,0,2044,901,2687,2.5779,8229,201
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2019,0,5,0.0947,0,0,2405,1336,823,1.7028,9148,211
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2019,0,5,0.1439,0,0,2366,1267,1727,2.2363,9229,157
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2019,0,5,0.1109,0,0,2206,828,1583,1.8397,8768,143
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2020,0,5,0.1445,0,0,2075,907,2162,2.2472,9506,169
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2020,0,5,0.1536,0,0,2473,925,2606,2.5965,10577,155
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2020,0,5,0.1231,0,0,2403,1258,2345,2.6339,10585,187
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2020,0,5,0.175,0,0,2178,1261,2260,2.552,10122,162
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2021,0,5,0.0923,0,0,2073,1171,2066,2.3553,10677,213
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2021,0,5,0.1132,0,0,2476,912,2198,2.3254,11943,204
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2021,0,5,0.1229,0,0,2417,1281,705,1.5928,11959,162
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2021,0,5,0.1708,0,0.0833,2281,1338,705,1.612,11559,169
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2022,0,5,0.1631,0,0,2074,1237,2425,2.6295,11949,153
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2022,0,5,0.1053,0,0,2492,1258,1778,2.2797,13311,126
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2022,0,5,0.1548,0,0,2482,1391,1535,2.2074,13363,167
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2022,0,5,0.1549,0,0,2368,1254,1921,2.3533,12895,159
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2023,0,5,0.1531,0,0,2147,1271,1878,2.3081,13306,189
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2023,0,5,0.1477,0,0,2485,1272,2050,2.4633,14688,183
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2023,0,5,0.1372,0,0,2531,848,2196,2.2899,14690,167
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2023,0,5,0.144,0,0,2323,1230,2457,2.6778,14238,198
+memory-v1-followup-a1n-r2,estructurada+noticias,2,United States,2024,0,5,0.2536,0,0,2219,1404,1582,2.2122,14704,156
+memory-v1-followup-a1n-r2,estructurada+noticias,2,China,2024,0,5,0.1726,0,0,2526,874,2466,2.4802,16053,155
+memory-v1-followup-a1n-r2,estructurada+noticias,2,India,2024,0,5,0.1648,0,0,2500,949,607,1.3261,16120,200
+memory-v1-followup-a1n-r2,estructurada+noticias,2,Pakistan,2024,1,4,0.2354,0,0.0833,2312,1238,1753,2.2274,15598,378
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2015,,,,0,,1157,838,3568,2.9911,,
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2015,,,,0,,1190,894,2825,2.5523,,
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2015,,,,0,,1163,844,2368,2.2218,,
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2015,,,,0,,1148,875,1969,1.9825,,
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2016,0,5,0.1411,0,0.0833,1873,1275,1659,2.134,4348,114
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2016,0,5,0.1683,0,0,2255,1194,1716,2.1678,5136,150
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2016,0,5,0.2078,0,0.0833,2176,1252,2608,2.7704,5016,167
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2016,0,5,0.1206,0.0086,0,2056,1230,2260,2.5163,4879,160
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2017,1,4,0.175,0,0.0833,1931,915,2539,2.4769,5725,343
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2017,0,5,0.1444,0,0.0833,2237,896,2072,2.2029,6437,153
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2017,0,5,0.1592,0,0,2240,1239,2061,2.4175,6349,125
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2017,0,5,0.14,0,0,2124,1284,2265,2.5631,6261,162
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2018,1,4,0.1492,0,0,2060,889,2380,2.3742,7022,381
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2018,0,5,0.1305,0,0,2339,1261,2205,2.5373,7790,149
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2018,1,4,0.1372,0,0,2294,1271,2220,2.5476,7707,378
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2018,0,5,0.1842,0,0,2193,1365,2027,2.4707,7616,193
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2019,0,5,0.1618,0,0,2053,1185,2452,2.6107,8239,174
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2019,0,5,0.1186,0,0,2410,1274,1484,2.0898,9150,141
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2019,0,5,0.1432,0,0,2365,943,2650,2.6226,9108,147
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2019,0,5,0.1806,0.0029,0,2236,1270,1712,2.2118,8961,171
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2020,0,5,0.1746,0,0.0833,2059,1283,2509,2.7115,9486,202
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2020,0,5,0.0884,0,0,2422,1235,2123,2.4783,10393,196
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2020,0,5,0.1303,0.003,0,2403,902,3093,2.8868,10339,190
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2020,0,5,0.1921,0.0028,0,2227,1356,1536,2.1526,10369,172
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2021,0,5,0.1015,0,0,2044,894,1700,1.9368,10860,209
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2021,0,5,0.1314,0,0,2394,1169,2339,2.5715,11620,158
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2021,0,4,0.121,0,0,2367,1293,1731,2.2558,11723,196
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2021,0,5,0.1499,0,0,2243,933,2433,2.4604,11721,219
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2022,0,5,0.1206,0,0,2125,1234,1807,2.2356,12181,206
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2022,0,5,0.1537,0,0,2403,1267,2648,2.8352,12896,167
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2022,0,5,0.1289,0,0,2463,1345,2419,2.7455,13119,171
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2022,0,5,0.1563,0.0028,0,2290,1370,1645,2.2401,13081,155
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2023,0,5,0.1281,0,0,2145,1198,1856,2.2465,13356,212
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2023,0,5,0.1762,0,0,2411,1206,2387,2.6285,14193,141
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2023,0,5,0.1127,0,0,2474,1420,1198,2.0078,14502,191
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2023,0,5,0.1973,0,0,2322,1298,2281,2.608,14498,166
+memory-v1-followup-a1n-r3,estructurada+noticias,3,United States,2024,0,5,0.1501,0,0,2097,1269,1987,2.3706,14682,130
+memory-v1-followup-a1n-r3,estructurada+noticias,3,China,2024,0,5,0.1421,0,0,2466,1306,2656,2.8736,15575,183
+memory-v1-followup-a1n-r3,estructurada+noticias,3,India,2024,0,5,0.1501,0,0,2497,1307,1676,2.2461,15907,208
+memory-v1-followup-a1n-r3,estructurada+noticias,3,Pakistan,2024,1,4,0.2062,0.0027,0,2346,1273,2328,2.6253,15855,368
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2015,,,,0,,1157,1230,1748,2.0701,,
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2015,,,,0,,1190,1288,2155,2.3742,,
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2015,,,,0,,1163,845,2129,2.0683,,
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2015,,,,0,,1148,1310,2100,2.3475,,
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2016,0,5,0.1783,0,0,1902,1291,1882,2.2919,4519,182
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2016,0,5,0.104,0,0,2185,894,2209,2.2833,5014,174
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2016,0,5,0.1914,0.0028,0,2190,1218,1821,2.2427,5065,153
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2016,0,5,0.1547,0,0,2109,1268,2050,2.4122,5007,182
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2017,0,5,0.2199,0.0111,0.0833,2002,1277,2259,2.539,5860,148
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2017,0,5,0.1522,0.011,0,2269,1283,1354,1.9936,6420,172
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2017,0,5,0.115,0,0,2254,1208,2416,2.6282,6410,133
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2017,0,5,0.1691,0,0,2129,1298,1742,2.2354,6448,149
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2018,0,5,0.1876,0,0,2046,1243,2395,2.6104,7229,189
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2018,0,5,0.1757,0,0,2349,1389,1988,2.4812,7809,210
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2018,0,5,0.1496,0,0,2322,1406,1805,2.3706,7732,162
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2018,0,5,0.1446,0,0,2204,1366,2224,2.5999,7852,193
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2019,0,5,0.1793,0,0,2075,862,2497,2.4342,8483,165
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2019,0,5,0.1888,0,0,2410,885,2486,2.4852,9203,215
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2019,0,5,0.1742,0,0,2397,1420,2033,2.5364,9147,190
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2019,0,5,0.1296,0,0,2232,1253,1891,2.3158,9199,128
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2020,0,5,0.1728,0,0,2070,813,2494,2.4,9740,186
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2020,0,5,0.1377,0,0,2442,1334,2228,2.6125,10432,186
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2020,0,5,0.1215,0.0124,0,2431,1314,1723,2.2725,10542,211
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2020,0,5,0.2517,0.0026,0.1667,2203,1383,2063,2.5069,10626,128
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2021,0,5,0.1122,0,0,2091,754,2778,2.5479,10933,233
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2021,0,5,0.1062,0,0,2395,878,1897,2.0988,11768,156
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2021,0,5,0.1556,0,0,2444,1425,3464,3.4687,11916,167
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2021,0,4,0.1705,0,0,2293,1305,2274,2.6043,12070,264
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2022,0,5,0.1067,0,0,2087,1356,2445,2.7209,12285,219
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2022,0,5,0.1319,0,0,2445,1194,2216,2.5149,13067,213
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2022,0,5,0.1752,0,0,2471,1337,2186,2.5911,13277,149
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2022,0,5,0.149,0,0.0833,2307,1375,2699,2.9253,13467,158
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2023,0,5,0.1124,0,0,2144,1235,1796,2.2316,13583,198
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2023,0,5,0.0902,0,0,2407,1341,2201,2.5951,14407,178
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2023,0,5,0.1607,0,0,2439,1259,2985,3.052,14593,148
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2023,0,5,0.1407,0.0026,0,2308,1385,2766,2.9751,14892,213
+memory-v1-followup-a1n-r4,estructurada+noticias,4,United States,2024,0,5,0.1499,0.0033,0,2160,796,1979,2.0685,14742,141
+memory-v1-followup-a1n-r4,estructurada+noticias,4,China,2024,0,5,0.1106,0,0,2481,901,2932,2.7923,15855,198
+memory-v1-followup-a1n-r4,estructurada+noticias,4,India,2024,0,5,0.1587,0.0091,0,2495,1237,2146,2.5039,15882,130
+memory-v1-followup-a1n-r4,estructurada+noticias,4,Pakistan,2024,0,5,0.1853,0,0,2348,1307,3498,3.4021,16351,176
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2015,,,,0,,1157,1253,1902,2.1842,,
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2015,,,,0,,1190,1214,2765,2.72,,
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2015,,,,0,,1163,840,2024,1.9973,,
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2015,,,,0,,1148,1227,1918,2.1766,,
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2016,0,5,0.1442,0,0,1896,1159,1721,2.1022,4412,195
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2016,0,5,0.0903,0,0,2183,1274,2619,2.7926,5269,192
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2016,0,5,0.1764,0.0027,0,2186,1256,2176,2.4956,5076,138
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2016,0,5,0.1368,0,0,2021,895,1707,1.939,4872,120
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2017,0,5,0.1979,0,0,1937,1318,1992,2.3848,5675,152
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2017,0,5,0.0947,0.0215,0,2292,861,2938,2.746,6564,181
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2017,0,5,0.1431,0,0,2256,1233,2327,2.5872,6366,138
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2017,0,5,0.1558,0,0,2101,1263,2015,2.3853,6287,142
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2018,0,5,0.1362,0,0,1975,1191,2147,2.4078,6885,192
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2018,0,5,0.0916,0,0,2334,1365,2144,2.5644,7958,166
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2018,0,5,0.177,0,0,2271,916,2380,2.4189,7706,179
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2018,0,5,0.151,0,0.0833,2144,1215,1915,2.2954,7588,175
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2019,0,5,0.1274,0,0,2038,1334,2661,2.8397,8189,175
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2019,0,5,0.1024,0,0,2382,1258,1580,2.1378,9284,189
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2019,0,5,0.1774,0,0,2358,1239,2070,2.4385,9095,181
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2019,0,5,0.1824,0.0029,0,2217,828,2117,2.1855,8919,174
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2020,0,5,0.1338,0,0,2074,1267,1884,2.2999,9350,180
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2020,0,5,0.1074,0,0,2431,1275,2624,2.8285,10589,204
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2020,1,4,0.1713,0,0,2371,1273,2819,2.9452,10444,476
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2020,1,4,0.1472,0,0,2208,1238,1947,2.3392,10266,372
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2021,0,5,0.1416,0,0,2068,1443,2650,2.9068,10757,189
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2021,0,5,0.1483,0,0,2439,1175,2046,2.3922,11845,129
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2021,0,5,0.1642,0,0,2422,1223,1749,2.2294,11811,193
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2021,0,5,0.1443,0,0,2255,1262,1107,1.8189,11635,182
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2022,0,5,0.1616,0,0,2152,1195,2153,2.4371,12019,212
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2022,0,5,0.1285,0,0,2434,1280,2163,2.5347,13258,181
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2022,0,5,0.1752,0,0,2419,1281,2113,2.5012,13176,167
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2022,0,5,0.1659,0,0,2261,1254,2467,2.6917,13015,196
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2023,0,5,0.1319,0.0026,0,2119,1261,1437,2.0136,13449,178
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2023,0,5,0.1085,0,0,2491,1263,2097,2.4885,14635,165
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2023,0,5,0.1424,0,0,2458,1350,2036,2.5011,14517,196
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2023,1,4,0.285,0,0.0833,2293,1236,1231,1.887,14396,429
+memory-v1-followup-a1n-r5,estructurada+noticias,5,United States,2024,0,5,0.1283,0,0,2213,1338,2697,2.8881,14777,174
+memory-v1-followup-a1n-r5,estructurada+noticias,5,China,2024,0,5,0.1459,0,0,2522,871,1931,2.1326,15944,144
+memory-v1-followup-a1n-r5,estructurada+noticias,5,India,2024,0,5,0.1508,0,0,2491,1277,1780,2.2931,15854,192
+memory-v1-followup-a1n-r5,estructurada+noticias,5,Pakistan,2024,0,5,0.2644,0,0.0833,2359,1259,1532,2.1045,15765,155
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2015,,,,0,,1157,859,2600,2.3803,,
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2015,,,,0,,1190,1235,1793,2.1066,,
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2015,,,,0,,1163,1325,2180,2.4108,,
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2015,,,,0,,1148,1239,1879,2.1592,,
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2016,0,4,0.165,0,0,1891,879,2963,2.722,4443,281
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2016,0,5,0.1289,0,0,2217,1306,1836,2.3126,5121,165
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2016,0,5,0.1676,0.0029,0,2207,878,3425,3.0601,5104,158
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2016,0,5,0.2205,0.0027,0,2049,1336,2250,2.5773,4931,127
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2017,0,5,0.1549,0,0,1978,951,2315,2.3617,5800,170
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2017,0,3,0.1223,0,0,2268,1244,2387,2.6346,6410,353
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2017,0,5,0.1362,0,0,2238,934,2503,2.5056,6517,140
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2017,0,5,0.1345,0,0,2128,1232,2412,2.6249,6276,238
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2018,0,5,0.1066,0,0,2059,1342,2276,2.5992,7140,187
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2018,0,5,0.1352,0,0,2325,1183,1909,2.2943,7764,166
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2018,0,5,0.1356,0,0,2334,1296,1419,2.0523,7893,162
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2018,0,5,0.1247,0,0,2153,1235,2362,2.5978,7648,176
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2019,0,5,0.1139,0,0,2096,921,2022,2.1686,8419,184
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2019,0,5,0.1337,0,0,2378,1201,1554,2.0837,9093,159
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2019,0,5,0.1433,0,0,2342,1318,2098,2.5054,9289,155
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2019,0,5,0.1798,0,0,2206,961,2607,2.5859,9104,162
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2020,0,5,0.1768,0,0,2092,1196,2101,2.3964,9637,153
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2020,0,5,0.0799,0,0,2419,1356,2318,2.6818,10449,217
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2020,0,5,0.1092,0.0027,0,2414,902,2467,2.4844,10662,157
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2020,0,5,0.1747,0,0.0833,2248,1259,2216,2.5314,10482,156
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2021,0,5,0.1701,0,0,2077,1158,2860,2.8595,10928,152
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2021,0,5,0.1021,0,0,2408,1219,2371,2.6262,11720,167
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2021,0,4,0.1414,0.003,0,2401,1233,2180,2.5111,11946,237
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2021,0,5,0.1754,0,0,2233,1412,2004,2.4914,11834,215
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2022,0,5,0.1667,0,0,2148,1229,1690,2.1598,12251,191
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2022,0,5,0.0872,0,0,2432,1360,2681,2.9202,13104,169
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2022,0,5,0.2428,0,0,2397,1223,1924,2.339,13274,176
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2022,0,5,0.1303,0,0,2334,1245,3169,3.1481,13166,179
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2023,0,5,0.2002,0,0,2156,1103,1752,2.1196,13398,200
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2023,0,5,0.1056,0,0,2438,898,2683,2.6242,14531,173
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2023,0,5,0.2242,0.0088,0,2405,1312,2494,2.7651,14480,192
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2023,0,5,0.2346,0,0.0833,2281,1233,1777,2.2357,14561,178
+memory-v1-followup-a1n-r6,estructurada+noticias,6,United States,2024,0,5,0.2465,0,0,2094,1164,2110,2.3819,14692,153
+memory-v1-followup-a1n-r6,estructurada+noticias,6,China,2024,0,5,0.1627,0,0,2499,1211,2428,2.6695,15896,192
+memory-v1-followup-a1n-r6,estructurada+noticias,6,India,2024,0,5,0.1813,0,0,2449,1270,2993,3.0656,15839,215
+memory-v1-followup-a1n-r6,estructurada+noticias,6,Pakistan,2024,0,4,0.1854,0,0,2348,1289,2328,2.6359,15945,318
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2015,,,,0.0026,,1157,1353,2685,2.7538,,
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2015,,,,0,,1190,1270,1651,2.0376,,
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2015,,,,0,,1163,1260,2770,2.7494,,
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2015,,,,0,,1148,1216,2357,2.4527,,
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2016,0,5,0.2,0,0.0833,1943,1345,2038,2.4327,4603,202
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2016,0,5,0.1041,0,0,2254,1254,2180,2.5057,5141,187
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2016,0,5,0.1263,0,0,2234,1272,2199,2.527,5211,199
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2016,0,5,0.1063,0,0,2060,1374,1441,2.0814,4878,131
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2017,0,4,0.2206,0,0.0833,1999,1249,2222,2.4967,5918,199
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2017,0,5,0.0708,0,0,2279,1281,2082,2.4631,6507,209
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2017,0,5,0.1652,0.0026,0,2265,904,1929,2.1195,6582,184
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2017,0,5,0.1657,0,0,2122,850,1794,1.9791,6162,194
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2018,0,5,0.1063,0,0,2073,1374,1591,2.1798,7232,164
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2018,0,5,0.1341,0,0,2356,1277,2128,2.5001,7820,162
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2018,0,5,0.1852,0,0,2346,1323,2310,2.6459,7917,211
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2018,0,4,0.1888,0,0,2175,853,2646,2.5374,7441,205
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2019,0,5,0.1439,0,0,2084,1312,2439,2.6882,8464,163
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2019,0,5,0.1316,0,0,2417,872,2965,2.7867,9160,209
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2019,0,5,0.153,0,0,2376,1246,3156,3.1458,9239,156
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2019,0,5,0.2476,0,0,2185,1236,1954,2.3394,8792,161
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2020,0,4,0.1492,0,0,2085,897,2526,2.4768,9803,236
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2020,0,5,0.102,0.0024,0,2409,1361,2262,2.6476,10618,174
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2020,0,5,0.1294,0.0095,0,2397,1369,2045,2.5112,10652,198
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2020,0,5,0.1962,0,0,2218,1324,1433,2.0644,10068,176
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2021,0,5,0.221,0,0.0833,2157,1274,2561,2.7518,11197,183
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2021,0,5,0.0996,0,0,2502,1174,2425,2.6441,11901,184
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2021,0,5,0.1439,0,0,2500,1385,2269,2.6793,12058,185
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2021,1,4,0.1901,0,0,2249,1385,2125,2.5541,11453,392
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2022,0,5,0.1708,0,0,2184,1258,2271,2.5579,12375,175
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2022,0,5,0.1749,0,0,2444,1222,2064,2.4347,13227,182
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2022,0,5,0.1384,0,0,2469,1267,1452,2.0723,13466,209
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2022,0,5,0.2018,0,0,2318,1316,2449,2.7274,12751,194
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2023,0,5,0.1963,0,0,2087,1292,2468,2.6944,13586,155
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2023,0,5,0.1657,0,0,2461,1306,2633,2.8581,14429,200
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2023,0,5,0.1643,0,0,2473,1314,1672,2.245,14757,139
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2023,0,5,0.2415,0,0,2310,1374,1913,2.4181,14139,215
+memory-v1-followup-a1n-r7,estructurada+noticias,7,United States,2024,0,5,0.2034,0,0,2134,1260,2440,2.6618,14916,187
+memory-v1-followup-a1n-r7,estructurada+noticias,7,China,2024,0,5,0.1925,0,0,2470,1384,1178,1.9711,15866,161
+memory-v1-followup-a1n-r7,estructurada+noticias,7,India,2024,0,5,0.2048,0,0,2515,1291,2042,2.4742,16117,225
+memory-v1-followup-a1n-r7,estructurada+noticias,7,Pakistan,2024,1,4,0.2304,0.0031,0,2377,1179,1693,2.1591,15340,375
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2015,,,,0,,1157,1299,2219,2.4184,,
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2015,,,,0,,1190,1227,2496,2.5548,,
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2015,,,,0,,1163,792,1756,1.7935,,
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2015,,,,0,,1148,932,2051,2.0721,,
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2016,0,5,0.1189,0,0,1875,1253,1219,1.8363,4439,163
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2016,0,5,0.1194,0,0,2210,922,2873,2.7329,5121,152
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2016,1,4,0.1726,0,0,2143,1222,2439,2.6378,4968,386
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2016,0,5,0.1271,0.005,0,2071,1415,1872,2.3873,5003,146
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2017,0,5,0.1234,0,0,1985,864,3603,3.1373,5706,167
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2017,0,5,0.1365,0,0,2303,1327,2362,2.6765,6389,173
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2017,0,5,0.134,0,0,2253,1260,1777,2.2495,6329,140
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2017,0,5,0.1629,0,0,2184,1266,2492,2.7056,6378,139
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2018,0,5,0.1307,0,0,1999,881,2381,2.3619,7018,197
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2018,0,5,0.1088,0,0,2343,905,2086,2.2314,7738,188
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2018,0,5,0.1975,0,0,2337,1341,2329,2.6686,7728,159
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2018,0,5,0.2112,0,0.0833,2197,1412,2266,2.6557,7758,135
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2019,0,5,0.1668,0,0,2064,871,2107,2.1871,8291,166
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2019,0,5,0.1036,0,0,2425,1354,2456,2.7703,9081,188
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2019,0,5,0.1689,0,0.0833,2418,1287,780,1.6451,9093,191
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2019,0,5,0.2287,0,0.0833,2256,1261,2410,2.6588,9088,151
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2020,0,5,0.0932,0.0027,0,2062,1362,2519,2.7692,9616,189
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2020,0,5,0.1371,0,0,2443,1284,2596,2.8177,10449,202
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2020,0,5,0.1053,0,0,2441,1323,1864,2.3705,10455,175
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2020,1,4,0.2535,0,0.0833,2267,1248,2142,2.479,10447,322
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2021,0,5,0.1384,0,0,2119,858,1666,1.9013,10892,178
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2021,0,5,0.0742,0,0,2480,1341,1321,2.0369,11784,194
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2021,1,4,0.133,0.01,0,2450,1350,2106,2.5452,11827,327
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2021,0,5,0.1839,0,0,2283,1387,1042,1.8612,11886,135
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2022,0,5,0.1436,0,0,2108,1252,2133,2.4553,12212,225
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2022,0,5,0.1399,0,0,2504,904,2470,2.4992,13206,179
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2022,0,4,0.1871,0.0025,0,2515,1285,2241,2.5987,13214,165
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2022,0,5,0.1853,0,0.0833,2320,1308,2294,2.6226,13297,167
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2023,0,5,0.1294,0,0,2134,1366,1837,2.3412,13501,138
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2023,0,5,0.1272,0,0,2545,1441,2138,2.6368,14607,186
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2023,0,5,0.1482,0,0,2543,1314,1340,2.0399,14601,166
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2023,0,5,0.196,0,0,2381,1230,2172,2.5014,14564,160
+memory-v1-followup-a1n-r8,estructurada+noticias,8,United States,2024,0,5,0.1676,0.0028,0,2142,1291,1936,2.3577,14853,193
+memory-v1-followup-a1n-r8,estructurada+noticias,8,China,2024,0,5,0.138,0,0,2548,1202,1670,2.1811,15866,164
+memory-v1-followup-a1n-r8,estructurada+noticias,8,India,2024,0,5,0.2334,0,0,2556,1302,1236,1.9667,15974,156
+memory-v1-followup-a1n-r8,estructurada+noticias,8,Pakistan,2024,0,5,0.1262,0,0,2323,1258,1697,2.2056,15990,169
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2015,,,,0,,1157,1195,2293,2.399,,
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2015,,,,0,,1190,1237,2422,2.5136,,
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2015,,,,0,,1163,898,1831,1.9102,,
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2015,,,,0,,1148,1347,2182,2.4243,,
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2016,0,5,0.1476,0,0,1863,1294,2294,2.5546,4430,139
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2016,0,5,0.1675,0,0,2219,1271,2349,2.6212,5167,137
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2016,0,4,0.1934,0.005,0,2204,905,2657,2.5818,5277,426
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2016,0,5,0.1973,0,0,2053,1260,2518,2.7016,5003,150
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2017,0,5,0.1852,0,0,1984,922,2617,2.5386,5816,155
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2017,1,4,0.2762,0,0.0833,2324,1242,2526,2.7302,6509,341
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2017,0,5,0.1647,0,0,2321,1287,2463,2.7182,6675,165
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2017,0,5,0.1394,0,0,2122,872,2413,2.3926,6364,173
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2018,0,5,0.208,0,0,2044,1369,2501,2.7598,7150,149
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2018,0,5,0.1626,0,0.0833,2311,1242,1928,2.3428,7825,137
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2018,0,5,0.1603,0,0,2346,1275,1569,2.137,7996,170
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2018,0,5,0.162,0,0,2167,916,2523,2.4977,7796,199
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2019,0,5,0.2309,0,0,2076,1343,2370,2.6627,8466,164
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2019,0,5,0.194,0,0,2407,1251,2959,3.026,9164,201
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2019,0,5,0.1256,0,0,2360,1220,2332,2.5955,9217,187
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2019,0,5,0.2,0,0,2239,1296,2797,2.9288,9069,179
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2020,0,5,0.1971,0,0,2071,1264,2391,2.6246,9788,123
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2020,0,5,0.2012,0,0,2401,1331,2464,2.7575,10397,180
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2020,0,5,0.1177,0,0,2327,1312,1910,2.3784,10443,164
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2020,0,5,0.1816,0,0,2207,901,2060,2.1945,10353,130
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2021,0,5,0.1875,0,0,2121,1301,1926,2.355,11195,189
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2021,0,5,0.1641,0,0,2395,1225,2264,2.5594,11687,172
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2021,0,5,0.134,0,0,2385,1262,1725,2.2343,11828,162
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2021,0,5,0.198,0,0,2267,915,1681,1.9669,11730,152
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2022,0,5,0.2379,0,0.0833,2135,1393,2245,2.6219,12470,131
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2022,0,5,0.1687,0,0,2440,1251,2299,2.6045,13048,127
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2022,0,5,0.151,0,0,2450,1226,2151,2.4942,13175,193
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2022,0,5,0.1934,0,0,2292,942,2185,2.3126,13172,134
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2023,0,5,0.212,0,0,2117,1224,2397,2.6086,13836,181
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2023,0,5,0.1359,0,0,2496,1298,701,1.6113,14477,193
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2023,1,4,0.1495,0,0,2464,905,2821,2.7211,14548,357
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2023,1,4,0.169,0,0,2361,1260,601,1.5049,14562,359
+memory-v1-followup-a1n-r9,estructurada+noticias,9,United States,2024,0,5,0.1755,0,0,2183,1303,1540,2.1153,15104,209
+memory-v1-followup-a1n-r9,estructurada+noticias,9,China,2024,0,5,0.153,0.0026,0,2543,1238,2508,2.7442,15741,137
+memory-v1-followup-a1n-r9,estructurada+noticias,9,India,2024,0,5,0.1898,0,0,2517,790,2071,2.17,15693,139
+memory-v1-followup-a1n-r9,estructurada+noticias,9,Pakistan,2024,0,5,0.1912,0,0,2371,1265,2213,2.5492,15927,180
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2015,,,,0,,1157,1329,2294,2.4861,,
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2015,,,,0,,1190,838,2386,2.233,,
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2015,,,,0,,1163,1218,2582,2.601,,
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2015,,,,0,,1148,1248,2485,2.5559,,
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2016,0,4,0.1361,0,0,1864,1283,1282,1.8949,4462,185
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2016,0,5,0.0987,0,0,2189,1232,1342,1.9426,5033,203
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2016,1,4,0.1741,0,0.0833,2181,1292,2978,3.0355,5126,364
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2016,0,5,0.1678,0,0,2037,1262,3301,3.2059,4913,176
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2017,1,4,0.1432,0,0,1946,1255,912,1.6487,5799,370
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2017,0,5,0.1283,0,0,2250,797,1506,1.7757,6306,147
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2017,0,5,0.15,0,0,2282,891,2463,2.4577,6482,155
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2017,0,5,0.0965,0,0,2148,1371,2588,2.8306,6307,117
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2018,0,5,0.1413,0,0,2020,1344,1878,2.3388,7114,179
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2018,0,5,0.1198,0,0,2318,1251,2421,2.6675,7642,195
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2018,0,5,0.1643,0,0,2319,1258,1521,2.0916,7808,119
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2018,0,5,0.1178,0,0,2191,1279,1602,2.1409,7554,164
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2019,0,5,0.2313,0,0.0833,2054,882,2520,2.4593,8422,188
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2019,0,5,0.0981,0,0,2365,1196,2376,2.609,9006,167
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2019,0,5,0.1605,0,0,2380,1342,2508,2.7903,9142,159
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2019,0,5,0.1525,0,0,2205,865,2415,2.4,8949,153
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2020,0,5,0.1716,0,0,2078,850,2345,2.3288,9732,172
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2020,0,5,0.1195,0,0,2361,886,2784,2.6717,10361,178
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2020,0,5,0.1482,0.0026,0,2392,1381,2468,2.7912,10494,169
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2020,0,5,0.1396,0,0,2237,1351,2711,2.9086,10382,184
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2021,1,4,0.12,0,0,2089,1251,2197,2.4934,11074,375
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2021,0,5,0.1159,0,0,2419,896,1070,1.5801,11715,195
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2021,0,5,0.1514,0,0,2421,1279,2096,2.4892,11824,193
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2021,0,5,0.1564,0,0,2263,1333,3597,3.4718,11753,178
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2022,0,5,0.1648,0.0054,0,2122,1240,2575,2.7344,12333,190
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2022,0,5,0.1054,0,0,2443,1251,2368,2.6494,13049,165
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2022,0,5,0.168,0,0,2405,1237,2710,2.8561,13118,171
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2022,0,4,0.1696,0,0,2249,1251,2231,2.536,13113,274
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2023,0,5,0.2216,0.0053,0,2148,1353,2395,2.6946,13647,187
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2023,0,5,0.1525,0,0,2462,1140,2337,2.5603,14290,156
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2023,0,5,0.2039,0,0,2409,1393,2305,2.696,14552,190
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2023,0,5,0.226,0,0,2311,902,2619,2.5692,14546,168
+memory-v1-followup-a1n-r10,estructurada+noticias,10,United States,2024,0,5,0.3224,0,0.0833,2192,1328,2284,2.6125,14796,176
+memory-v1-followup-a1n-r10,estructurada+noticias,10,China,2024,0,5,0.1594,0,0,2449,1308,2474,2.7553,15604,180
+memory-v1-followup-a1n-r10,estructurada+noticias,10,India,2024,0,5,0.2619,0,0,2477,1256,2525,2.7583,15876,170
+memory-v1-followup-a1n-r10,estructurada+noticias,10,Pakistan,2024,0,5,0.2083,0,0,2338,1390,2702,2.9409,15922,165

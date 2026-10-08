@@ -10,6 +10,7 @@ import {
   A0NaiveArchitecture,
   A1GGroundingOnlyArchitecture,
   A1GroundedArchitecture,
+  A1NStructuredNewsArchitecture,
 } from "./architectures";
 import { IndicatorSource } from "./architectures/shared";
 
@@ -60,6 +61,7 @@ const indicators = new IndicatorSource();
 const a0 = new A0NaiveArchitecture();
 const a1g = new A1GGroundingOnlyArchitecture(indicators);
 const a1 = new A1GroundedArchitecture(indicators);
+const a1n = new A1NStructuredNewsArchitecture(indicators);
 
 const groundingBlock = (text: string) =>
   `\nREAL-WORLD INDICATORS (observations dated before this simulated year — do not assume later values):\n${text}\n`;
@@ -116,4 +118,21 @@ test("el primer año las dos condiciones no tienen pasado que mostrar", () => {
   const flat = a1g.promptBundle(t).systemPrompt;
   assert.doesNotMatch(flat, /STRATEGIC HISTORY|SIMULATED NEWS HISTORY/);
   assert.doesNotMatch(a1.inputs(t).architecture.structuredMemory!, /TRAJECTORY/);
+});
+
+test("A1N es A1 más el bloque de noticias del año anterior de A1G, y nada más", () => {
+  const t = task();
+  const withNews = a1n.promptBundle(t).systemPrompt;
+  const structured = a1.promptBundle(t).systemPrompt;
+
+  // Las mismas noticias que ve la plana, en el mismo bloque.
+  assert.deepEqual(a1n.inputs(t).priorSimNews, a1g.inputs(t).priorSimNews);
+  const newsBlock = a1g.promptBundle(t).systemPrompt.match(/\nSIMULATED NEWS HISTORY[\s\S]*?\n(?=\n)/)![0];
+  assert.match(newsBlock, /Berlin signs Baltic rotation deal/);
+  assert.ok(withNews.includes(newsBlock));
+
+  // Quitado ese bloque, el prompt es el de A1 exactamente.
+  assert.equal(withNews.replace(newsBlock, ""), structured);
+  assert.equal(a1n.promptBundle(t).userPrompt, a1.promptBundle(t).userPrompt);
+  assert.doesNotMatch(withNews, /STRATEGIC HISTORY/);
 });

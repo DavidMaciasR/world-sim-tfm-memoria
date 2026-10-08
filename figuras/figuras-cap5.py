@@ -3,7 +3,7 @@
 
     /usr/bin/python3 docs/tfm/tools/figuras-cap5.py   # el de pyenv no tiene matplotlib
 
-Lee docs/tfm/results/memory-v1/eval/ y escribe en
+Lee docs/tfm/results/memory-v1/eval/ (y followup/ para el seguimiento) y escribe en
 docs/tfm/memoria/img/resultados/. Se vuelve a ejecutar si cambian los datos;
 las figuras no se retocan a mano.
 
@@ -29,13 +29,19 @@ from matplotlib.ticker import FuncFormatter, MultipleLocator
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 EVAL = os.path.join(ROOT, "docs", "tfm", "results", "memory-v1", "eval")
+FOLLOWUP = os.path.join(ROOT, "docs", "tfm", "results", "memory-v1", "followup")
 OUT = os.path.join(ROOT, "docs", "tfm", "memoria", "img", "resultados")
 
 INK = "#1F2A36"  # memoria plana
-BRICK = "#B4532A"  # memoria estructurada
+BRICK = "#B4532A"  # memoria estructurada (con las noticias del año anterior)
+SAND = "#D9A47E"  # estructurada sin noticias: el paso extra de ahorro
 RULE = "#8C9096"  # ejes y referencias
 HAIR = "#D9DBDE"  # líneas de ayuda
-COND = [("plana", "Plana", INK), ("estructurada", "Estructurada", BRICK)]
+# Comparación principal: plana frente a estructurada, las dos con las noticias del
+# año anterior. La estructurada sin noticias es el paso extra para ahorrar entrada.
+# Las claves son las de los CSV: "estructurada+noticias" es la estructurada (A1N,
+# fase del 8 oct) y "estructurada" la que no ve noticias (A1, fase del 24 sep).
+COND = [("plana", "Plana", INK), ("estructurada+noticias", "Estructurada", BRICK), ("estructurada", "Sin noticias", SAND)]
 YEARS = list(range(2015, 2025))
 COUNTRIES = [("United States", "EE. UU."), ("China", "China"), ("India", "India"), ("Pakistan", "Pakistán")]
 
@@ -91,10 +97,14 @@ def num(x, dec):
 
 
 def load():
-    rows = list(csv.DictReader(open(os.path.join(EVAL, "country-years.csv"))))
-    contra = [r for r in csv.DictReader(open(os.path.join(EVAL, "contradictions.csv"))) if r["valid"] == "true"]
-    summary = json.load(open(os.path.join(EVAL, "summary.json")))
-    return rows, contra, summary
+    """Las tres memorias juntas, y aparte las filas de eval para el modelo de coste."""
+    rows, contra, by_cond = [], [], {}
+    for d in (EVAL, FOLLOWUP):
+        rows += list(csv.DictReader(open(os.path.join(d, "country-years.csv"))))
+        contra += [r for r in csv.DictReader(open(os.path.join(d, "contradictions.csv"))) if r["valid"] == "true"]
+        by_cond.update(json.load(open(os.path.join(d, "summary.json")))["byCondition"])
+    eval_rows = list(csv.DictReader(open(os.path.join(EVAL, "country-years.csv"))))
+    return rows, contra, {"byCondition": by_cond}, eval_rows
 
 
 def save(fig, name):
@@ -104,10 +114,11 @@ def save(fig, name):
     print("  ", name)
 
 
-def strip(ax, summary, key, lo, hi, step, dec):
+def strip(ax, summary, key, lo, hi, step, dec, conds=COND):
     """Un punto por mundo, una fila por memoria, raya en la media."""
-    for row, (cond, label, color) in enumerate(COND):
-        y0 = 1 - row
+    top = len(conds) - 1
+    for row, (cond, label, color) in enumerate(conds):
+        y0 = top - row
         vals = summary["byCondition"][cond][key]["values"]
         mean = summary["byCondition"][cond][key]["mean"]
         seen = Counter()
@@ -120,12 +131,12 @@ def strip(ax, summary, key, lo, hi, step, dec):
         ax.plot([mean, mean], [y0 - 0.3, y0 + 0.3], color=color, lw=1.4, solid_capstyle="butt", zorder=2)
         ax.annotate(f"media {num(mean, 3)}", (mean, y0 + 0.3), xytext=(3, 1), textcoords="offset points",
                     fontsize=7.5, color=color, va="bottom")
-    ax.set_yticks([1, 0], [c[1] for c in COND])
-    for t, (_, _, color) in zip(ax.get_yticklabels(), COND):
+    ax.set_yticks(list(range(top, -1, -1)), [c[1] for c in conds])
+    for t, (_, _, color) in zip(ax.get_yticklabels(), conds):
         t.set_color(color)
     ax.tick_params(axis="y", length=0, pad=6)
     ax.spines["left"].set_visible(False)
-    ax.set_ylim(-0.55, 1.6)
+    ax.set_ylim(-0.55, top + 0.6)
     ax.set_xlim(lo, hi)
     ax.xaxis.set_major_locator(MultipleLocator(step))
     ax.xaxis.set_major_formatter(coma(dec))
@@ -134,7 +145,7 @@ def strip(ax, summary, key, lo, hi, step, dec):
 
 
 def fig_coherencia_mundos(summary):
-    fig, ax = plt.subplots(figsize=(TEXTWIDTH_IN, 1.75))
+    fig, ax = plt.subplots(figsize=(TEXTWIDTH_IN, 2.3))
     strip(ax, summary, "contradictionsPerCountryYear", -0.005, 0.25, 0.05, 2)
     ax.set_xlabel("Contradicciones válidas por país-año")
     save(fig, "coherencia-mundos.pdf")
@@ -143,10 +154,10 @@ def fig_coherencia_mundos(summary):
 def fig_coherencia_anios(contra):
     by = Counter((r["condition"], int(r["year"])) for r in contra)
     ys = YEARS[1:]
-    fig, ax = plt.subplots(figsize=(TEXTWIDTH_IN, 2.1))
-    w = 0.36
+    fig, ax = plt.subplots(figsize=(TEXTWIDTH_IN, 2.2))
+    w = 0.26
     for i, (cond, label, color) in enumerate(COND):
-        xs = [y + (i - 0.5) * (w + 0.04) for y in ys]
+        xs = [y + (i - 1) * (w + 0.03) for y in ys]
         vals = [by[(cond, y)] for y in ys]
         ax.bar(xs, vals, width=w, color=color, edgecolor="white", linewidth=0.4, zorder=2)
     ax.set_xticks(ys, [str(y) for y in ys])
@@ -156,17 +167,16 @@ def fig_coherencia_anios(contra):
     ax.grid(axis="y", color=HAIR, lw=0.5)
     ax.set_axisbelow(True)
     ax.set_ylim(0, 8.4)
-    # rótulos directos sobre la primera pareja de barras
-    ax.annotate("Plana", (2016 - 0.2, by[("plana", 2016)]), xytext=(0, 3), textcoords="offset points",
-                ha="center", fontsize=7.5, color=INK)
-    ax.annotate("Estructurada", (2016 + 0.2, by[("estructurada", 2016)]), xytext=(4, 3), textcoords="offset points",
-                ha="left", fontsize=7.5, color=BRICK)
+    # leyenda en línea, arriba a la derecha: las barras de 2016 son demasiado estrechas para rotularlas
+    for i, (_, label, color) in enumerate(COND):
+        ax.annotate(label, (0.99, 0.97 - i * 0.1), xycoords="axes fraction", ha="right", va="top",
+                    fontsize=7.5, color=color)
     save(fig, "coherencia-anios.pdf")
 
 
 def fig_repeticion(summary, rows):
-    fig, (a, b) = plt.subplots(1, 2, figsize=(TEXTWIDTH_IN, 1.95), gridspec_kw={"width_ratios": [1.25, 1], "wspace": 0.32})
-    strip(a, summary, "headlineSimilarity", 0.135, 0.176, 0.01, 2)
+    fig, (a, b) = plt.subplots(1, 2, figsize=(TEXTWIDTH_IN, 2.3), gridspec_kw={"width_ratios": [1.25, 1], "wspace": 0.32})
+    strip(a, summary, "headlineSimilarity", 0.135, 0.182, 0.01, 2)
     a.set_xlabel("Similitud media por mundo")
     for cond, label, color in COND:
         ys = YEARS[1:]
@@ -187,11 +197,12 @@ def fig_repeticion(summary, rows):
 
 
 def fig_coste(rows):
-    fig, (a, b) = plt.subplots(1, 2, figsize=(TEXTWIDTH_IN, 2.05), gridspec_kw={"width_ratios": [1, 1.15], "wspace": 0.45})
+    fig, (a, b) = plt.subplots(1, 2, figsize=(TEXTWIDTH_IN, 2.3), gridspec_kw={"width_ratios": [1, 1.15], "wspace": 0.45})
     for cond, label, color in COND:
         vals = [st.mean(int(r["genInputTokens"]) for r in rows if r["condition"] == cond and int(r["year"]) == y) for y in YEARS]
         a.plot(YEARS, vals, color=color, lw=1.3, marker="o", ms=2.8, mec="white", mew=0.5)
-        a.annotate(label, (YEARS[-1], vals[-1]), xytext=(0, 6 if cond == "plana" else -10), textcoords="offset points",
+        # plana y estructurada casi coinciden: una etiqueta encima y otra debajo
+        a.annotate(label, (YEARS[-1], vals[-1]), xytext=(0, {"plana": 6, "estructurada+noticias": -11}.get(cond, -11)), textcoords="offset points",
                    ha="right", fontsize=7.5, color=color)
     a.set_ylim(0, 3000)
     a.yaxis.set_major_locator(MultipleLocator(1000))
@@ -210,22 +221,22 @@ def fig_coste(rows):
         left = 0
         for name, col, price, alpha in parts:
             v = sum(int(r[col]) for r in rs) * price * k / len(rs)
-            b.barh(1 - i, v, left=left, height=0.52, color=color, alpha=alpha, edgecolor="white", linewidth=0.6)
+            b.barh(2 - i, v, left=left, height=0.52, color=color, alpha=alpha, edgecolor="white", linewidth=0.6)
             if i == 0 and name == "Entrada":
-                b.annotate("entrada", (left + v / 2, 1.26), xytext=(0, 7), textcoords="offset points", ha="center",
+                b.annotate("entrada", (left + v / 2, 2.26), xytext=(0, 7), textcoords="offset points", ha="center",
                            fontsize=7, color=RULE, arrowprops={"arrowstyle": "-", "color": RULE, "lw": 0.5})
             elif i == 0:
-                b.annotate(name.lower(), (left + v / 2, 1), ha="center", va="center", fontsize=7,
+                b.annotate(name.lower(), (left + v / 2, 2), ha="center", va="center", fontsize=7,
                            color="white" if name == "Razonamiento" else INK)
             left += v
-        b.annotate(num(left, 2), (left, 1 - i), xytext=(3, 0), textcoords="offset points", va="center", fontsize=7.5, color=color)
-    b.set_yticks([1, 0], [c[1] for c in COND])
+        b.annotate(num(left, 2), (left, 2 - i), xytext=(3, 0), textcoords="offset points", va="center", fontsize=7.5, color=color)
+    b.set_yticks([2, 1, 0], [c[1] for c in COND])
     for t, (_, _, color) in zip(b.get_yticklabels(), COND):
         t.set_color(color)
     b.tick_params(axis="y", length=0)
     b.spines["left"].set_visible(False)
     b.set_xlim(0, 2.75)
-    b.set_ylim(-0.45, 1.75)
+    b.set_ylim(-0.45, 2.75)
     b.xaxis.set_major_locator(MultipleLocator(0.5))
     b.xaxis.set_major_formatter(coma(1))
     b.set_xlabel("Céntimos por país-año")
@@ -308,13 +319,13 @@ def fig_escala(cost):
 
 
 def main():
-    rows, contra, summary = load()
+    rows, contra, summary, eval_rows = load()
     print("figuras en", os.path.relpath(OUT, ROOT))
     fig_coherencia_mundos(summary)
     fig_coherencia_anios(contra)
     fig_repeticion(summary, rows)
     fig_coste(rows)
-    a0, b1 = fig_juez(rows)
+    a0, b1 = fig_juez(eval_rows)  # el modelo de coste se ajustó con la evaluación del 24 sep
     fixed, cost = model(a0, b1)
     fig_escala(cost)
     g, j = cost(4)

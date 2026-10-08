@@ -6,6 +6,7 @@ import { AgentArchitecture, ArchitectureId } from "../types";
 import { A0NaiveArchitecture } from "./a0-naive";
 import { A1GroundedArchitecture } from "./a1-grounded";
 import { A1GGroundingOnlyArchitecture } from "./a1g-grounding-only";
+import { A1NStructuredNewsArchitecture } from "./a1n-structured-news";
 
 export function architectureFor(id: ArchitectureId): AgentArchitecture {
   switch (id) {
@@ -15,6 +16,8 @@ export function architectureFor(id: ArchitectureId): AgentArchitecture {
       return new A1GGroundingOnlyArchitecture();
     case "A1":
       return new A1GroundedArchitecture();
+    case "A1N":
+      return new A1NStructuredNewsArchitecture();
     default:
       // A2 (negociación) y A3 (árbitro) salieron del alcance. Fallar aquí
       // evita registros etiquetados con una arquitectura que nunca se ejecutó.
@@ -22,4 +25,4 @@ export function architectureFor(id: ArchitectureId): AgentArchitecture {
   }
 }
 
-export { A0NaiveArchitecture, A1GroundedArchitecture, A1GGroundingOnlyArchitecture };
+export { A0NaiveArchitecture, A1GroundedArchitecture, A1GGroundingOnlyArchitecture, A1NStructuredNewsArchitecture };

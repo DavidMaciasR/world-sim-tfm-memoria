@@ -17,8 +17,9 @@ import path from "path";
 import { execFileSync } from "child_process";
 import { costUsd, usdToEur } from "../pricing";
 import {
-  MEMORY_CONDITIONS,
-  MEMORY_STAGES,
+  CONDITION_LABEL,
+  MemoryCondition,
+  stageRuns,
   MEMORY_STUDY,
   MemoryStage,
   generationsPerWorld,
@@ -78,8 +79,8 @@ function readJsonl(file: string): any[] {
 
 export function runProgress(runsDir: string, stage: MemoryStage): RunProgress[] {
   const out: RunProgress[] = [];
-  for (let r = 1; r <= MEMORY_STAGES[stage].replicates; r++) {
-    for (const arch of MEMORY_CONDITIONS) {
+  for (const { arch, replicate: r } of stageRuns(stage)) {
+    {
       const runId = memoryRunId(stage, arch, r);
       const records = readJsonl(path.join(runsDir, runId, "records.jsonl"));
       const judgments = readJsonl(path.join(runsDir, runId, "coherence-judge", "judgments.jsonl"));
@@ -188,10 +189,12 @@ export function render(stage: MemoryStage, runs: RunProgress[], spend: Spend, bu
     `Juez       ${bar(jud, judT)}  ${jud}/${judT} juicios · ${etaTxt(judEta, "juicios")}`,
     "",
   ];
-  for (const cond of ["plana", "estructurada"]) {
-    const rs = runs.filter((r) => (r.runId.includes("-a1g-") ? "plana" : "estructurada") === cond);
+  const conditionOf = (runId: string) =>
+    CONDITION_LABEL[(runId.match(/-(a1g|a1n|a1)-r\d+$/)?.[1] ?? "a1").toUpperCase() as MemoryCondition];
+  for (const cond of [...new Set(runs.map((r) => conditionOf(r.runId)))]) {
+    const rs = runs.filter((r) => conditionOf(r.runId) === cond);
     const c = rs.reduce((a, r) => a + r.contradictions, 0), j = rs.reduce((a, r) => a + r.judged, 0);
-    lines.push(`${cond === "plana" ? "Memoria plana" : "Memoria estructurada"} · ${c} contradicciones en ${j} país-año juzgados${j ? ` (${(c / j).toFixed(2)} por país-año)` : ""}`);
+    lines.push(`Memoria ${cond} · ${c} contradicciones en ${j} país-año juzgados${j ? ` (${(c / j).toFixed(2)} por país-año)` : ""}`);
     for (const r of rs) {
       const rep = r.runId.match(/-r(\d+)$/)?.[1] ?? "?";
       const state = r.generated === 0 && r.attempts === 0 ? "pendiente" : r.judged >= r.expectedJudgments ? "terminado" : active(r) ? "en marcha" : r.generated >= r.expectedGenerations ? "falta juez" : "parado";
@@ -248,7 +251,7 @@ async function main(): Promise<void> {
     return i >= 0 ? process.argv[i + 1] : undefined;
   };
   const stage = arg("--stage") ?? "dev";
-  if (!isMemoryStage(stage)) throw new Error("--stage pilot|dev|eval");
+  if (!isMemoryStage(stage)) throw new Error("--stage pilot|dev|eval|followup");
   const guardArg = arg("--guard");
   const budgetEur = Number(guardArg ?? 200);
   const watch = Number(arg("--watch") ?? 0);

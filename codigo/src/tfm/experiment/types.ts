@@ -6,7 +6,7 @@
 import type { AnalysisPromptBundle, AnalysisResult, SimulatedNewsItem } from "../../country-agent";
 import type { StoredAnalysis, HistoryEntry, SimNewsRow } from "../../db";
 
-export type ArchitectureId = "A0" | "A1G" | "A1" | "A2" | "A3";
+export type ArchitectureId = "A0" | "A1G" | "A1" | "A1N" | "A2" | "A3";
 
 /**
  * The single generator every experiment call runs on (plan §06, v5.4, R13).

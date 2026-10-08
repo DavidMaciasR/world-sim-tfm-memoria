@@ -1,6 +1,6 @@
 // memory-v1 — agregación de una etapa (RUNBOOK §3.5).
 //
-//   npx ts-node src/tfm/experiment/aggregate.ts --stage dev|eval|pilot
+//   npx ts-node src/tfm/experiment/aggregate.ts --stage dev|eval|pilot|followup
 //
 // Escribe en docs/tfm/results/memory-v1/<etapa>/:
 //   country-years.csv   una fila por país-año y tirada: medidas y consumo
@@ -13,14 +13,13 @@
 import fs from "fs";
 import path from "path";
 import { costUsd, usdToEur } from "../pricing";
-import { MEMORY_CONDITIONS, MEMORY_STAGES, MemoryStage, generationsPerWorld, isMemoryStage, memoryRunId } from "./memory-study";
+import { CONDITION_LABEL, MemoryStage, generationsPerWorld, isMemoryStage, memoryRunId, stageRuns } from "./memory-study";
 import { EXPERIMENT_GENERATOR_MODEL } from "./types";
 import { countryYearMetrics, validEvidenceIndexes, worldMean } from "./memory-metrics";
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..", "..", "..", "..");
 const RUNS_DIR = path.join(REPO_ROOT, "docs", "tfm", "runs");
 const JUDGE_MODEL = "claude-sonnet-5";
-const LABEL: Record<string, string> = { A1G: "plana", A1: "estructurada" };
 
 const readJsonl = (f: string): any[] =>
   fs.existsSync(f) ? fs.readFileSync(f, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)) : [];
@@ -48,8 +47,8 @@ export function aggregateStage(stage: MemoryStage, runsDir = RUNS_DIR) {
   const failures: Record<string, unknown>[] = [];
   const worlds: Record<string, Record<string, unknown>[]> = {};
 
-  for (let r = 1; r <= MEMORY_STAGES[stage].replicates; r++) {
-    for (const arch of MEMORY_CONDITIONS) {
+  for (const { arch, replicate: r } of stageRuns(stage)) {
+    {
       const runId = memoryRunId(stage, arch, r);
       const dir = path.join(runsDir, runId);
       if (!fs.existsSync(dir)) continue;
@@ -59,7 +58,7 @@ export function aggregateStage(stage: MemoryStage, runsDir = RUNS_DIR) {
       const judgeByKey = new Map(judgments.map((j) => [j.key, j]));
       const usage = readJsonl(path.join(dir, "generator-usage.jsonl"));
       const byKey = new Map(ok.map((x) => [`${x.country}:${x.simYear}`, x]));
-      const condition = LABEL[arch];
+      const condition = CONDITION_LABEL[arch];
 
       failures.push({
         runId, condition, replicate: r,
@@ -145,7 +144,7 @@ export function aggregateStage(stage: MemoryStage, runsDir = RUNS_DIR) {
 if (require.main === module) {
   const i = process.argv.indexOf("--stage");
   const stage = i >= 0 ? process.argv[i + 1] : "dev";
-  if (!isMemoryStage(stage)) throw new Error("--stage pilot|dev|eval");
+  if (!isMemoryStage(stage)) throw new Error("--stage pilot|dev|eval|followup");
   const { cy, contradictions, summary } = aggregateStage(stage);
   const out = path.join(REPO_ROOT, "docs", "tfm", "results", "memory-v1", stage);
   fs.mkdirSync(out, { recursive: true });
