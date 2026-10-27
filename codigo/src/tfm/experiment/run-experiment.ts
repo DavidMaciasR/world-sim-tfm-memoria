@@ -4,7 +4,7 @@
 //   npx ts-node src/tfm/experiment/run-experiment.ts --study memory-v1 --stage pilot --arch A1G --replicate 1 --dry-run
 //   npx ts-node src/tfm/experiment/run-experiment.ts --study memory-v1 --stage pilot --arch A1G --replicate 1 --yes
 //
-// Las cohortes salen de memory-study.ts (RUNBOOK §2). El ensayo en seco no
+// Las cohortes salen de memory-study.ts. El ensayo en seco no
 // llama a ningún proveedor ni escribe registros: construye los prompts reales
 // del primer año y de un último año sintético a longitud máxima, para acotar
 // tokens y coste. Gasta API real solo con --yes.
@@ -39,7 +39,7 @@ const SERVER_ROOT = path.resolve(__dirname, "..", "..", "..");
 const REPO_ROOT = path.resolve(SERVER_ROOT, "..", "..");
 const RUNS_DIR = path.join(REPO_ROOT, "docs", "tfm", "runs");
 
-/** Intentos de proveedor por país-año, contados entre reanudaciones (RUNBOOK §3.3). */
+/** Intentos de proveedor por país-año, contados entre reanudaciones. */
 const MAX_ATTEMPTS = 3;
 
 /** Todo lo que decide qué ve el generador y cómo se normaliza lo que devuelve. */

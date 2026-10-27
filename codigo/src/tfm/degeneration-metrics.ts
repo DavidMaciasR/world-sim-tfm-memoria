@@ -1,6 +1,6 @@
-// TFM F2d — deterministic degeneration/coherence metrics (no LLM).
+// Deterministic degeneration/coherence metrics (no LLM).
 // Pure functions over simulated-news-like records; used by the evaluation
-// harness (F2) alongside the LLM judge, and by the analysis phase (F4).
+// harness alongside the LLM judge, and by the analysis.
 // Conceptual grounding: Holtzman et al. 2020 (degeneration), Welleck et al.
 // 2020 (n-gram repetition rates).
 

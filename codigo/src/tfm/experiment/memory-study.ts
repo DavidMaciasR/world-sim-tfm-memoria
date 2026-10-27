@@ -1,6 +1,6 @@
 // memory-v1 — el estudio de memoria plana (A1G) frente a estructurada (A1), y el
 // seguimiento con la estructurada más las noticias del año anterior (A1N).
-// Cohortes, ventanas y nombres de tirada del RUNBOOK §2, en un solo sitio y sin
+// Cohortes, ventanas y nombres de tirada, en un solo sitio y sin
 // efectos: el CLI y los tests leen de aquí, así que una cohorte no puede
 // cambiar en uno sin cambiar en el otro.
 
@@ -76,7 +76,7 @@ export function stageRuns(stage: MemoryStage): { arch: MemoryCondition; replicat
 
 const REPO_ROOT = path.resolve(__dirname, "..", "..", "..", "..", "..");
 
-/** La evaluación no se lanza sin el diseño congelado (RUNBOOK §4.3). */
+/** La evaluación no se lanza sin el diseño congelado. */
 export const FREEZE_MANIFEST = path.join(REPO_ROOT, "docs", "tfm", "results", MEMORY_STUDY, "freeze.json");
 
 /** El seguimiento no se lanza sin su prerregistro (hipótesis y regla de lectura). */
@@ -125,7 +125,7 @@ export function resolveMemoryRun(input: {
   };
 }
 
-/** Replicados impares: A1G y luego A1; pares: A1 y luego A1G (RUNBOOK §2.3). */
+/** Replicados impares: A1G y luego A1; pares: A1 y luego A1G. */
 export function conditionOrder(replicate: number): MemoryCondition[] {
   return replicate % 2 === 1 ? ["A1G", "A1"] : ["A1", "A1G"];
 }

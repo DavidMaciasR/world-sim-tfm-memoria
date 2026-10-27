@@ -1,4 +1,4 @@
-// memory-v1 — agregación de una etapa (RUNBOOK §3.5).
+// memory-v1 — agregación de una etapa.
 //
 //   npx ts-node src/tfm/experiment/aggregate.ts --stage dev|eval|pilot|followup
 //

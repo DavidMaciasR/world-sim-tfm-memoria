@@ -1,4 +1,4 @@
-// memory-v1 — juez de coherencia temporal (RUNBOOK §3.4, cap. 4 "Cómo se mide").
+// memory-v1 — juez de coherencia temporal (cap. 4).
 //
 // Una sola dimensión: ¿contradice el año actual el pasado de la propia
 // simulación? No compara con la historia real ni puntúa plausibilidad. Es un

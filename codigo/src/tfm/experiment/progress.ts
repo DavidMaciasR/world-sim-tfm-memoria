@@ -5,7 +5,7 @@
 //   ... --guard 200    además, si el gasto del estudio supera 200 € mata el runner y el juez
 //
 // El gasto es de TODO el estudio (piloto + desarrollo + evaluación), no de la
-// etapa: el techo de 200 € de la tutoría 2 es para el estudio entero.
+// etapa: el techo de 200 € es para el estudio entero.
 // - Generador: telemetría local (llm_call_events), llamadas a gemini-3.6-flash
 //   desde el primer piloto, incluidas las fallidas que consumieron tokens.
 //   Es una cota superior: cualquier otra llamada local a ese modelo también cuenta.

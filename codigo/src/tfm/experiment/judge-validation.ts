@@ -1,4 +1,4 @@
-// memory-v1 — pares de continuidad para comprobar el juez (RUNBOOK §4.2).
+// memory-v1 — pares de continuidad para comprobar el juez (cap. 5).
 //
 //   npx ts-node src/tfm/experiment/judge-validation.ts --dry-run | --yes
 //

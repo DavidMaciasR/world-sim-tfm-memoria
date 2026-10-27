@@ -1,4 +1,4 @@
-// memory-v1 — A1, memoria estructurada (RUNBOOK §1, cap. 4 "Las dos condiciones").
+// memory-v1 — A1, memoria estructurada (cap. 4).
 //
 // Mismos indicadores que A1G. Lo que cambia es la política de memoria, que
 // selecciona, comprime y presenta:

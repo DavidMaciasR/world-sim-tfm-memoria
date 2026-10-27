@@ -1,4 +1,4 @@
-// memory-v1 — la medida de repetición detecta copias (RUNBOOK §4.2), sin API.
+// memory-v1 — la medida de repetición detecta copias, sin API.
 //
 //   npx ts-node src/tfm/experiment/repetition-validation.ts
 //

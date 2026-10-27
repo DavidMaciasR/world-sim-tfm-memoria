@@ -36,7 +36,7 @@ export interface AgentInputs {
 
 /**
  * Modelo clavado, sin modelos de reserva y solo Gemini como proveedor: si
- * falla, el registro falla; nunca pasa a otro modelo ni a Perplexity (R13).
+ * falla, el registro falla; nunca pasa a otro modelo ni a Perplexity.
  */
 export function experimentAgent(): CountryAgent {
   return new CountryAgent(undefined, {
@@ -145,7 +145,7 @@ export class IndicatorSource {
       : `No indicators available for ${country}.`;
   }
 
-  /** Series que este país no tiene, para registrarlas por país-año (R9). */
+  /** Series que este país no tiene, para registrarlas por país-año. */
   missingIndicators(country: string): string[] {
     const data = this.indicatorsFor(country);
     return data ? data.unavailable : INDICATOR_CANDIDATES.map((s) => s.id);

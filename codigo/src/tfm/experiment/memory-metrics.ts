@@ -68,7 +68,7 @@ export function countryYearMetrics(news: NewsItemLike[], previousNews: NewsItemL
 }
 
 /**
- * Media de un mundo con el peso igual por país (RUNBOOK §3.5, regla 2): primero
+ * Media de un mundo con el peso igual por país: primero
  * la media de cada país sobre sus años aplicables, luego la media de países.
  */
 export function worldMean(rows: { country: string; value: number | null }[]): number | null {

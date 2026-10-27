@@ -1,4 +1,4 @@
-// TFM F2a — Wikipedia year-page ("2015 in India", ...) fetcher + parser.
+// Wikipedia year-page ("2015 in India", ...) fetcher + parser.
 // Produces the monthly reference chronology used by backtesting and the judge.
 // Pure logic (no LLM); network access is plain HTTPS GET against the public
 // Wikipedia raw-wikitext endpoint. Content license: CC BY-SA 4.0 (attribute).
@@ -8,14 +8,14 @@ export interface ChronologyEvent {
   day: number | null;
   text: string;
   section: string; // "Events > March" — provenance for auditing
-  source?: string; // absent = "YYYY in <country>" page; "portal-current-events" = F2c supplement
+  source?: string; // absent = "YYYY in <country>" page; "portal-current-events" = supplement
 }
 
 // A country-year is "weak" below these thresholds (used by build-chronologies
-// coverage report and the F2c supplement runner).
+// coverage report and the supplement runner).
 export const COVERAGE_THRESHOLDS = { minEvents: 12, minMonths: 6 };
 
-// TFM canonical country list (plan §06) → Wikipedia title fragment.
+// Canonical country list → Wikipedia title fragment.
 // Deliberately independent from the sim's country keys ("United States of America").
 export const TFM_COUNTRIES: Record<string, string> = {
   India: "India",

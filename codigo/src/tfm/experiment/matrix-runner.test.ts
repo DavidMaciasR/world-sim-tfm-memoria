@@ -320,7 +320,7 @@ test("annotateRecord stamps extra fields onto every persisted record", async () 
   await runMatrix(spec("ann1"), {
     store,
     architecture: mockArch(),
-    // Lo que el CLI real estampa: modelo clavado + huecos de indicadores (R13/R9).
+    // Lo que el CLI real estampa: modelo clavado + huecos de indicadores.
     annotateRecord: ({ country }) => ({
       generatorModel: "gemini-3.6-flash",
       missingIndicators: country === "Pakistan" ? ["fossil-share"] : [],

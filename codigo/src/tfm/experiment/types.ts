@@ -1,4 +1,4 @@
-// TFM F3a — experiment matrix types. Architecture-agnostic plumbing: the
+// Experiment matrix types. Architecture-agnostic plumbing: the
 // concrete A1/A2/A3 designs plug in behind AgentArchitecture without changing
 // the runner. Judging is deliberately NOT part of the generation run — it is a
 // separate second pass over the persisted records (cost control, re-judgeable).
@@ -9,12 +9,12 @@ import type { StoredAnalysis, HistoryEntry, SimNewsRow } from "../../db";
 export type ArchitectureId = "A0" | "A1G" | "A1" | "A1N" | "A2" | "A3";
 
 /**
- * The single generator every experiment call runs on (plan §06, v5.4, R13).
+ * The single generator every experiment call runs on.
  *
  * Pinned in code, not in env: the production agent defaults to whatever the
  * environment says (2.5-pro locally, 3.5-flash-lite on the droplet), and a
- * matrix silently run on the wrong model is unrecoverable — it is exactly the
- * failure R13 claims to have mitigated. Architectures construct their
+ * matrix silently run on the wrong model is unrecoverable — so it must not
+ * happen. Architectures construct their
  * CountryAgent with this model and an EMPTY fallback list, so a failure errors
  * out instead of switching models mid-run.
  */
@@ -52,8 +52,8 @@ export interface ExperimentSpec {
  * The spec above identifies *what* was run; this identifies *under which
  * conditions*. Without it a run is resumable but not reproducible: resuming
  * after a prompt edit, a code change or a silent provider model switch would
- * mix conditions under one runId and nothing would say so. It also makes the
- * mitigation claimed in R13 real — a model retired mid-study leaves a trace
+ * mix conditions under one runId and nothing would say so. It also means that
+ * a model retired mid-study leaves a trace
  * instead of a gap.
  */
 export interface RunFingerprint {
@@ -97,7 +97,7 @@ export interface AgentArchitecture {
   analyzeCountryYear(task: CountryYearTask): Promise<AnalysisResult>;
   /** The exact prompts analyzeCountryYear would send, without calling anyone. */
   promptBundle?(task: CountryYearTask): AnalysisPromptBundle;
-  /** Indicator series this country lacks (R9); absent when the architecture uses none. */
+  /** Indicator series this country lacks; absent when the architecture uses none. */
   missingIndicators?(country: string): string[];
 }
 
@@ -126,7 +126,7 @@ export interface CountryYearRecord {
   attempt?: number;
   /** Attempt beyond the configured limit, explicitly authorized from the CLI. */
   authorizedExtraAttempt?: boolean;
-  /** Set when the country operated without some indicator series (R9). */
+  /** Set when the country operated without some indicator series. */
   missingIndicators?: string[];
 }
 

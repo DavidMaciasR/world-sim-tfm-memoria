@@ -1,4 +1,4 @@
-// memory-v1 — A1G, memoria plana (RUNBOOK §1, cap. 4 "Las dos condiciones").
+// memory-v1 — A1G, memoria plana (cap. 4).
 //
 // Los mismos indicadores que A1 y los canales planos que ya tenía A0: el
 // historial estratégico y las noticias simuladas del año anterior. Ni perfil

@@ -1,5 +1,5 @@
-// TFM F3 — A0 "naive": the production CountryAgent as-is. Legacy baseline of
-// the old architecture ladder; memory-v1 does not run it (RUNBOOK §1), but it
+// A0 "naive": the production CountryAgent as-is. Legacy baseline of
+// the old architecture ladder; memory-v1 does not run it, but it
 // stays as the reference the A1G prompt test compares against.
 
 import { AgentArchitecture, CountryYearTask } from "../types";

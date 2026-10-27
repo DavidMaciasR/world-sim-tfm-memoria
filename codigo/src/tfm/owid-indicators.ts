@@ -1,7 +1,6 @@
-// TFM F3a — Our World in Data indicator fetcher + parser.
-// Supplies the numeric grounding A1 consumes (plan §05), requested by the
-// cotutor in tutoría 1: feeding agents only with generalist news is "a finger
-// in the air". Pure logic (no LLM); network access is a plain HTTPS GET
+// Our World in Data indicator fetcher + parser.
+// Supplies the numeric grounding the agents receive, so they are not fed only
+// with generalist news. Pure logic (no LLM); network access is a plain HTTPS GET
 // against OWID's public grapher CSV endpoint. Licence: CC BY 4.0 (attribute).
 //
 // Deliberately a *probe* first: which indicators actually cover the 8 TFM
@@ -21,9 +20,9 @@ export interface IndicatorSpec {
   note?: string; // caveat worth carrying into the memoria
 }
 
-// Candidates for the series named in plan §05. Two rival options are
+// Candidate series. Two rival options are
 // probed for energy on purpose: "fossil fuels share" is the closer match to
-// the cotutor's own example (a country 40 % dependent on oil cannot drop it
+// the intended example (a country 40 % dependent on oil cannot drop it
 // overnight), but consumption per capita may have wider coverage.
 export const INDICATOR_CANDIDATES: IndicatorSpec[] = [
   {
@@ -86,7 +85,7 @@ export const INDICATOR_CANDIDATES: IndicatorSpec[] = [
   },
 ];
 
-// Plan §06 country list (v5.1: 8 countries) → the Entity name OWID uses.
+// Country list → the Entity name OWID uses.
 // Kept separate from TFM_COUNTRIES in wiki-chronology.ts: the two sources
 // disagree on naming, and coupling them would break one of them silently.
 export const TFM_COUNTRIES_OWID: Record<string, string> = {
@@ -100,7 +99,7 @@ export const TFM_COUNTRIES_OWID: Record<string, string> = {
   Taiwan: "Taiwan",
 };
 
-// Development set (plan §06, v5.3): the rubric, prompts and A1's design are
+// Development set: the rubric, prompts and A1's design are
 // iterated on these three countries so the eval 8 stay untouched until the
 // design freezes. They need indicators too — without them A1 cannot even run
 // on the dev set, which would silently force iterating on the eval countries.
@@ -119,12 +118,12 @@ export const ALL_COUNTRIES_OWID: Record<string, string> = {
   ...DEV_COUNTRIES_OWID,
 };
 
-// The backtesting window (plan §06). An indicator is only useful to A1 if it
+// The backtesting window. An indicator is only useful to A1 if it
 // covers these years — a series that stops in 2019 grounds nothing for 2023.
 export const BACKTEST_YEARS = Array.from({ length: 10 }, (_, i) => 2015 + i);
 
 // An indicator-country pair is "usable" when it covers at least this share of
-// the window. Below it, A1 has to operate without the series and say so (R9).
+// the window. Below it, A1 has to operate without the series and say so.
 export const MIN_YEAR_COVERAGE = 0.8;
 
 export function indicatorCsvUrl(slug: string): string {
@@ -238,7 +237,7 @@ export interface CountryIndicators {
   source: string;
   /** indicator id -> year -> value. Absent indicators are simply not present. */
   series: Record<string, Record<string, number>>;
-  /** Indicator ids with no data at all for this country — declared, not hidden (R9). */
+  /** Indicator ids with no data at all for this country — declared, not hidden. */
   unavailable: string[];
 }
 
@@ -277,7 +276,7 @@ export function buildCountryIndicators(
  * This is the whole point of storing full series rather than pre-rendered
  * text: in a backtest the agent standing at 2018 must not see 2019 figures.
  * The model's parametric memory of those years is a separate confound we
- * cannot remove (plan §06), but the *inputs* we hand it must at least be
+ * cannot remove, but the *inputs* we hand it must at least be
  * honest, or the backtest measures nothing.
  */
 export function indicatorsAsOf(
@@ -318,7 +317,7 @@ export function formatIndicatorsForPrompt(
 }
 
 /**
- * The memory-v1 rendering (RUNBOOK §2.2): simulating year Y the agent sees only
+ * The memory-v1 rendering: simulating year Y the agent sees only
  * observations dated Y-1 or earlier, and the text states that cutoff instead of
  * claiming the values were "known" in Y. Downloaded series include revisions and
  * late releases, so lagging the observation year does not prove the figure was

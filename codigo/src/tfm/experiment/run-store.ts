@@ -1,4 +1,4 @@
-// TFM F3a — persistent, resumable storage for experiment runs.
+// Persistent, resumable storage for experiment runs.
 // Layout: <baseDir>/<runId>/manifest.json + records.jsonl (append-only).
 // Resume = read existing keys and skip already-generated country-years.
 
@@ -23,7 +23,7 @@ export function fingerprintDiffers(
 
 export interface RunStoreOptions {
   /**
-   * memory-v1 (RUNBOOK §3.2): a resume under changed conditions aborts before
+   * memory-v1: a resume under changed conditions aborts before
    * anything is appended, instead of warning. Commit and timestamps are
    * provenance, not conditions — they are logged per session and never block.
    */
@@ -161,7 +161,7 @@ export class RunStore {
     );
   }
 
-  /** True when this runId spans more than one set of conditions (see R13). */
+  /** True when this runId spans more than one set of conditions. */
   get hasMixedConditions(): boolean {
     return this.fingerprints.length > 1;
   }

@@ -1,4 +1,4 @@
-// TFM F0a — price table for cost measurement.
+// Price table for cost measurement.
 // Prices in USD per million tokens. Gemini 2.5 Pro rates are the <=200k-token
 // prompt tier (pilot prompts are far below that; the >200k tier is 2.50/15).
 // Gemini bills thinking ("thoughts") tokens at the output rate.

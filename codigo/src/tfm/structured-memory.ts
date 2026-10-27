@@ -57,7 +57,7 @@ export function formatSemanticMemory(profile: SemanticProfile): string {
   if (profile.priorities?.length) {
     lines.push(`  Priorities: ${profile.priorities.map(clean).join(" · ")}`);
   }
-  // Perfil de partida, no hechos inmutables (RUNBOOK §2.2): si la simulación ya
+  // Perfil de partida, no hechos inmutables: si la simulación ya
   // ha cambiado una alianza, lo simulado manda y el encabezado lo dice.
   return lines.length > 0
     ? `INITIAL PROFILE (starting point; changes explicitly simulated in later years take precedence):\n${lines.join("\n")}`

@@ -1,6 +1,6 @@
-// TFM F3a — matrix runner: executes one ExperimentSpec (one architecture ×
+// Matrix runner: executes one ExperimentSpec (one architecture ×
 // one seed × N countries × M chained years) with resumability and per-record
-// error capture. World state chains across years exactly like the F0a pilot.
+// error capture. World state chains across years exactly like the pilot.
 //
 // Judging is a separate pass over records.jsonl — not done here.
 
@@ -25,7 +25,7 @@ export interface MatrixRunOptions {
   onRecord?: (record: CountryYearRecord) => void;
   /**
    * Extra fields stamped onto every record before it is persisted — e.g. the
-   * pinned generator model (R13) or the indicator series a country lacked (R9).
+   * pinned generator model or the indicator series a country lacked.
    * A hook rather than fixed options so the runner stays architecture-agnostic.
    */
   annotateRecord?: (task: CountryYearTask) => Partial<CountryYearRecord>;
@@ -35,12 +35,12 @@ export interface MatrixRunOptions {
    * Stop at the first failed country-year, before the year advances. Without
    * it the run carries on and later years are generated without the failed
    * item; a resume would then fill the gap while keeping descendants that never
-   * saw it. memory-v1 sets this until the full recovery of RUNBOOK §3.3 exists.
+   * saw it. memory-v1 sets this until full recovery exists.
    */
   stopOnError?: boolean;
   /**
    * Provider attempts per country-year, counted across resumes from the
-   * persisted error records (RUNBOOK §3.3). Unset keeps the legacy behaviour:
+   * persisted error records. Unset keeps the legacy behaviour:
    * one attempt per session, no memory of earlier failures.
    */
   maxAttempts?: number;
